@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#f5f6fa"/>
+  <rect x="0" y="0" width="1200" height="120" fill="#2c3e50"/>
+  <text x="40" y="45" font-family="system-ui" font-size="24" font-weight="600" fill="white">Repricing Engine - Analysis</text>
+  <g font-family="system-ui" font-size="13" font-weight="600">
+    <text x="40" y="95" fill="#3498db">Overview</text>
+    <text x="140" y="95" fill="#95a5a6">Categories</text>
+    <text x="250" y="95" fill="#95a5a6">Competitors</text>
+    <text x="380" y="95" fill="#95a5a6">Brands</text>
+    <text x="470" y="95" fill="#95a5a6">Pricing</text>
+  </g>
+  
+  <g transform="translate(40, 150)">
+    <g font-family="system-ui" font-size="11" fill="#7f8c8d" font-weight="600">
+      <rect x="0" y="0" width="270" height="80" rx="8" fill="white"/>
+      <text x="15" y="25">Total Products</text>
+      <text x="15" y="55" font-size="24" font-weight="700" fill="#2c3e50">219</text>
+      
+      <rect x="290" y="0" width="270" height="80" rx="8" fill="white"/>
+      <text x="305" y="25">Total Competitors</text>
+      <text x="305" y="55" font-size="24" font-weight="700" fill="#2c3e50">364</text>
+      
+      <rect x="580" y="0" width="270" height="80" rx="8" fill="white"/>
+      <text x="595" y="25">Recommendations</text>
+      <text x="595" y="55" font-size="24" font-weight="700" fill="#2c3e50">219</text>
+      
+      <rect x="870" y="0" width="270" height="80" rx="8" fill="white"/>
+      <text x="885" y="25">Safe to Apply</text>
+      <text x="885" y="55" font-size="24" font-weight="700" fill="#27ae60">198</text>
+      <text x="1005" y="55" font-size="11" fill="#95a5a6">90.4%</text>
+      
+      <rect x="0" y="100" width="270" height="80" rx="8" fill="white"/>
+      <text x="15" y="125">Avg Price Change</text>
+      <text x="15" y="155" font-size="24" font-weight="700" fill="#e74c3c">-4.2%</text>
+      
+      <rect x="290" y="100" width="270" height="80" rx="8" fill="white"/>
+      <text x="305" y="125">Avg Margin</text>
+      <text x="305" y="155" font-size="24" font-weight="700" fill="#2c3e50">31.8%</text>
+    </g>
+  </g>
+  
+  <g transform="translate(40, 350)">
+    <rect x="0" y="0" width="580" height="320" rx="8" fill="white"/>
+    <text x="20" y="30" font-family="system-ui" font-size="14" font-weight="600" fill="#2c3e50">Price Distribution</text>
+    <g font-family="system-ui" font-size="10">
+      <rect x="40" y="260" width="60" height="-180" fill="#3498db"/>
+      <text x="50" y="280" fill="#7f8c8d" transform="rotate(-45, 50, 280)">0-500 (45)</text>
+      <rect x="120" y="260" width="60" height="-220" fill="#3498db"/>
+      <text x="130" y="280" fill="#7f8c8d" transform="rotate(-45, 130, 280)">500-1K (52)</text>
+      <rect x="200" y="260" width="60" height="-150" fill="#3498db"/>
+      <text x="210" y="280" fill="#7f8c8d" transform="rotate(-45, 210, 280)">1K-2K (38)</text>
+      <rect x="280" y="260" width="60" height="-90" fill="#3498db"/>
+      <text x="290" y="280" fill="#7f8c8d" transform="rotate(-45, 290, 280)">2K-5K (25)</text>
+      <rect x="360" y="260" width="60" height="-40" fill="#3498db"/>
+      <text x="370" y="280" fill="#7f8c8d" transform="rotate(-45, 370, 280)">5K-10K (12)</text>
+      <rect x="440" y="260" width="60" height="-20" fill="#3498db"/>
+      <text x="450" y="280" fill="#7f8c8d" transform="rotate(-45, 450, 280)">10K-50K (8)</text>
+      <rect x="520" y="260" width="60" height="-10" fill="#3498db"/>
+      <text x="530" y="280" fill="#7f8c8d" transform="rotate(-45, 530, 280)">50K+ (3)</text>
+    </g>
+    
+    <rect x="600" y="0" width="580" height="320" rx="8" fill="white"/>
+    <text x="620" y="30" font-family="system-ui" font-size="14" font-weight="600" fill="#2c3e50">Price Change Distribution</text>
+    <g font-family="system-ui" font-size="10">
+      <rect x="640" y="260" width="60" height="-80" fill="#e74c3c"/>
+      <text x="650" y="280" fill="#7f8c8d" transform="rotate(-45, 650, 280)"><-20% (8)</text>
+      <rect x="720" y="260" width="60" height="-120" fill="#e74c3c"/>
+      <text x="730" y="280" fill="#7f8c8d" transform="rotate(-45, 730, 280)">-20 to -10% (15)</text>
+      <rect x="800" y="260" width="60" height="-180" fill="#e74c3c"/>
+      <text x="810" y="280" fill="#7f8c8d" transform="rotate(-45, 810, 280)">-10 to -5% (32)</text>
+      <rect x="880" y="260" width="60" height="-220" fill="#e74c3c"/>
+      <text x="890" y="280" fill="#7f8c8d" transform="rotate(-45, 890, 280)">-5 to 0% (45)</text>
+      <rect x="960" y="260" width="60" height="-100" fill="#27ae60"/>
+      <text x="970" y="280" fill="#7f8c8d" transform="rotate(-45, 970, 280)">0 to 5% (18)</text>
+      <rect x="1040" y="260" width="60" height="-40" fill="#27ae60"/>
+      <text x="1050" y="280" fill="#7f8c8d" transform="rotate(-45, 1050, 280)">5 to 10% (7)</text>
+      <rect x="1120" y="260" width="60" height="-20" fill="#27ae60"/>
+      <text x="1130" y="280" fill="#7f8c8d" transform="rotate(-45, 1130, 280)">10 to 20% (3)</text>
+    </g>
+  </g>
+</g>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#f5f6fa"/>
+  <rect x="0" y="0" width="1200" height="120" fill="#2c3e50"/>
+  <text x="40" y="45" font-family="system-ui" font-size="24" font-weight="600" fill="white">Repricing Engine - Analysis</text>
+  <g font-family="system-ui" font-size="13" font-weight="600">
+    <text x="40" y="95" fill="#95a5a6">Overview</text>
+    <text x="140" y="95" fill="#95a5a6">Categories</text>
+    <text x="250" y="95" fill="#3498db">Competitors</text>
+    <text x="380" y="95" fill="#95a5a6">Brands</text>
+    <text x="470" y="95" fill="#95a5a6">Pricing</text>
+  </g>
+  
+  <g transform="translate(40, 150)">
+    <rect x="0" y="0" width="580" height="320" rx="8" fill="white"/>
+    <text x="20" y="30" font-family="system-ui" font-size="14" font-weight="600" fill="#2c3e50">Competitor Avg Price (₹)</text>
+    <g font-family="system-ui" font-size="10" fill="#3498db">
+      <rect x="40" y="260" width="80" height="-180" fill="#3498db"/>
+      <text x="55" y="280" fill="#7f8c8d" transform="rotate(-45, 55, 280)">Amazon (₹2,890)</text>
+      <rect x="140" y="260" width="80" height="-120" fill="#3498db"/>
+      <text x="155" y="280" fill="#7f8c8d" transform="rotate(-45, 155, 280)">Lazada (₹1,650)</text>
+      <rect x="240" y="260" width="80" height="-90" fill="#3498db"/>
+      <text x="255" y="280" fill="#7f8c8d" transform="rotate(-45, 255, 280)">SHEIN (₹890)</text>
+      <rect x="340" y="260" width="80" height="-60" fill="#3498db"/>
+      <text x="355" y="280" fill="#7f8c8d" transform="rotate(-45, 355, 280)">Amazon_List (₹3,150)</text>
+      <rect x="440" y="260" width="80" height="-40" fill="#3498db"/>
+      <text x="455" y="280" fill="#7f8c8d" transform="rotate(-45, 455, 280)">Lazada_List (₹1,890)</text>
+      <rect x="540" y="260" width="80" height="-30" fill="#3498db"/>
+      <text x="555" y="280" fill="#7f8c8d" transform="rotate(-45, 555, 280)">SHEIN_List (₹950)</text>
+    </g>
+    
+    <rect x="600" y="0" width="580" height="320" rx="8" fill="white"/>
+    <text x="620" y="30" font-family="system-ui" font-size="14" font-weight="600" fill="#2c3e50">Competitor Product Count</text>
+    <g font-family="system-ui" font-size="10" fill="#27ae60">
+      <rect x="640" y="260" width="80" height="-220" fill="#27ae60"/>
+      <text x="655" y="280" fill="#7f8c8d" transform="rotate(-45, 655, 280)">Amazon (79)</text>
+      <rect x="740" y="260" width="80" height="-150" fill="#27ae60"/>
+      <text x="755" y="280" fill="#7f8c8d" transform="rotate(-45, 755, 280)">SHEIN (60)</text>
+      <rect x="840" y="260" width="80" height="-120" fill="#27ae60"/>
+      <text x="855" y="280" fill="#7f8c8d" transform="rotate(-45, 855, 280)">Lazada (60)</text>
+      <rect x="940" y="260" width="80" height="-80" fill="#27ae60"/>
+      <text x="955" y="280" fill="#7f8c8d" transform="rotate(-45, 955, 280)">Amazon_List (42)</text>
+      <rect x="1040" y="260" width="80" height="-60" fill="#27ae60"/>
+      <text x="1055" y="280" fill="#7f8c8d" transform="rotate(-45, 1055, 280)">Lazada_List (32)</text>
+      <rect x="1140" y="260" width="80" height="-50" fill="#27ae60"/>
+      <text x="1155" y="280" fill="#7f8c8d" transform="rotate(-45, 1155, 280)">SHEIN_List (28)</text>
+    </g>
+    
+    <rect x="0" y="340" width="1180" height="320" rx="8" fill="white"/>
+    <text x="20" y="370" font-family="system-ui" font-size="14" font-weight="600" fill="#2c3e50">Competitor Price vs Our Recommended</text>
+    
+    <g font-family="system-ui" font-size="11" font-weight="600" fill="#7f8c8d">
+      <text x="20" y="410">Competitor</text>
+      <text x="200" y="410">Products</text>
+      <text x="320" y="410">Avg Price</text>
+      <text x="460" y="410">Avg vs Our Price %</text>
+      <text x="640" y="410">Currencies</text>
+    </g>
+    <rect x="10" y="415" width="1160" height="1" fill="#eee"/>
+    
+    <g font-family="system-ui" font-size="11">
+      <text x="20" y="450" fill="#2c3e50">Amazon</text>
+      <text x="200" y="450" fill="#2c3e50">79</text>
+      <text x="320" y="450" fill="#e74c3c">₹2,890</text>
+      <text x="460" y="450" fill="#e74c3c">+2.1%</text>
+      <text x="640" y="450" fill="#2c3e50">INR</text>
+      
+      <text x="20" y="490" fill="#2c3e50">SHEIN</text>
+      <text x="200" y="490" fill="#2c3e50">60</text>
+      <text x="320" y="490" fill="#e74c3c">₹890</text>
+      <text x="460" y="490" fill="#27ae60">-1.8%</text>
+      <text x="640" y="490" fill="#2c3e50">INR</text>
+      
+      <text x="20" y="530" fill="#2c3e50">Lazada</text>
+      <text x="200" y="530" fill="#2c3e50">60</text>
+      <text x="320" y="530" fill="#e74c3c">₹1,650</text>
+      <text x="460" y="530" fill="#e74c3c">+0.5%</text>
+      <text x="640" y="530" fill="#2c3e50">INR</text>
+      
+      <text x="20" y="570" fill="#2c3e50">Amazon_List_Price</text>
+      <text x="200" y="570" fill="#2c3e50">42</text>
+      <text x="320" y="570" fill="#e74c3c">₹3,150</text>
+      <text x="460" y="570" fill="#e74c3c">+8.9%</text>
+      <text x="640" y="570" fill="#2c3e50">INR</text>
+      
+      <text x="20" y="610" fill="#2c3e50">Lazada_List_Price</text>
+      <text x="200" y="610" fill="#2c3e50">32</text>
+      <text x="320" y="610" fill="#e74c3c">₹1,890</text>
+      <text x="460" y="610" fill="#e74c3c">+5.2%</text>
+      <text x="640" y="610" fill="#2c3e50">INR</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#f5f6fa"/>
+  <rect x="0" y="0" width="1200" height="80" fill="#2c3e50"/>
+  <text x="40" y="50" font-family="system-ui" font-size="24" font-weight="600" fill="white">Repricing Engine Dashboard</text>
+  <text x="1000" y="35" font-family="system-ui" font-size="14" fill="#95a5a6">Dashboard</text>
+  <text x="1080" y="35" font-family="system-ui" font-size="14" fill="#3498db">Analysis</text>
+  
+  <g transform="translate(40, 100)">
+    <rect x="0" y="0" width="1120" height="100" rx="8" fill="white"/>
+    <text x="20" y="30" font-family="system-ui" font-size="12" fill="#7f8c8d" font-weight="600">Total Products</text>
+    <text x="20" y="65" font-family="system-ui" font-size="28" font-weight="700" fill="#2c3e50">219</text>
+    <rect x="280" y="0" width="280" height="100" rx="8" fill="white"/>
+    <text x="300" y="30" font-family="system-ui" font-size="12" fill="#7f8c8d" font-weight="600">Safe to Apply</text>
+    <text x="300" y="65" font-family="system-ui" font-size="28" font-weight="700" fill="#27ae60">198</text>
+    <rect x="560" y="0" width="280" height="100" rx="8" fill="white"/>
+    <text x="580" y="30" font-family="system-ui" font-size="12" fill="#7f8c8d" font-weight="600">Avg Price Change</text>
+    <text x="580" y="65" font-family="system-ui" font-size="28" font-weight="700" fill="#e74c3c">-4.2%</text>
+  </g>
+  
+  <g transform="translate(40, 220)">
+    <rect x="0" y="0" width="1120" height="440" rx="8" fill="white"/>
+    <text x="20" y="30" font-family="system-ui" font-size="14" fill="#2c3e50" font-weight="600">Product Recommendations</text>
+    
+    <text x="20" y="70" font-family="system-ui" font-size="11" fill="#7f8c8d" font-weight="600">Search: [____________________]  Category: [All ▼]  Brand: [All ▼]  Status: [All ▼]  Min: [____] Max: [____]  [Apply] [Recalc] [Export]  [Clear]</text>
+    
+    <rect x="10" y="90" width="1100" height="1" fill="#eee"/>
+    
+    <g font-family="system-ui" font-size="10" fill="#7f8c8d" font-weight="600">
+      <text x="20" y="120">Product</text>
+      <text x="220" y="120">SKU</text>
+      <text x="300" y="120">Category</text>
+      <text x="420" y="120">Cost</text>
+      <text x="500" y="120">Current</text>
+      <text x="600" y="120">Competitor</text>
+      <text x="720" y="120">Recommended</text>
+      <text x="840" y="120">Change</text>
+      <text x="920" y="120">Margin</text>
+      <text x="1000" y="120">Status</text>
+    </g>
+    
+    <rect x="10" y="125" width="1100" height="1" fill="#eee"/>
+    
+    <g font-family="system-ui" font-size="10" font-weight="500">
+      <text x="20" y="155" fill="#2c3e50">Wireless Bluetooth Headphones</text>
+      <text x="220" y="155" fill="#95a5a6">SKU001</text>
+      <text x="300" y="155" fill="#2c3e50">Electronics</text>
+      <text x="420" y="155" fill="#2c3e50">₹700</text>
+      <text x="500" y="155" fill="#e74c3c" font-weight="600">₹999</text>
+      <text x="600" y="155" fill="#3498db">₹949</text>
+      <text x="720" y="155" fill="#27ae60" font-weight="600">₹948</text>
+      <text x="840" y="155" fill="#e74c3c">-5.1%</text>
+      <text x="920" y="155" fill="#2c3e50">26.2%</text>
+      <rect x="1000" y="145" width="80" height="20" rx="10" fill="#e8f8f5"/>
+      <text x="1008" y="159" fill="#27ae60" font-size="9" font-weight="600">Safe</text>
+      
+      <text x="20" y="185" fill="#2c3e50">Running Shoes</text>
+      <text x="220" y="185" fill="#95a5a6">SKU002</text>
+      <text x="300" y="185" fill="#2c3e50">Shoes</text>
+      <text x="420" y="185" fill="#2c3e50">₹1,800</text>
+      <text x="500" y="185" fill="#e74c3c" font-weight="600">₹2,499</text>
+      <text x="600" y="185" fill="#3498db">₹2,399</text>
+      <text x="720" y="185" fill="#27ae60" font-weight="600">₹2,398</text>
+      <text x="840" y="185" fill="#e74c3c">-4.0%</text>
+      <text x="920" y="185" fill="#2c3e50">28.4%</text>
+      <rect x="1000" y="175" width="80" height="20" rx="10" fill="#e8f8f5"/>
+      <text x="1008" y="189" fill="#27ae60" font-size="9" font-weight="600">Safe</text>
+      
+      <text x="20" y="215" fill="#2c3e50">Mechanical Keyboard RGB</text>
+      <text x="220" y="215" fill="#95a5a6">SKU006</text>
+      <text x="300" y="215" fill="#2c3e50">Electronics</text>
+      <text x="420" y="215" fill="#2c3e50">₹1,200</text>
+      <text x="500" y="215" fill="#e74c3c" font-weight="600">₹1,899</text>
+      <text x="600" y="215" fill="#3498db">₹1,799</text>
+      <text x="720" y="215" fill="#27ae60" font-weight="600">₹1,798</text>
+      <text x="840" y="215" fill="#e74c3c">-5.3%</text>
+      <text x="920" y="215" fill="#2c3e50">33.3%</text>
+      <rect x="1000" y="205" width="80" height="20" rx="10" fill="#e8f8f5"/>
+      <text x="1008" y="219" fill="#27ae60" font-size="9" font-weight="600">Safe</text>
+      
+      <text x="20" y="245" fill="#2c3e50">Smart Watch</text>
+      <text x="220" y="245" fill="#95a5a6">SKU005</text>
+      <text x="300" y="245" fill="#2c3e50">Electronics</text>
+      <text x="420" y="245" fill="#2c3e50">₹2,500</text>
+      <text x="500" y="245" fill="#e74c3c" font-weight="600">₹3,999</text>
+      <text x="600" y="245" fill="#3498db">₹3,799</text>
+      <text x="720" y="245" fill="#27ae60" font-weight="600">₹3,798</text>
+      <text x="840" y="245" fill="#e74c3c">-5.0%</text>
+      <text x="920" y="245" fill="#2c3e50">34.0%</text>
+      <rect x="1000" y="235" width="80" height="20" rx="10" fill="#e8f8f5"/>
+      <text x="1008" y="249" fill="#27ae60" font-size="9" font-weight="600">Safe</text>
+      
+      <text x="20" y="275" fill="#2c3e50">Gaming Mouse Wireless</text>
+      <text x="220" y="275" fill="#95a5a6">SKU007</text>
+      <text x="300" y="275" fill="#2c3e50">Electronics</text>
+      <text x="420" y="275" fill="#2c3e50">₹800</text>
+      <text x="500" y="275" fill="#e74c3c" font-weight="600">₹1,299</text>
+      <text x="600" y="275" fill="#3498db">₹1,199</text>
+      <text x="720" y="275" fill="#27ae60" font-weight="600">₹1,198</text>
+      <text x="840" y="275" fill="#e74c3c">-7.8%</text>
+      <text x="920" y="275" fill="#2c3e50">33.2%</text>
+      <rect x="1000" y="265" width="80" height="20" rx="10" fill="#e8f8f5"/>
+      <text x="1008" y="279" fill="#27ae60" font-size="9" font-weight="600">Safe</text>
+      
+      <text x="20" y="305" fill="#2c3e50">USB C Charging Cable</text>
+      <text x="220" y="305" fill="#95a5a6">SKU004</text>
+      <text x="300" y="305" fill="#2c3e50">Accessories</text>
+      <text x="420" y="305" fill="#2c3e50">₹200</text>
+      <text x="500" y="305" fill="#e74c3c" font-weight="600">₹399</text>
+      <text x="600" y="305" fill="#3498db">₹349</text>
+      <text x="720" y="305" fill="#27ae60" font-weight="600">₹348</text>
+      <text x="840" y="305" fill="#e74c3c">-12.8%</text>
+      <text x="920" y="305" fill="#2c3e50">42.5%</text>
+      <rect x="1000" y="295" width="80" height="20" rx="10" fill="#e8f8f5"/>
+      <text x="1008" y="309" fill="#27ae60" font-size="9" font-weight="600">Safe</text>
+      
+      <text x="20" y="335" fill="#95a5a6">+ 213 more products...</text>
+    </g>
+  </g>
+</g>
+</svg>
