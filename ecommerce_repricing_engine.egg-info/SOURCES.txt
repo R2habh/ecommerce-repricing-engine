@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+app/main.py
+app/models/competitor.py
+app/models/product.py
+app/models/recommendation.py
+app/rules/undercut.py
+app/services/competitor.py
+app/services/margin.py
+ecommerce_repricing_engine.egg-info/PKG-INFO
+ecommerce_repricing_engine.egg-info/SOURCES.txt
+ecommerce_repricing_engine.egg-info/dependency_links.txt
+ecommerce_repricing_engine.egg-info/requires.txt
+ecommerce_repricing_engine.egg-info/top_level.txt
+tests/test_pricing.py

@@ -1,0 +1,13 @@
+product_id,competitor_name,competitor_product_id,product_title,price,currency,available,collected_at
+P001,CompetitorA,CA001,Wireless Bluetooth Headphones,949,INR,true,2026-08-18T09:00:00
+P001,CompetitorB,CB001,Wireless Bluetooth Headphones,979,INR,true,2026-08-18T09:00:00
+P001,CompetitorC,CC001,Wireless Bluetooth Headphones,1049,INR,true,2026-08-18T09:00:00
+P002,CompetitorA,CA002,Nike Running Shoes,2399,INR,true,2026-08-18T09:00:00
+P002,CompetitorB,CB002,Nike Running Shoes,2449,INR,true,2026-08-18T09:00:00
+P002,CompetitorC,CC002,Nike Running Shoes,2599,INR,true,2026-08-18T09:00:00
+P003,CompetitorA,CA003,Laptop Backpack,1399,INR,true,2026-08-18T09:00:00
+P003,CompetitorB,CB003,Laptop Backpack,1499,INR,true,2026-08-18T09:00:00
+P004,CompetitorA,CA004,USB C Charging Cable,349,INR,true,2026-08-18T09:00:00
+P004,CompetitorB,CB004,USB C Charging Cable,379,INR,true,2026-08-18T09:00:00
+P005,CompetitorA,CA005,Smart Watch,3799,INR,true,2026-08-18T09:00:00
+P005,CompetitorB,CB005,Smart Watch,3899,INR,true,2026-08-18T09:00:00

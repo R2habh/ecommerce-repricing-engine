@@ -1,0 +1,6 @@
+id,sku,title,brand,category,cost,current_price,currency,minimum_margin_percent,maximum_price_change_percent,active
+P001,SKU001,Wireless Bluetooth Headphones,SoundMax,Electronics,700,999,INR,15,20,true
+P002,SKU002,Running Shoes,Nike,Shoes,1800,2499,INR,20,15,true
+P003,SKU003,Laptop Backpack,BagCo,Bags,900,1499,INR,15,20,true
+P004,SKU004,USB C Charging Cable,TechCo,Accessories,200,399,INR,20,10,true
+P005,SKU005,Smart Watch,TechTime,Electronics,2500,3999,INR,15,20,true
