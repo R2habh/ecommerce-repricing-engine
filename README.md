@@ -270,16 +270,6 @@ class MyProvider:
 - 219 products render in ~50ms
 - For production: add Redis caching, database indexing, async DB
 
-## Roadmap
-
-- [ ] Product matching with fuzzy similarity (rapidfuzz)
-- [ ] PostgreSQL persistence with Alembic migrations
-- [ ] Scheduled price collection via Celery
-- [ ] Multi-rule engine with priority/fallback
-- [ ] Price history tracking
-- [ ] Alerting for margin violations
-- [ ] A/B testing framework
-
 ## License
 
 MIT
