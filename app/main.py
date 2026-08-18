@@ -299,9 +299,20 @@ async def dashboard(
     category: Optional[str] = Query(None),
     brand: Optional[str] = Query(None),
     status: Optional[str] = Query(None),
-    min_price: Optional[float] = Query(None),
-    max_price: Optional[float] = Query(None),
+    min_price: Optional[str] = Query(None),
+    max_price: Optional[str] = Query(None),
 ):
+    # Parse numeric filters safely
+    try:
+        min_price_val = float(min_price) if min_price else None
+    except (ValueError, TypeError):
+        min_price_val = None
+    
+    try:
+        max_price_val = float(max_price) if max_price else None
+    except (ValueError, TypeError):
+        max_price_val = None
+    
     products = load_products()
     competitors = load_competitors()
     recommendations = calculate_recommendations(products, competitors)
@@ -330,11 +341,11 @@ async def dashboard(
     elif status == "no_data":
         recommendations = [r for r in recommendations if r["lowest_competitor_price"] is None]
     
-    if min_price is not None:
-        recommendations = [r for r in recommendations if r["recommended_price"] >= min_price]
+    if min_price_val is not None:
+        recommendations = [r for r in recommendations if r["recommended_price"] >= min_price_val]
     
-    if max_price is not None:
-        recommendations = [r for r in recommendations if r["recommended_price"] <= max_price]
+    if max_price_val is not None:
+        recommendations = [r for r in recommendations if r["recommended_price"] <= max_price_val]
     
     safe_count = sum(1 for r in recommendations if r["safe_to_apply"])
     products_with_comp = sum(1 for r in recommendations if r["lowest_competitor_price"] is not None)
