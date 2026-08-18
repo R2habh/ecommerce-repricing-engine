@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request, Query
 from fastapi.responses import HTMLResponse, StreamingResponse
-from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
+from jinja2 import Environment, FileSystemLoader
 from pydantic import BaseModel
 from typing import Optional
 import pandas as pd
@@ -20,7 +20,7 @@ app = FastAPI(
     version="0.1.0",
 )
 
-templates = Jinja2Templates(directory="app/templates")
+env = Environment(loader=FileSystemLoader("app/templates"))
 
 PRODUCTS_CSV = "data/sample/products.csv"
 COMPETITORS_CSV = "data/sample/competitor_prices.csv"
@@ -130,19 +130,23 @@ async def dashboard(request: Request, search: Optional[str] = Query(None)):
     avg_recommended = sum(r["recommended_price"] for r in recommendations) / len(recommendations) if recommendations else 0
     total_savings = sum(r["current_price"] - r["recommended_price"] for r in recommendations)
     
-    return templates.TemplateResponse("dashboard.html", {
-        "request": request,
-        "recommendations": recommendations,
-        "products": products,
-        "search_query": search,
-        "safe_count": safe_count,
-        "avg_change": round(avg_change, 1),
-        "products_with_competitors": products_with_comp,
-        "products_without_competitors": products_without_comp,
-        "avg_current_price": round(avg_current, 0),
-        "avg_recommended_price": round(avg_recommended, 0),
-        "total_savings": round(total_savings, 0),
-    })
+    products_dict = [p.model_dump() for p in products]
+    
+    template = env.get_template("dashboard.html")
+    html = template.render(
+        request={},
+        recommendations=recommendations,
+        products=products_dict,
+        search_query=search,
+        safe_count=safe_count,
+        avg_change=round(avg_change, 1),
+        products_with_competitors=products_with_comp,
+        products_without_competitors=products_without_comp,
+        avg_current_price=round(avg_current, 0),
+        avg_recommended_price=round(avg_recommended, 0),
+        total_savings=round(total_savings, 0),
+    )
+    return HTMLResponse(content=html)
 
 
 @app.get("/health")
