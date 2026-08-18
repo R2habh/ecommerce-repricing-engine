@@ -104,7 +104,9 @@ def calculate_recommendations(products: list[Product], competitors: list[Competi
     return results
 
 
-def get_analysis_data(products: list[Product], competitors: list[CompetitorPrice], recommendations: list[dict]) -> dict:
+def get_analysis_data(products: list[Product], competitors: list[CompetitorPrice], recommendations: list[dict], 
+                      category_filter: Optional[str] = None, brand_filter: Optional[str] = None, 
+                      status_filter: Optional[str] = None) -> dict:
     df_products = pd.DataFrame([p.model_dump() for p in products])
     df_comp = pd.DataFrame([{
         'product_id': c.product_id,
@@ -113,6 +115,35 @@ def get_analysis_data(products: list[Product], competitors: list[CompetitorPrice
         'currency': c.currency
     } for c in competitors])
     df_rec = pd.DataFrame(recommendations)
+    
+    # Apply filters
+    if category_filter:
+        df_products = df_products[df_products['category'] == category_filter]
+        product_ids = df_products['id'].tolist()
+        df_rec = df_rec[df_rec['product_id'].isin(product_ids)]
+        df_comp = df_comp[df_comp['product_id'].isin(product_ids)]
+    
+    if brand_filter:
+        df_products = df_products[df_products['brand'] == brand_filter]
+        product_ids = df_products['id'].tolist()
+        df_rec = df_rec[df_rec['product_id'].isin(product_ids)]
+        df_comp = df_comp[df_comp['product_id'].isin(product_ids)]
+    
+    if status_filter == "safe":
+        df_rec = df_rec[df_rec['safe_to_apply'] == True]
+        product_ids = df_rec['product_id'].tolist()
+        df_products = df_products[df_products['id'].isin(product_ids)]
+        df_comp = df_comp[df_comp['product_id'].isin(product_ids)]
+    elif status_filter == "unsafe":
+        df_rec = df_rec[(df_rec['safe_to_apply'] == False) & (df_rec['lowest_competitor_price'].notna())]
+        product_ids = df_rec['product_id'].tolist()
+        df_products = df_products[df_products['id'].isin(product_ids)]
+        df_comp = df_comp[df_comp['product_id'].isin(product_ids)]
+    elif status_filter == "no_data":
+        df_rec = df_rec[df_rec['lowest_competitor_price'].isna()]
+        product_ids = df_rec['product_id'].tolist()
+        df_products = df_products[df_products['id'].isin(product_ids)]
+        df_comp = df_comp[df_comp['product_id'].isin(product_ids)]
     
     category_stats = []
     for cat in df_products['category'].unique():
@@ -223,16 +254,31 @@ def get_analysis_data(products: list[Product], competitors: list[CompetitorPrice
 
 
 @app.get("/analysis", response_class=HTMLResponse)
-async def analysis_page(request: Request):
+async def analysis_page(
+    request: Request,
+    category: Optional[str] = Query(None),
+    brand: Optional[str] = Query(None),
+    status: Optional[str] = Query(None),
+):
     products = load_products()
     competitors = load_competitors()
     recommendations = calculate_recommendations(products, competitors)
-    analysis = get_analysis_data(products, competitors, recommendations)
+    analysis = get_analysis_data(products, competitors, recommendations, category, brand, status)
+    
+    # Get unique values for filter dropdowns
+    df_products = pd.DataFrame([p.model_dump() for p in products])
+    all_categories = sorted([c for c in df_products['category'].unique() if pd.notna(c)])
+    all_brands = sorted([b for b in df_products['brand'].unique() if pd.notna(b) and b != 'Unknown' and b != ''])
     
     template = env.get_template("analysis.html")
     html = template.render(
         request={},
         analysis=analysis,
+        selected_category=category,
+        selected_brand=brand,
+        selected_status=status,
+        all_categories=all_categories,
+        all_brands=all_brands,
     )
     return HTMLResponse(content=html)
 
@@ -247,11 +293,20 @@ async def get_analysis():
 
 
 @app.get("/", response_class=HTMLResponse)
-async def dashboard(request: Request, search: Optional[str] = Query(None)):
+async def dashboard(
+    request: Request,
+    search: Optional[str] = Query(None),
+    category: Optional[str] = Query(None),
+    brand: Optional[str] = Query(None),
+    status: Optional[str] = Query(None),
+    min_price: Optional[float] = Query(None),
+    max_price: Optional[float] = Query(None),
+):
     products = load_products()
     competitors = load_competitors()
     recommendations = calculate_recommendations(products, competitors)
     
+    # Apply filters
     if search:
         search_lower = search.lower()
         recommendations = [
@@ -261,6 +316,25 @@ async def dashboard(request: Request, search: Optional[str] = Query(None)):
             or (r["brand"] and search_lower in r["brand"].lower())
             or (r["category"] and search_lower in r["category"].lower())
         ]
+    
+    if category:
+        recommendations = [r for r in recommendations if r["category"] == category]
+    
+    if brand:
+        recommendations = [r for r in recommendations if r["brand"] == brand]
+    
+    if status == "safe":
+        recommendations = [r for r in recommendations if r["safe_to_apply"]]
+    elif status == "unsafe":
+        recommendations = [r for r in recommendations if not r["safe_to_apply"] and r["lowest_competitor_price"] is not None]
+    elif status == "no_data":
+        recommendations = [r for r in recommendations if r["lowest_competitor_price"] is None]
+    
+    if min_price is not None:
+        recommendations = [r for r in recommendations if r["recommended_price"] >= min_price]
+    
+    if max_price is not None:
+        recommendations = [r for r in recommendations if r["recommended_price"] <= max_price]
     
     safe_count = sum(1 for r in recommendations if r["safe_to_apply"])
     products_with_comp = sum(1 for r in recommendations if r["lowest_competitor_price"] is not None)
@@ -274,6 +348,10 @@ async def dashboard(request: Request, search: Optional[str] = Query(None)):
     avg_recommended = sum(r["recommended_price"] for r in recommendations) / len(recommendations) if recommendations else 0
     total_savings = sum(r["current_price"] - r["recommended_price"] for r in recommendations)
     
+    # Get unique values for filter dropdowns
+    all_categories = sorted(set(p.category for p in products if p.category))
+    all_brands = sorted(set(p.brand for p in products if p.brand))
+    
     products_dict = [p.model_dump() for p in products]
     
     template = env.get_template("dashboard.html")
@@ -282,6 +360,13 @@ async def dashboard(request: Request, search: Optional[str] = Query(None)):
         recommendations=recommendations,
         products=products_dict,
         search_query=search,
+        selected_category=category,
+        selected_brand=brand,
+        selected_status=status,
+        min_price=min_price,
+        max_price=max_price,
+        all_categories=all_categories,
+        all_brands=all_brands,
         safe_count=safe_count,
         avg_change=round(avg_change, 1),
         products_with_competitors=products_with_comp,

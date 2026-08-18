@@ -9,6 +9,11 @@ SHEIN_CSV = r"C:\ALL AI WORKS\eCommerce-dataset-samples-main\eCommerce-dataset-s
 OUTPUT_PRODUCTS = "data/sample/products.csv"
 OUTPUT_COMPETITORS = "data/sample/competitor_prices.csv"
 
+USD_TO_INR = 83.0
+IDR_TO_INR = 0.0052
+
+TARGET_CURRENCY = "INR"
+
 def parse_price(val):
     if pd.isna(val) or val == "" or val == "null" or val == "0":
         return None
@@ -17,22 +22,38 @@ def parse_price(val):
     except:
         return None
 
+def convert_to_inr(price, currency):
+    if price is None:
+        return None
+    if currency == "USD":
+        return round(price * USD_TO_INR, 2)
+    elif currency == "IDR":
+        return round(price * IDR_TO_INR, 2)
+    elif currency == "INR":
+        return round(price, 2)
+    else:
+        return round(price * USD_TO_INR, 2)
+
 def parse_amazon():
     df = pd.read_csv(AMAZON_CSV, low_memory=False)
     products = []
     competitors = []
     
     for i, row in df.iterrows():
-        if i >= 50:
+        if i >= 80:
             break
         
         final_price = parse_price(row.get('final_price'))
         initial_price = parse_price(row.get('initial_price'))
+        currency = row.get('currency', 'USD')
         
         if not final_price or final_price <= 0:
             continue
             
-        cost = final_price * 0.6
+        final_price_inr = convert_to_inr(final_price, currency)
+        initial_price_inr = convert_to_inr(initial_price, currency) if initial_price else None
+        
+        cost = final_price_inr * 0.6
         product_id = f"AMZ{str(i+1).zfill(3)}"
         sku = row.get('asin', f"AMZ{i+1}")
         title = str(row.get('title', 'Unknown'))[:100]
@@ -47,6 +68,10 @@ def parse_amazon():
             category = 'Automotive'
         elif 'Tools' in categories:
             category = 'Tools'
+        elif 'Beauty' in categories:
+            category = 'Beauty'
+        elif 'Sports' in categories:
+            category = 'Sports'
         
         products.append({
             'id': product_id,
@@ -55,8 +80,8 @@ def parse_amazon():
             'brand': brand,
             'category': category,
             'cost': round(cost, 2),
-            'current_price': final_price,
-            'currency': row.get('currency', 'USD'),
+            'current_price': final_price_inr,
+            'currency': TARGET_CURRENCY,
             'minimum_margin_percent': 15,
             'maximum_price_change_percent': 20,
             'active': True
@@ -67,20 +92,20 @@ def parse_amazon():
             'competitor_name': 'Amazon',
             'competitor_product_id': row.get('asin', ''),
             'product_title': title,
-            'price': final_price,
-            'currency': row.get('currency', 'USD'),
+            'price': final_price_inr,
+            'currency': TARGET_CURRENCY,
             'available': True,
             'collected_at': datetime.now().isoformat()
         })
         
-        if initial_price and initial_price > final_price:
+        if initial_price_inr and initial_price_inr > final_price_inr:
             competitors.append({
                 'product_id': product_id,
                 'competitor_name': 'Amazon_List_Price',
                 'competitor_product_id': row.get('asin', ''),
                 'product_title': title,
-                'price': initial_price,
-                'currency': row.get('currency', 'USD'),
+                'price': initial_price_inr,
+                'currency': TARGET_CURRENCY,
                 'available': True,
                 'collected_at': datetime.now().isoformat()
             })
@@ -93,16 +118,20 @@ def parse_lazada():
     competitors = []
     
     for i, row in df.iterrows():
-        if i >= 30:
+        if i >= 60:
             break
             
         final_price = parse_price(row.get('final_price'))
         initial_price = parse_price(row.get('initial_price'))
+        currency = row.get('currency', 'IDR')
         
         if not final_price or final_price <= 0:
             continue
             
-        cost = final_price * 0.65
+        final_price_inr = convert_to_inr(final_price, currency)
+        initial_price_inr = convert_to_inr(initial_price, currency) if initial_price else None
+        
+        cost = final_price_inr * 0.65
         product_id = f"LZD{str(i+1).zfill(3)}"
         sku = row.get('sku', f"LZD{i+1}")
         title = str(row.get('title', 'Unknown'))[:100]
@@ -115,6 +144,8 @@ def parse_lazada():
             category = 'Home'
         elif 'Beauty' in breadcrumb:
             category = 'Beauty'
+        elif 'Sports' in breadcrumb:
+            category = 'Sports'
         
         products.append({
             'id': product_id,
@@ -123,8 +154,8 @@ def parse_lazada():
             'brand': brand,
             'category': category,
             'cost': round(cost, 2),
-            'current_price': final_price,
-            'currency': row.get('currency', 'IDR'),
+            'current_price': final_price_inr,
+            'currency': TARGET_CURRENCY,
             'minimum_margin_percent': 15,
             'maximum_price_change_percent': 20,
             'active': True
@@ -135,20 +166,20 @@ def parse_lazada():
             'competitor_name': 'Lazada',
             'competitor_product_id': sku,
             'product_title': title,
-            'price': final_price,
-            'currency': row.get('currency', 'IDR'),
+            'price': final_price_inr,
+            'currency': TARGET_CURRENCY,
             'available': True,
             'collected_at': datetime.now().isoformat()
         })
         
-        if initial_price and initial_price > final_price:
+        if initial_price_inr and initial_price_inr > final_price_inr:
             competitors.append({
                 'product_id': product_id,
                 'competitor_name': 'Lazada_List_Price',
                 'competitor_product_id': sku,
                 'product_title': title,
-                'price': initial_price,
-                'currency': row.get('currency', 'IDR'),
+                'price': initial_price_inr,
+                'currency': TARGET_CURRENCY,
                 'available': True,
                 'collected_at': datetime.now().isoformat()
             })
@@ -161,16 +192,20 @@ def parse_shein():
     competitors = []
     
     for i, row in df.iterrows():
-        if i >= 30:
+        if i >= 60:
             break
             
         final_price = parse_price(row.get('final_price'))
         initial_price = parse_price(row.get('initial_price'))
+        currency = row.get('currency', 'USD')
         
         if not final_price or final_price <= 0:
             continue
             
-        cost = final_price * 0.5
+        final_price_inr = convert_to_inr(final_price, currency)
+        initial_price_inr = convert_to_inr(initial_price, currency) if initial_price else None
+        
+        cost = final_price_inr * 0.5
         product_id = f"SHN{str(i+1).zfill(3)}"
         sku = row.get('product_id', f"SHN{i+1}")
         title = str(row.get('product_name', 'Unknown'))[:100]
@@ -183,6 +218,8 @@ def parse_shein():
             category = 'Beauty'
         elif 'Jewelry' in category_tree:
             category = 'Jewelry'
+        elif 'Electronics' in category_tree:
+            category = 'Electronics'
         
         products.append({
             'id': product_id,
@@ -191,8 +228,8 @@ def parse_shein():
             'brand': brand,
             'category': category,
             'cost': round(cost, 2),
-            'current_price': final_price,
-            'currency': row.get('currency', 'USD'),
+            'current_price': final_price_inr,
+            'currency': TARGET_CURRENCY,
             'minimum_margin_percent': 20,
             'maximum_price_change_percent': 25,
             'active': True
@@ -203,20 +240,20 @@ def parse_shein():
             'competitor_name': 'SHEIN',
             'competitor_product_id': sku,
             'product_title': title,
-            'price': final_price,
-            'currency': row.get('currency', 'USD'),
+            'price': final_price_inr,
+            'currency': TARGET_CURRENCY,
             'available': True,
             'collected_at': datetime.now().isoformat()
         })
         
-        if initial_price and initial_price > final_price:
+        if initial_price_inr and initial_price_inr > final_price_inr:
             competitors.append({
                 'product_id': product_id,
                 'competitor_name': 'SHEIN_List_Price',
                 'competitor_product_id': sku,
                 'product_title': title,
-                'price': initial_price,
-                'currency': row.get('currency', 'USD'),
+                'price': initial_price_inr,
+                'currency': TARGET_CURRENCY,
                 'available': True,
                 'collected_at': datetime.now().isoformat()
             })
@@ -245,6 +282,9 @@ def main():
     existing_products = pd.read_csv(OUTPUT_PRODUCTS)
     existing_comp = pd.read_csv(OUTPUT_COMPETITORS)
     
+    existing_products = existing_products[existing_products['currency'] == TARGET_CURRENCY]
+    existing_comp = existing_comp[existing_comp['currency'] == TARGET_CURRENCY]
+    
     new_products_df = pd.DataFrame(all_products)
     new_comp_df = pd.DataFrame(all_competitors)
     
@@ -254,11 +294,17 @@ def main():
     combined_products = combined_products.drop_duplicates(subset=['id'], keep='first')
     combined_comp = combined_comp.drop_duplicates(subset=['product_id', 'competitor_name', 'competitor_product_id'], keep='first')
     
+    combined_products = combined_products[combined_products['currency'] == TARGET_CURRENCY]
+    combined_comp = combined_comp[combined_comp['currency'] == TARGET_CURRENCY]
+    
     combined_products.to_csv(OUTPUT_PRODUCTS, index=False)
     combined_comp.to_csv(OUTPUT_COMPETITORS, index=False)
     
     print(f"\nSaved {len(combined_products)} products to {OUTPUT_PRODUCTS}")
     print(f"Saved {len(combined_comp)} competitor prices to {OUTPUT_COMPETITORS}")
+    
+    print("\nCategories:", combined_products['category'].value_counts().to_dict())
+    print("Brands (top 10):", combined_products['brand'].value_counts().head(10).to_dict())
 
 if __name__ == "__main__":
     main()

@@ -75,7 +75,7 @@
         }
         .controls {
             display: flex;
-            gap: 1rem;
+            gap: 0.75rem;
             margin-bottom: 1.5rem;
             flex-wrap: wrap;
             align-items: center;
@@ -105,7 +105,7 @@
         }
         .search-box {
             flex: 1;
-            min-width: 250px;
+            min-width: 200px;
         }
         .search-box input {
             width: 100%;
@@ -113,6 +113,26 @@
             border: 1px solid #ddd;
             border-radius: 6px;
             font-size: 0.875rem;
+        }
+        .filter-group {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        .filter-select {
+            padding: 0.5rem 1rem;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            background: white;
+            min-width: 140px;
+        }
+        .filter-input {
+            padding: 0.5rem 1rem;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            width: 100px;
         }
         .table-container {
             background: white;
@@ -213,6 +233,19 @@
             font-size: 0.875rem;
             color: #95a5a6;
         }
+        .clear-filters {
+            padding: 0.5rem 1rem;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .clear-filters:hover {
+            background: #c0392b;
+        }
     </style>
 </head>
 <body>
@@ -260,13 +293,44 @@
             </div>
         </div>
 
-        <div class="controls">
-            <form method="get" class="search-box">
+        <form method="get" class="controls">
+            <div class="search-box">
                 <input type="text" name="search" placeholder="Search products..." value="{{ search_query or '' }}">
-            </form>
-            <button type="button" class="btn btn-primary" onclick="recalculateAll()">Recalculate All</button>
+            </div>
+            
+            <div class="filter-group">
+                <select name="category" class="filter-select">
+                    <option value="">All Categories</option>
+                    {% for cat in all_categories %}
+                    <option value="{{ cat }}" {% if cat == selected_category %}selected{% endif %}>{{ cat }}</option>
+                    {% endfor %}
+                </select>
+                
+                <select name="brand" class="filter-select">
+                    <option value="">All Brands</option>
+                    {% for brand in all_brands %}
+                    <option value="{{ brand }}" {% if brand == selected_brand %}selected{% endif %}>{{ brand }}</option>
+                    {% endfor %}
+                </select>
+                
+                <select name="status" class="filter-select">
+                    <option value="">All Status</option>
+                    <option value="safe" {% if selected_status == 'safe' %}selected{% endif %}>Safe to Apply</option>
+                    <option value="unsafe" {% if selected_status == 'unsafe' %}selected{% endif %}>Unsafe</option>
+                    <option value="no_data" {% if selected_status == 'no_data' %}selected{% endif %}>No Competitor Data</option>
+                </select>
+                
+                <input type="number" name="min_price" class="filter-input" placeholder="Min Price" value="{{ min_price or '' }}" step="1">
+                <input type="number" name="max_price" class="filter-input" placeholder="Max Price" value="{{ max_price or '' }}" step="1">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Apply Filters</button>
+            <button type="button" class="btn btn-secondary" onclick="recalculateAll()">Recalculate</button>
             <button type="button" class="btn btn-secondary" onclick="exportCSV()">Export CSV</button>
-        </div>
+            {% if search_query or selected_category or selected_brand or selected_status or min_price or max_price %}
+            <a href="/" class="clear-filters">Clear Filters</a>
+            {% endif %}
+        </form>
 
         <div class="table-container">
             {% if recommendations %}
@@ -352,7 +416,7 @@
                 });
         }
 
-        // Table search
+        // Table search (client-side fallback)
         document.querySelector('input[name="search"]').addEventListener('input', function(e) {
             const query = e.target.value.toLowerCase();
             const rows = document.querySelectorAll('#recommendationsTable tbody tr');

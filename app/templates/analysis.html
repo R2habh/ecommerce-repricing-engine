@@ -8,12 +8,16 @@
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f6fa; min-height: 100vh; }
-        .header { background: #2c3e50; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .header { background: #2c3e50; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); flex-wrap: wrap; gap: 1rem; }
         .header h1 { font-size: 1.5rem; font-weight: 600; }
         .nav-tabs { display: flex; gap: 0.5rem; }
         .nav-tab { padding: 0.5rem 1rem; background: transparent; border: none; color: #95a5a6; font-size: 0.875rem; font-weight: 600; cursor: pointer; border-radius: 4px; transition: all 0.2s; }
         .nav-tab:hover { background: rgba(255,255,255,0.1); color: white; }
         .nav-tab.active { background: #3498db; color: white; }
+        .filter-bar { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem; }
+        .filter-select { padding: 0.5rem 1rem; border: none; border-radius: 4px; font-size: 0.875rem; background: rgba(255,255,255,0.15); color: white; min-width: 140px; }
+        .filter-select option { background: #2c3e50; color: white; }
+        .clear-filters-btn { padding: 0.5rem 1rem; background: #e74c3c; color: white; border: none; border-radius: 4px; font-size: 0.875rem; font-weight: 600; cursor: pointer; }
         .container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
         .tab-content { display: none; }
         .tab-content.active { display: block; }
@@ -24,10 +28,10 @@
         .card .sub { font-size: 0.875rem; color: #95a5a6; }
         .card .value.positive { color: #27ae60; }
         .card .value.negative { color: #e74c3c; }
-        .chart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+        .chart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
         .chart-card { background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
         .chart-card h3 { font-size: 0.875rem; font-weight: 600; color: #2c3e50; margin-bottom: 1rem; }
-        .chart-card canvas { max-height: 350px; }
+        .chart-card canvas { max-height: 300px; }
         .table-container { background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); overflow: hidden; margin-bottom: 1.5rem; }
         table { width: 100%; border-collapse: collapse; }
         th, td { padding: 0.875rem 1rem; text-align: left; border-bottom: 1px solid #eee; }
@@ -52,6 +56,29 @@
             <button class="nav-tab" onclick="showTab('brands')">Brands</button>
             <button class="nav-tab" onclick="showTab('pricing')">Pricing</button>
         </nav>
+        <form method="get" class="filter-bar" id="filterForm">
+            <select name="category" class="filter-select" onchange="this.form.submit()">
+                <option value="">All Categories</option>
+                {% for cat in all_categories %}
+                <option value="{{ cat }}" {% if cat == selected_category %}selected{% endif %}>{{ cat }}</option>
+                {% endfor %}
+            </select>
+            <select name="brand" class="filter-select" onchange="this.form.submit()">
+                <option value="">All Brands</option>
+                {% for brand in all_brands %}
+                <option value="{{ brand }}" {% if brand == selected_brand %}selected{% endif %}>{{ brand }}</option>
+                {% endfor %}
+            </select>
+            <select name="status" class="filter-select" onchange="this.form.submit()">
+                <option value="">All Status</option>
+                <option value="safe" {% if selected_status == 'safe' %}selected{% endif %}>Safe</option>
+                <option value="unsafe" {% if selected_status == 'unsafe' %}selected{% endif %}>Unsafe</option>
+                <option value="no_data" {% if selected_status == 'no_data' %}selected{% endif %}>No Data</option>
+            </select>
+            {% if selected_category or selected_brand or selected_status %}
+            <button type="button" class="clear-filters-btn" onclick="clearFilters()">Clear Filters</button>
+            {% endif %}
+        </form>
     </header>
 
     <div class="container">
@@ -124,8 +151,8 @@
                         <tr>
                             <td><strong>{{ cat.category }}</strong></td>
                             <td>{{ cat.product_count }}</td>
-                            <td>{{ cat.avg_current_price }}</td>
-                            <td>{{ cat.avg_recommended_price }}</td>
+                            <td>₹{{ cat.avg_current_price }}</td>
+                            <td>₹{{ cat.avg_recommended_price }}</td>
                             <td class="{{ 'positive' if cat.avg_change_percent >= 0 else 'negative' }}">{{ "%+.1f"|format(cat.avg_change_percent) }}%</td>
                             <td>{{ "%.1f"|format(cat.avg_margin_percent) }}%</td>
                             <td><span class="badge badge-safe">{{ cat.safe_count }}/{{ cat.product_count }}</span></td>
@@ -140,7 +167,7 @@
         <div id="competitors" class="tab-content">
             <div class="chart-grid">
                 <div class="chart-card">
-                    <h3>Competitor Price vs Our Recommended</h3>
+                    <h3>Competitor Avg Price</h3>
                     <canvas id="competitorPriceChart"></canvas>
                 </div>
                 <div class="chart-card">
@@ -156,7 +183,6 @@
                             <th>Products</th>
                             <th>Avg Price</th>
                             <th>Avg vs Our Price %</th>
-                            <th>Currencies</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -164,9 +190,8 @@
                         <tr>
                             <td><strong>{{ comp.competitor }}</strong></td>
                             <td>{{ comp.product_count }}</td>
-                            <td>{{ comp.avg_price }}</td>
+                            <td>₹{{ comp.avg_price }}</td>
                             <td class="{{ 'positive' if comp.avg_price_vs_our_percent >= 0 else 'negative' }}">{{ "%+.1f"|format(comp.avg_price_vs_our_percent) }}%</td>
-                            <td>{{ comp.currencies|join(', ') }}</td>
                         </tr>
                         {% endfor %}
                     </tbody>
@@ -199,7 +224,7 @@
                         <tr>
                             <td><strong>{{ brand.brand }}</strong></td>
                             <td>{{ brand.product_count }}</td>
-                            <td>{{ brand.avg_current_price }}</td>
+                            <td>₹{{ brand.avg_current_price }}</td>
                             <td class="{{ 'positive' if brand.avg_change_percent >= 0 else 'negative' }}">{{ "%+.1f"|format(brand.avg_change_percent) }}%</td>
                             <td>{{ "%.1f"|format(brand.avg_margin_percent) }}%</td>
                             <td><span class="badge badge-safe">{{ brand.safe_count }}/{{ brand.product_count }}</span></td>
@@ -240,8 +265,8 @@
                         <tr>
                             <td><strong>{{ cat.category }}</strong></td>
                             <td>{{ cat.product_count }}</td>
-                            <td>{{ cat.avg_current_price }}</td>
-                            <td>{{ cat.avg_recommended_price }}</td>
+                            <td>₹{{ cat.avg_current_price }}</td>
+                            <td>₹{{ cat.avg_recommended_price }}</td>
                             <td>{{ "%.1f"|format(cat.avg_margin_percent) }}%</td>
                             <td class="{{ 'positive' if cat.avg_change_percent >= 0 else 'negative' }}">{{ "%+.1f"|format(cat.avg_change_percent) }}%</td>
                             <td>{{ "%.0f"|format((cat.safe_count/cat.product_count*100) if cat.product_count > 0 else 0) }}%</td>
@@ -264,6 +289,10 @@
                 initCharts();
                 window.chartsInitialized = true;
             }
+        }
+
+        function clearFilters() {
+            window.location.href = '/analysis';
         }
 
         function initCharts() {
@@ -335,7 +364,7 @@
                 data: {
                     labels: analysis.competitor_stats.map(c => c.competitor),
                     datasets: [{
-                        label: 'Avg Price',
+                        label: 'Avg Price (₹)',
                         data: analysis.competitor_stats.map(c => c.avg_price),
                         backgroundColor: 'rgba(52,152,219,0.8)'
                     }]
@@ -390,7 +419,7 @@
                 type: 'scatter',
                 data: {
                     datasets: [{
-                        label: 'Products',
+                        label: 'Categories',
                         data: analysis.category_stats.map(c => ({ x: c.avg_change_percent, y: c.avg_margin_percent })),
                         backgroundColor: 'rgba(52,152,219,0.8)'
                     }]

@@ -51,172 +51,315 @@ P019,CompetitorB,CB019,7-in-1 Pressure Cooker,3449.0,INR,True,2026-08-18T09:00:0
 P020,CompetitorA,CA020,Smart Home Controller,2699.0,INR,True,2026-08-18T09:00:00
 P020,CompetitorB,CB020,Home Automation Hub,2749.0,INR,True,2026-08-18T09:00:00
 P020,CompetitorC,CC020,Smart Hub Controller,2899.0,INR,True,2026-08-18T09:00:00
-AMZ001,Amazon,B09NQJFRW6,Saucony Men's Kinvara 13 Running Shoe,57.79,USD,True,2026-08-18T23:47:24.977013
-AMZ002,Amazon,B0074TRKFI,"Kishigo Premium Black Series Heavy Duty Unisex Reflective Safety Vest 1514, ANSI Type R / Class 2 Co",28.5,USD,True,2026-08-18T23:47:24.978059
-AMZ003,Amazon,B07V5LK5J3,TWINSLUXES Solar Post Cap Lights Outdoor - Waterproof LED Fence Post Solar Lights for 3.5x3.5/4x4/5x,33.99,USD,True,2026-08-18T23:47:24.978059
-AMZ003,Amazon_List_Price,B07V5LK5J3,TWINSLUXES Solar Post Cap Lights Outdoor - Waterproof LED Fence Post Solar Lights for 3.5x3.5/4x4/5x,49.99,USD,True,2026-08-18T23:47:24.978059
-AMZ004,Amazon,B00080QHMM,"Accutire MS-4021B Digital Tire Pressure Gauge with 4 Valve Caps, 5-150psi (psi, bar, kPa, kg/cm2)",17.95,USD,True,2026-08-18T23:47:24.978059
 AMZ005,Amazon,B0CNZ6ZV14,SAURA LIFE SCIENCE Adivasi Ayurvedic Neelgiri Hair growth Hair Oil-250ML (2),799.0,INR,True,2026-08-18T23:47:24.978059
 AMZ005,Amazon_List_Price,B0CNZ6ZV14,SAURA LIFE SCIENCE Adivasi Ayurvedic Neelgiri Hair growth Hair Oil-250ML (2),1299.0,INR,True,2026-08-18T23:47:24.978059
-AMZ006,Amazon,B0BGSF52LR,"KASOTT Replacement Airpod Pro Ear Tip Premium Memory Foam Earbud Tips, Perfect Noise Reduction, Ultr",17.88,USD,True,2026-08-18T23:47:24.978059
-AMZ007,Amazon,B08XMPKJ1L,"Bio-Oil Skincare Body Oil (Natural) Serum for Scars and Stretchmarks, Face and Body Moisturizer Hydr",24.95,USD,True,2026-08-18T23:47:24.978059
-AMZ007,Amazon_List_Price,B08XMPKJ1L,"Bio-Oil Skincare Body Oil (Natural) Serum for Scars and Stretchmarks, Face and Body Moisturizer Hydr",39.24,USD,True,2026-08-18T23:47:24.978059
-AMZ008,Amazon,B0B8CP57MN,"crysting 13 Inch Sewing Box Three Layers, Plastic Craft Organizers and Storage, Multifunction Craft ",20.99,USD,True,2026-08-18T23:47:24.978059
-AMZ008,Amazon_List_Price,B0B8CP57MN,"crysting 13 Inch Sewing Box Three Layers, Plastic Craft Organizers and Storage, Multifunction Craft ",22.99,USD,True,2026-08-18T23:47:24.978059
-AMZ009,Amazon,B001HWGJAK,"Ridgid 62990 T-201 5"" Straight Auger",25.38,USD,True,2026-08-18T23:47:24.979025
-AMZ009,Amazon_List_Price,B001HWGJAK,"Ridgid 62990 T-201 5"" Straight Auger",27.38,USD,True,2026-08-18T23:47:24.979025
-AMZ010,Amazon,B07PGY6STR,Core 10 Women's All Day Comfort High-Waist Side-Pocket Yoga Legging,23.92,USD,True,2026-08-18T23:47:24.979025
-AMZ010,Amazon_List_Price,B07PGY6STR,Core 10 Women's All Day Comfort High-Waist Side-Pocket Yoga Legging,28.4,USD,True,2026-08-18T23:47:24.979025
-AMZ012,Amazon,B0BK8QY1JB,"Trucker Bluetooth Headsets, Wireless Headset with AI Environmental Noise Cancelling & Mute Microphon",84.99,USD,True,2026-08-18T23:47:24.979025
-AMZ012,Amazon_List_Price,B0BK8QY1JB,"Trucker Bluetooth Headsets, Wireless Headset with AI Environmental Noise Cancelling & Mute Microphon",89.99,USD,True,2026-08-18T23:47:24.979025
-AMZ013,Amazon,B00LMTKUU8,LOOGU Desert Netting Scarf Tactical Miliary Camo Mesh Scarves for Men and Women Wraps ideal for Warg,11.19,GBP,True,2026-08-18T23:47:24.979025
-AMZ013,Amazon_List_Price,B00LMTKUU8,LOOGU Desert Netting Scarf Tactical Miliary Camo Mesh Scarves for Men and Women Wraps ideal for Warg,13.99,GBP,True,2026-08-18T23:47:24.979025
-AMZ014,Amazon,B0CN8RQYDG,PULOTE 100PCS Pink Plastic Plates - Heavy Duty Pink Disposable Plates - Pink and Gold Plastic Plates,44.99,USD,True,2026-08-18T23:47:24.979025
-AMZ015,Amazon,B001D2X9WU,"Stahlwille 96410704 Double Ended Ring Wrench Set Corona, 6mm x 7mm to 20mm x 22mm, Shallow Offset, C",141.1,USD,True,2026-08-18T23:47:24.979025
-AMZ015,Amazon_List_Price,B001D2X9WU,"Stahlwille 96410704 Double Ended Ring Wrench Set Corona, 6mm x 7mm to 20mm x 22mm, Shallow Offset, C",149.95,USD,True,2026-08-18T23:47:24.979025
-AMZ016,Amazon,B083S6S7VG,"2Packs 18V Battery and Charger Combo for 18-Volt Cordless Tools Battery and P118B Charger, Cell9102 ",69.99,USD,True,2026-08-18T23:47:24.979025
-AMZ017,Amazon,B09YFS3TR9,"General Tools 3-Pack Retractable Utility Knife WS-1201, Snap-Off Blade, Lightweight Box Cutter, 9mm,",6.19,USD,True,2026-08-18T23:47:24.979025
-AMZ017,Amazon_List_Price,B09YFS3TR9,"General Tools 3-Pack Retractable Utility Knife WS-1201, Snap-Off Blade, Lightweight Box Cutter, 9mm,",6.98,USD,True,2026-08-18T23:47:24.979025
-AMZ018,Amazon,B001PT6X8S,"DANIEL SMITH Extra Fine Watercolor Paint, 15ml Tube, Iridescent Antique Copper, 284640009",13.52,USD,True,2026-08-18T23:47:24.979025
-AMZ018,Amazon_List_Price,B001PT6X8S,"DANIEL SMITH Extra Fine Watercolor Paint, 15ml Tube, Iridescent Antique Copper, 284640009",18.64,USD,True,2026-08-18T23:47:24.979025
-AMZ019,Amazon,B09M99SBQ3,NZND Case for At&t Motivate 3 (3rd Version)/ Motivate 2 (2nd)/ Cricket Icon 3/ Cricket Splendor with,13.98,USD,True,2026-08-18T23:47:24.980059
-AMZ020,Amazon,B07PX6QSH2,"Braun SE5-895 Epilator, Hair Removal Device, Epilator for Women, Includes Shaver and Facial Cleansin",94.94,USD,True,2026-08-18T23:47:24.980059
-AMZ020,Amazon_List_Price,B07PX6QSH2,"Braun SE5-895 Epilator, Hair Removal Device, Epilator for Women, Includes Shaver and Facial Cleansin",99.99,USD,True,2026-08-18T23:47:24.980059
-AMZ021,Amazon,B0C1HSC43Y,Aqua Select Resin Step in a Box White | Ultra Sturdy Steps,399.99,USD,True,2026-08-18T23:47:24.980059
-AMZ022,Amazon,B003HLZ3IS,Swanson Raw Multi-Glandular for Men 60 Capsules,12.8,USD,True,2026-08-18T23:47:24.980059
-AMZ022,Amazon_List_Price,B003HLZ3IS,Swanson Raw Multi-Glandular for Men 60 Capsules,13.99,USD,True,2026-08-18T23:47:24.980059
-AMZ023,Amazon,B0040AHYGY,Dingo Mens Dean Harness Pull On Casual Boots Mid Calf - Black,144.95,USD,True,2026-08-18T23:47:24.980059
-AMZ023,Amazon_List_Price,B0040AHYGY,Dingo Mens Dean Harness Pull On Casual Boots Mid Calf - Black,159.95,USD,True,2026-08-18T23:47:24.980059
-AMZ024,Amazon,B00O85SSK2,Nature's Answer Echinacea Alcohol Free Extract 1 Fluid Ounce | Promotes Overall Wellness | Natural I,12.74,USD,True,2026-08-18T23:47:24.980059
-AMZ024,Amazon_List_Price,B00O85SSK2,Nature's Answer Echinacea Alcohol Free Extract 1 Fluid Ounce | Promotes Overall Wellness | Natural I,15.99,USD,True,2026-08-18T23:47:24.980059
-AMZ025,Amazon,B0BBFYRJCD,FTL GU10 Led Bulb 5000K Daylight White Dimmable Spot Light 6W 600LM 50W Halogen Replacement Bulbs fo,12.99,USD,True,2026-08-18T23:47:24.980059
-AMZ025,Amazon_List_Price,B0BBFYRJCD,FTL GU10 Led Bulb 5000K Daylight White Dimmable Spot Light 6W 600LM 50W Halogen Replacement Bulbs fo,15.99,USD,True,2026-08-18T23:47:24.980059
-AMZ026,Amazon,B0BTNL5FZK,"Car Underglow Lights,4PCs,180 LED RGB 8 Million Colors Music Mode,Car Under Glow Neon Accent Strip L",20.91,USD,True,2026-08-18T23:47:24.980059
-AMZ026,Amazon_List_Price,B0BTNL5FZK,"Car Underglow Lights,4PCs,180 LED RGB 8 Million Colors Music Mode,Car Under Glow Neon Accent Strip L",37.98,USD,True,2026-08-18T23:47:24.980059
-AMZ027,Amazon,B076LRJ528,"Koolertron One Handed Programmable Mechanical Keyboard with OEM Gateron Red Switch,All 48 Programmab",85.99,USD,True,2026-08-18T23:47:24.980059
-AMZ028,Amazon,B0CBLGHG1F,"Signature Fitness Rubber Coated Hex Dumbbell Weight Set and Storage Rack, Multiple Packages",99.99,USD,True,2026-08-18T23:47:24.981057
-AMZ029,Amazon,B0BWN2DTJD,"Art3d 4-Piece Wood Slat Acoustic Panels for Stylish Decor and Noise Reduction, 3D Textured Panel for",161.49,USD,True,2026-08-18T23:47:24.981057
-AMZ029,Amazon_List_Price,B0BWN2DTJD,"Art3d 4-Piece Wood Slat Acoustic Panels for Stylish Decor and Noise Reduction, 3D Textured Panel for",199.99,USD,True,2026-08-18T23:47:24.981057
-AMZ030,Amazon,B0CY242B8P,4th of July Door Sign Independence Day Wreath Patriotic Door Decoration Flower US Wooden Sign for Me,7.99,USD,True,2026-08-18T23:47:24.981057
-AMZ030,Amazon_List_Price,B0CY242B8P,4th of July Door Sign Independence Day Wreath Patriotic Door Decoration Flower US Wooden Sign for Me,11.98,USD,True,2026-08-18T23:47:24.981057
-AMZ031,Amazon,B084ZSPND4,"P&G Professional Deep Clean Restroom Cleaner by Comet Professional, Dilute2Go, 4.5 Liter Bottle, Dee",41.49,USD,True,2026-08-18T23:47:24.981057
-AMZ032,Amazon,B089N74ZRN,"OLIGHT Perun Mini LED Headlamp 1000 Lumens Rechargeable, Right Angle Flashlight with Headband, EDC H",64.95,USD,True,2026-08-18T23:47:24.981057
-AMZ033,Amazon,B099H8N6MN,"Posh Creations Bean Bag Chair for Kids, Teens, and Adults Includes Removable and Machine Washable Co",51.74,USD,True,2026-08-18T23:47:24.981057
-AMZ034,Amazon,B002WKK86M,In The Swim Chlorine Neutralizer for Swimming Pools - Quickly Reduces Chlorine Sanitizer Levels - 90,19.56,USD,True,2026-08-18T23:47:24.981057
-AMZ034,Amazon_List_Price,B002WKK86M,In The Swim Chlorine Neutralizer for Swimming Pools - Quickly Reduces Chlorine Sanitizer Levels - 90,22.56,USD,True,2026-08-18T23:47:24.981057
-AMZ035,Amazon,B00EP7OGI6,Fruit of the Loom Women's 5 Pack Microfiber Low Rise Hipster Panties,9.99,USD,True,2026-08-18T23:47:24.981057
-AMZ035,Amazon_List_Price,B00EP7OGI6,Fruit of the Loom Women's 5 Pack Microfiber Low Rise Hipster Panties,14.99,USD,True,2026-08-18T23:47:24.981057
-AMZ036,Amazon,B0BTH8F4CV,"Idzo 100% Metal Obelisk Trellis for Climbing Plants Outdoor 6ft - 72in, Heavy Duty Black Garden Trel",41.39,USD,True,2026-08-18T23:47:24.981057
-AMZ036,Amazon_List_Price,B0BTH8F4CV,"Idzo 100% Metal Obelisk Trellis for Climbing Plants Outdoor 6ft - 72in, Heavy Duty Black Garden Trel",45.99,USD,True,2026-08-18T23:47:24.981057
-AMZ037,Amazon,B0816LQ1DL,guleek for iPhone 6 Screen Replacement White Touch Display LCD Digitizer Assembly with Front Facing ,19.99,USD,True,2026-08-18T23:47:24.982060
-AMZ037,Amazon_List_Price,B0816LQ1DL,guleek for iPhone 6 Screen Replacement White Touch Display LCD Digitizer Assembly with Front Facing ,23.99,USD,True,2026-08-18T23:47:24.982060
-AMZ038,Amazon,B07X3SXVFG,ICTIVE Long Sleeve Workout Shirts for Women Loose fit Workout Tops for Women Running Shirts Women wi,21.98,USD,True,2026-08-18T23:47:24.982060
-AMZ038,Amazon_List_Price,B07X3SXVFG,ICTIVE Long Sleeve Workout Shirts for Women Loose fit Workout Tops for Women Running Shirts Women wi,29.98,USD,True,2026-08-18T23:47:24.982060
-AMZ039,Amazon,B00NI4VHL6,CleanEspresso 2 Gram Espresso Machine Cleaning Tablets Model BR-040 - For Breville Espresso Machines,16.99,USD,True,2026-08-18T23:47:24.982060
-AMZ039,Amazon_List_Price,B00NI4VHL6,CleanEspresso 2 Gram Espresso Machine Cleaning Tablets Model BR-040 - For Breville Espresso Machines,19.99,USD,True,2026-08-18T23:47:24.982060
-AMZ040,Amazon,B0009IY8U6,Minnetonka Women's Back-Zipper Bootie,69.95,USD,True,2026-08-18T23:47:24.982060
-AMZ041,Amazon,B0CF1N2HKN,"DJDAJIA 24"" x10Pack Bungee Cords with Hooks, 9mm Heavy Duty Bungee Cords,Multi-Purpose Elastic Bunge",9.47,USD,True,2026-08-18T23:47:24.982060
-AMZ041,Amazon_List_Price,B0CF1N2HKN,"DJDAJIA 24"" x10Pack Bungee Cords with Hooks, 9mm Heavy Duty Bungee Cords,Multi-Purpose Elastic Bunge",18.95,USD,True,2026-08-18T23:47:24.982060
-AMZ042,Amazon,B087YHZPSZ,Pirelli Night Dragon Cruiser Motorcycle Tires Set (100/90-19 M/CTL Front),140.88,USD,True,2026-08-18T23:47:24.982060
-AMZ042,Amazon_List_Price,B087YHZPSZ,Pirelli Night Dragon Cruiser Motorcycle Tires Set (100/90-19 M/CTL Front),185.64,USD,True,2026-08-18T23:47:24.982060
-AMZ043,Amazon,B01EBLY81U,Roof and Gutter Deicing Cable - 80' Black Electric Heating Cord with 3 Prong Plug & 120 Volt Operati,68.48,USD,True,2026-08-18T23:47:24.982060
-AMZ043,Amazon_List_Price,B01EBLY81U,Roof and Gutter Deicing Cable - 80' Black Electric Heating Cord with 3 Prong Plug & 120 Volt Operati,72.08,USD,True,2026-08-18T23:47:24.982060
-AMZ044,Amazon,B07QNR7LTH,"JETech Case for iPad Pro 10.5-Inch and iPad Air 3 (10.5-Inch 2019, 3rd Generation), Smart Cover Auto",12.98,USD,True,2026-08-18T23:47:24.982060
-AMZ044,Amazon_List_Price,B07QNR7LTH,"JETech Case for iPad Pro 10.5-Inch and iPad Air 3 (10.5-Inch 2019, 3rd Generation), Smart Cover Auto",14.99,USD,True,2026-08-18T23:47:24.982060
-AMZ045,Amazon,B00WMMMHNM,Seresto Large Dog Vet-Recommended Flea & Tick Treatment & Prevention Collar for Dogs Over 18 lbs. | ,103.0,USD,True,2026-08-18T23:47:24.982060
-AMZ045,Amazon_List_Price,B00WMMMHNM,Seresto Large Dog Vet-Recommended Flea & Tick Treatment & Prevention Collar for Dogs Over 18 lbs. | ,146.38,USD,True,2026-08-18T23:47:24.982060
-AMZ046,Amazon,B006BNBPYU,"SAFAVIEH Lyndhurst Collection Runner Rug - 2'3"" x 16', Red & Ivory, Traditional Oriental Design, Non",90.09,USD,True,2026-08-18T23:47:24.982060
-AMZ046,Amazon_List_Price,B006BNBPYU,"SAFAVIEH Lyndhurst Collection Runner Rug - 2'3"" x 16', Red & Ivory, Traditional Oriental Design, Non",360.0,USD,True,2026-08-18T23:47:24.982060
-AMZ047,Amazon,B00I28F9UI,"Swingline Stapler, 747 Classic Desktop Stapler, 20 Sheet Capacity, Metal, Steel Gray (74769)",17.45,USD,True,2026-08-18T23:47:24.982060
-AMZ047,Amazon_List_Price,B00I28F9UI,"Swingline Stapler, 747 Classic Desktop Stapler, 20 Sheet Capacity, Metal, Steel Gray (74769)",19.39,USD,True,2026-08-18T23:47:24.982060
-AMZ048,Amazon,B00O3BLNGM,"Scott® High-Capacity Jumbo Roll Toilet Paper (07805), 2-Ply, White, Non-perforated, (1,000'/Roll, 12",55.0,USD,True,2026-08-18T23:47:24.982060
-AMZ048,Amazon_List_Price,B00O3BLNGM,"Scott® High-Capacity Jumbo Roll Toilet Paper (07805), 2-Ply, White, Non-perforated, (1,000'/Roll, 12",62.72,USD,True,2026-08-18T23:47:24.982060
-AMZ049,Amazon,B0BXTD29M5,"Kids Swim Fins,Comfortable Silicone Flippers for Swimming and Diving,Size Suitable Beginners Kids Gi",15.49,USD,True,2026-08-18T23:47:24.982060
-AMZ049,Amazon_List_Price,B0BXTD29M5,"Kids Swim Fins,Comfortable Silicone Flippers for Swimming and Diving,Size Suitable Beginners Kids Gi",30.99,USD,True,2026-08-18T23:47:24.982060
-AMZ050,Amazon,B0C28SPGJM,"CIYAGPOOU 3 Pcs Gold Necklace Extenders,925 Sterling Silver Necklace Extender for Women, 1"",2"",3"" Go",4.99,USD,True,2026-08-18T23:47:24.982060
-AMZ050,Amazon_List_Price,B0C28SPGJM,"CIYAGPOOU 3 Pcs Gold Necklace Extenders,925 Sterling Silver Necklace Extender for Women, 1"",2"",3"" Go",9.99,USD,True,2026-08-18T23:47:24.982060
-LZD001,Lazada,6872778045_ID-13022944107,DIODA DAMPER DMV 1500 TV POLYTRON NEW ORIGINAL SUPER,10000.0,IDR,True,2026-08-18T23:47:25.047353
-LZD002,Lazada,8208846537_ID-14616530834,Victus Laptop Gaming HP AMD Ryzen 5 NVIDIA GeForce 8GB / 16GB RAM 512GB SSD Silver / Blue Windows 11,16499000.0,IDR,True,2026-08-18T23:47:25.047353
-LZD002,Lazada_List_Price,8208846537_ID-14616530834,Victus Laptop Gaming HP AMD Ryzen 5 NVIDIA GeForce 8GB / 16GB RAM 512GB SSD Silver / Blue Windows 11,17555000.0,IDR,True,2026-08-18T23:47:25.047353
-LZD003,Lazada,7113060757_ID-14155800952,Laptop HP 15s-fq5148TU Core i3 UHD 4GB & 8GB RAM 512GB SSD W11 15.6 Inch Intel Garansi 2 Tahun / 14s,6099000.0,IDR,True,2026-08-18T23:47:25.048354
-LZD003,Lazada_List_Price,7113060757_ID-14155800952,Laptop HP 15s-fq5148TU Core i3 UHD 4GB & 8GB RAM 512GB SSD W11 15.6 Inch Intel Garansi 2 Tahun / 14s,6499000.0,IDR,True,2026-08-18T23:47:25.048354
-LZD004,Lazada,5183778347_ID-9702626285,Printer HP DeskJet 2336 All in One ( Print Scan Copy ) USB / 2377 / 2335 / 1216 / Garansi 1 Tahun Fo,880000.0,IDR,True,2026-08-18T23:47:25.048354
-LZD004,Lazada_List_Price,5183778347_ID-9702626285,Printer HP DeskJet 2336 All in One ( Print Scan Copy ) USB / 2377 / 2335 / 1216 / Garansi 1 Tahun Fo,990000.0,IDR,True,2026-08-18T23:47:25.048354
-LZD005,Lazada,7766536110_ID-14251418035,"RODA KOPER, RODA PENGGANTI, RODA DOUBLE WHEEL, RODA PUTAR 360",65000.0,IDR,True,2026-08-18T23:47:25.048861
-LZD006,Lazada,125726947_ID-6724258028,TAS KOPER TROLI Lucu ANAK PEREMPUAN GARSEL HARGA GROSIR,165000.0,IDR,True,2026-08-18T23:47:25.048861
-LZD007,Lazada,6592868993_ID-12533564353,"Roda Koper Double Wheel Kanan Kiri Cocok Uk. Koper 18, 20, 22, 24",105000.0,IDR,True,2026-08-18T23:47:25.048861
-LZD007,Lazada_List_Price,6592868993_ID-12533564353,"Roda Koper Double Wheel Kanan Kiri Cocok Uk. Koper 18, 20, 22, 24",150000.0,IDR,True,2026-08-18T23:47:25.048861
-LZD008,Lazada,6265564394_ID-11897638315,(400gr) TAS BELANJA - TAS TROLI - TAS LIPAT - TAS TROLI BELANJA - TAS RODA - TAS WANITA - TAS MURAH ,27000.0,IDR,True,2026-08-18T23:47:25.048861
-LZD009,Lazada,7578640280_ID-13990362196,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",43000.0,IDR,True,2026-08-18T23:47:25.048861
-LZD010,Lazada,738740213_ID-1025756100,WIWA Tas Travel Bag Koper Selempang Anak Spiderman Ukuran Besar,100000.0,IDR,True,2026-08-18T23:47:25.049868
-LZD011,Lazada,7578640280_ID-14288476736,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",43000.0,IDR,True,2026-08-18T23:47:25.049868
-LZD012,Lazada,7578640280_ID-14521834361,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",43000.0,IDR,True,2026-08-18T23:47:25.049868
-LZD013,Lazada,6870220823_ID-13019496532,TRANSISTOR MD1803DFX BODI BESAR SUPER ORIGINAL  BARU,15000.0,IDR,True,2026-08-18T23:47:25.049868
-LZD014,Lazada,6872610872_ID-13613652704,TRANSISTOR TR TT2140 NEW ORIGINAL,12500.0,IDR,True,2026-08-18T23:47:25.049868
-LZD015,Lazada,6872618914_ID-13568330854,TRANSISTOR TR D5024 ORIGINAL NEW ( BODI KECIL),10000.0,IDR,True,2026-08-18T23:47:25.049868
-LZD016,Lazada,6870226939_ID-13613624499,TRANSISTOR TR D2499 NEW ORIGINAL SUPER,12000.0,IDR,True,2026-08-18T23:47:25.049868
-LZD017,Lazada,7128214936_ID-13433212293,"GACUN 4 KABEL LCD/LED MK4 130WAT (50"") ORIGINAL GACUN",50000.0,IDR,True,2026-08-18T23:47:25.049868
-LZD018,Lazada,2984200288_ID-13976190075,Tinta Printer HP Original 682 Hitam Black / Twin Pack / Cartridge Asli Official,307000.0,IDR,True,2026-08-18T23:47:25.050900
-LZD019,Lazada,7578640280_ID-13990362202,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",43000.0,IDR,True,2026-08-18T23:47:25.050900
-LZD020,Lazada,8112404633_ID-14504162571,"AS RODA, BAUT RODA KOPER,RIVET TAS, BESI RODA KOPER",2500.0,IDR,True,2026-08-18T23:47:25.050900
-LZD021,Lazada,406786698_ID-449414575,Tas Travel Anak - Travel Bag Koper Selempang Winnie the Pooh Ukuran Besar - WIWA,69000.0,IDR,True,2026-08-18T23:47:25.050900
-LZD021,Lazada_List_Price,406786698_ID-449414575,Tas Travel Anak - Travel Bag Koper Selempang Winnie the Pooh Ukuran Besar - WIWA,100000.0,IDR,True,2026-08-18T23:47:25.050900
-LZD022,Lazada,7950320981_ID-14363222334,Trunki Ride on Luggage - Tas Koper Duduk Anak,999000.0,IDR,True,2026-08-18T23:47:25.050900
-LZD023,Lazada,7578640280_ID-13990362198,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",43000.0,IDR,True,2026-08-18T23:47:25.050900
-LZD024,Lazada,8169340043_ID-14572608696,TROLI RODA 3 SEKOLAH SD SMP TROLI LIPAT BAHAN PVC IMPORT SERBAGUNA,219900.0,IDR,True,2026-08-18T23:47:25.050900
-LZD024,Lazada_List_Price,8169340043_ID-14572608696,TROLI RODA 3 SEKOLAH SD SMP TROLI LIPAT BAHAN PVC IMPORT SERBAGUNA,430000.0,IDR,True,2026-08-18T23:47:25.050900
-LZD025,Lazada,516720033_ID-707610891,Bontoy Strap Leather Cream,100000.0,IDR,True,2026-08-18T23:47:25.050900
-LZD026,Lazada,339797458_ID-351457229,Onlan Set Tas Koper Anak Motif Karakter LAKI LAKI  Gambar JAGOAN SUPER Dan MOBIL Bus Bahan Sponge An,179000.0,IDR,True,2026-08-18T23:47:25.050900
-LZD026,Lazada_List_Price,339797458_ID-351457229,Onlan Set Tas Koper Anak Motif Karakter LAKI LAKI  Gambar JAGOAN SUPER Dan MOBIL Bus Bahan Sponge An,400000.0,IDR,True,2026-08-18T23:47:25.050900
-LZD027,Lazada,TR356TBAA4XCOBANID-9814470,Trunki Ride on Kids Suitcase Terrance Pink,899000.0,IDR,True,2026-08-18T23:47:25.050900
-LZD028,Lazada,738740213_ID-11149090339,WIWA Tas Travel Bag Koper Selempang Anak Spiderman Ukuran Besar,100000.0,IDR,True,2026-08-18T23:47:25.050900
-LZD029,Lazada,7696384938_ID-14148478217,Transparant Airbag Laser Case for X XS XR MAX 11 12 13 14 Plus Pro Max,9459.0,IDR,True,2026-08-18T23:47:25.050900
-LZD029,Lazada_List_Price,7696384938_ID-14148478217,Transparant Airbag Laser Case for X XS XR MAX 11 12 13 14 Plus Pro Max,25000.0,IDR,True,2026-08-18T23:47:25.050900
-LZD030,Lazada,6870240239_ID-13568364161,TRANSISTOR NEW ORIGINAL MD1803DFH KECIL ( 1 BUAH ),12500.0,IDR,True,2026-08-18T23:47:25.051904
-SHN001,SHEIN,40460214,"Tall Narrow Bathroom Storage Cabinet With 3 Drawers And 2 Shelves, Free Standing Kitchen Pantry Orga",120.99,USD,True,2026-08-18T23:47:25.094711
-SHN002,SHEIN,40351123,"1PC Natural Yellow Rainbow Halo Raw Crystal, Aromatherapist Stone, Home Decoration, Office Decoratio",2.1,USD,True,2026-08-18T23:47:25.094711
-SHN003,SHEIN,40433938,1PC Sexy Lingerie Body StockingOpen Crotch Hollow Out See Through Bodystocking Without Underwear,2.14,USD,True,2026-08-18T23:47:25.094711
-SHN003,SHEIN_List_Price,40433938,1PC Sexy Lingerie Body StockingOpen Crotch Hollow Out See Through Bodystocking Without Underwear,3.39,USD,True,2026-08-18T23:47:25.094711
-SHN004,SHEIN,39962322,"Italian Genuine Leather Thick Belt For Men, Retro Solid Brass Buckle",21.3,USD,True,2026-08-18T23:47:25.094711
-SHN004,SHEIN_List_Price,39962322,"Italian Genuine Leather Thick Belt For Men, Retro Solid Brass Buckle",22.8,USD,True,2026-08-18T23:47:25.094711
-SHN005,SHEIN,39788871,Unbeatablesale Hylomar 61701 13.53 Oz Hylomar Cleaner Spray Can,28.53,USD,True,2026-08-18T23:47:25.095711
-SHN006,SHEIN,39744348,"1 Set Cup & Saucer, Cute Cat Pattern, High-End Coffee Cup & Saucer Set, Latte Art",12.2,USD,True,2026-08-18T23:47:25.095711
-SHN006,SHEIN_List_Price,39744348,"1 Set Cup & Saucer, Cute Cat Pattern, High-End Coffee Cup & Saucer Set, Latte Art",12.7,USD,True,2026-08-18T23:47:25.095711
-SHN007,SHEIN,40505782,"Unbeatablesale PIX North America MXV4-410 0.5 X 41 In. Heavy-Duty Lawn & Garden Equipment Belt,; Bla",16.98,USD,True,2026-08-18T23:47:25.095711
-SHN008,SHEIN,41434093,"30pcs,40in Rocket Balloons 6 Assorted Colors Flying Magic Long Balloons With Whistling Noise Premium",2.1,USD,True,2026-08-18T23:47:25.095711
-SHN008,SHEIN_List_Price,41434093,"30pcs,40in Rocket Balloons 6 Assorted Colors Flying Magic Long Balloons With Whistling Noise Premium",2.2,USD,True,2026-08-18T23:47:25.095711
-SHN009,SHEIN,14063170,"20pcs Artificial Green Plant Leaves Valentine'S Day Gift DIY Cake Decoration, Candy Box, Birthday Pa",0.83,USD,True,2026-08-18T23:47:25.095711
-SHN009,SHEIN_List_Price,14063170,"20pcs Artificial Green Plant Leaves Valentine'S Day Gift DIY Cake Decoration, Candy Box, Birthday Pa",1.5,USD,True,2026-08-18T23:47:25.095711
-SHN010,SHEIN,40438113,"10pcs Transparent Baking Boxes With Window, Dessert Box, Pastry Box,  Gift Box, Easy And Convenient,",6.63,USD,True,2026-08-18T23:47:25.095711
-SHN010,SHEIN_List_Price,40438113,"10pcs Transparent Baking Boxes With Window, Dessert Box, Pastry Box,  Gift Box, Easy And Convenient,",7.8,USD,True,2026-08-18T23:47:25.095711
-SHN011,SHEIN,40871127,1PC Retro Resin Telephone Figurine Piggy Bank Vintage Coin Bank Phone Birthday Gift Coffee Shop Deco,20.5,USD,True,2026-08-18T23:47:25.095711
-SHN011,SHEIN_List_Price,40871127,1PC Retro Resin Telephone Figurine Piggy Bank Vintage Coin Bank Phone Birthday Gift Coffee Shop Deco,21.3,USD,True,2026-08-18T23:47:25.095711
-SHN012,SHEIN,40470348,30pcs Nail Art Decorations DIY Art Punk Style Mixed Pumpkin/Spider/Bat/Witch/Vampire 3D Three-Dimens,1.7,USD,True,2026-08-18T23:47:25.095711
-SHN012,SHEIN_List_Price,40470348,30pcs Nail Art Decorations DIY Art Punk Style Mixed Pumpkin/Spider/Bat/Witch/Vampire 3D Three-Dimens,2.0,USD,True,2026-08-18T23:47:25.095711
-SHN013,SHEIN,29874249,"Juvale Wooden Drawer Organizer With 12 Compartments, Divided Tray For Arts And Crafts Supplies, Stat",17.99,USD,True,2026-08-18T23:47:25.095711
-SHN013,SHEIN_List_Price,29874249,"Juvale Wooden Drawer Organizer With 12 Compartments, Divided Tray For Arts And Crafts Supplies, Stat",25.7,USD,True,2026-08-18T23:47:25.095711
-SHN014,SHEIN,40598697,Unbeatablesale K Tool International KTI22521 3/8 Inch Drive Flex Spark Plug Socket 5/8 Inch,13.5,USD,True,2026-08-18T23:47:25.096712
-SHN015,SHEIN,40828986,1PC Large Waterproof Makeup Bag With Handle - Travel Toiletry Organizer For Women And Girls - Spacio,11.2,USD,True,2026-08-18T23:47:25.096712
-SHN015,SHEIN_List_Price,40828986,1PC Large Waterproof Makeup Bag With Handle - Travel Toiletry Organizer For Women And Girls - Spacio,12.0,USD,True,2026-08-18T23:47:25.096712
-SHN016,SHEIN,40624265,"35pcs Mixed Acrylic Body Piercing Pearl Effect, Transparent Dual Color, Matte Tongue Rings For Women",4.55,USD,True,2026-08-18T23:47:25.096712
-SHN016,SHEIN_List_Price,40624265,"35pcs Mixed Acrylic Body Piercing Pearl Effect, Transparent Dual Color, Matte Tongue Rings For Women",6.1,USD,True,2026-08-18T23:47:25.096712
-SHN017,SHEIN,26290211,Dolce & Gabbana 1.6oz The Only One For Women -  EDP Spray,66.74,USD,True,2026-08-18T23:47:25.096712
-SHN017,SHEIN_List_Price,26290211,Dolce & Gabbana 1.6oz The Only One For Women -  EDP Spray,98.0,USD,True,2026-08-18T23:47:25.096712
-SHN018,SHEIN,36997693,Unbeatablesale 1467 Performer Series Accelerator Pump Assembly,35.33,USD,True,2026-08-18T23:47:25.096712
-SHN019,SHEIN,40374435,Unbeatablesale Jumbo Insulated Travel Bag,22.16,USD,True,2026-08-18T23:47:25.096712
-SHN020,SHEIN,40906414,"Jepeak Jepeak Decorative Linen Throw Pillow Covers Cushion Cases, Pack Of 4 Rustic Woven Textured Pi",24.2,USD,True,2026-08-18T23:47:25.096712
-SHN020,SHEIN_List_Price,40906414,"Jepeak Jepeak Decorative Linen Throw Pillow Covers Cushion Cases, Pack Of 4 Rustic Woven Textured Pi",33.6,USD,True,2026-08-18T23:47:25.096712
-SHN021,SHEIN,40248039,1-Piece Rustic Style Hard  Notebook With Simple Rose Print Design,4.8,USD,True,2026-08-18T23:47:25.096712
-SHN022,SHEIN,38366050,300 Color Professional Oil Colored Pencils Artist Pencils Set Soft Series Lead For Coloring Book Ske,79.2,USD,True,2026-08-18T23:47:25.097707
-SHN023,SHEIN,40291247,"PHNIBIRD Four-Leaf Clover Zirconia Necklace, Women's Necklace, Women's Pendant Necklace, Hypoallerge",10.2,USD,True,2026-08-18T23:47:25.097707
-SHN024,SHEIN,41439224,360Pcs Hypoallergenic DIY Earring Hooks For Jewelry Earring Making Supplies Kit Gold And Silver Fish,15.99,USD,True,2026-08-18T23:47:25.097707
-SHN024,SHEIN_List_Price,41439224,360Pcs Hypoallergenic DIY Earring Hooks For Jewelry Earring Making Supplies Kit Gold And Silver Fish,18.99,USD,True,2026-08-18T23:47:25.097707
-SHN025,SHEIN,39285056,"1pc Tree Pattern Decorative Throw Pillow Cover (Pillow Insert Not Included), Soft & Comfortable Sing",2.0,USD,True,2026-08-18T23:47:25.097707
-SHN025,SHEIN_List_Price,39285056,"1pc Tree Pattern Decorative Throw Pillow Cover (Pillow Insert Not Included), Soft & Comfortable Sing",2.5,USD,True,2026-08-18T23:47:25.097707
-SHN026,SHEIN,39803911,"Unbeatablesale Keeper 8874430 16 Ft. Multicolored Tie Down Strap, 3333 Lbs",33.83,USD,True,2026-08-18T23:47:25.097707
-SHN027,SHEIN,40178377,"1pc Unisex Brown PU Leather Cuff Bracelet With Circular Decor, Vintage Medieval Viking Warrior Cospl",3.32,USD,True,2026-08-18T23:47:25.097707
-SHN027,SHEIN_List_Price,40178377,"1pc Unisex Brown PU Leather Cuff Bracelet With Circular Decor, Vintage Medieval Viking Warrior Cospl",3.9,USD,True,2026-08-18T23:47:25.097707
-SHN028,SHEIN,40148416,"1PC Magic Small Hand With Magnet, Prank Props Dark Magic Toy, Simple Coin Magic,Horror Magic Funny G",1.67,USD,True,2026-08-18T23:47:25.097707
-SHN028,SHEIN_List_Price,40148416,"1PC Magic Small Hand With Magnet, Prank Props Dark Magic Toy, Simple Coin Magic,Horror Magic Funny G",1.7,USD,True,2026-08-18T23:47:25.097707
-SHN029,SHEIN,41299478,"Unbeatablesale Jiallo 15120 Clock,; Thermometer & Hygrometer",89.02,USD,True,2026-08-18T23:47:25.097707
-SHN030,SHEIN,40213716,Unbeatablesale Jiallo 33016 Mirrored Jewelry Organizer 3 Compartments,41.2,USD,True,2026-08-18T23:47:25.097707
+AMZ001,Amazon,B09NQJFRW6,Saucony Men's Kinvara 13 Running Shoe,4796.57,INR,True,2026-08-19T00:05:02.597616
+AMZ002,Amazon,B0074TRKFI,"Kishigo Premium Black Series Heavy Duty Unisex Reflective Safety Vest 1514, ANSI Type R / Class 2 Co",2365.5,INR,True,2026-08-19T00:05:02.599124
+AMZ003,Amazon,B07V5LK5J3,TWINSLUXES Solar Post Cap Lights Outdoor - Waterproof LED Fence Post Solar Lights for 3.5x3.5/4x4/5x,2821.17,INR,True,2026-08-19T00:05:02.599124
+AMZ003,Amazon_List_Price,B07V5LK5J3,TWINSLUXES Solar Post Cap Lights Outdoor - Waterproof LED Fence Post Solar Lights for 3.5x3.5/4x4/5x,4149.17,INR,True,2026-08-19T00:05:02.599124
+AMZ004,Amazon,B00080QHMM,"Accutire MS-4021B Digital Tire Pressure Gauge with 4 Valve Caps, 5-150psi (psi, bar, kPa, kg/cm2)",1489.85,INR,True,2026-08-19T00:05:02.599124
+AMZ006,Amazon,B0BGSF52LR,"KASOTT Replacement Airpod Pro Ear Tip Premium Memory Foam Earbud Tips, Perfect Noise Reduction, Ultr",1484.04,INR,True,2026-08-19T00:05:02.599124
+AMZ007,Amazon,B08XMPKJ1L,"Bio-Oil Skincare Body Oil (Natural) Serum for Scars and Stretchmarks, Face and Body Moisturizer Hydr",2070.85,INR,True,2026-08-19T00:05:02.599124
+AMZ007,Amazon_List_Price,B08XMPKJ1L,"Bio-Oil Skincare Body Oil (Natural) Serum for Scars and Stretchmarks, Face and Body Moisturizer Hydr",3256.92,INR,True,2026-08-19T00:05:02.599124
+AMZ008,Amazon,B0B8CP57MN,"crysting 13 Inch Sewing Box Three Layers, Plastic Craft Organizers and Storage, Multifunction Craft ",1742.17,INR,True,2026-08-19T00:05:02.599124
+AMZ008,Amazon_List_Price,B0B8CP57MN,"crysting 13 Inch Sewing Box Three Layers, Plastic Craft Organizers and Storage, Multifunction Craft ",1908.17,INR,True,2026-08-19T00:05:02.599124
+AMZ009,Amazon,B001HWGJAK,"Ridgid 62990 T-201 5"" Straight Auger",2106.54,INR,True,2026-08-19T00:05:02.600134
+AMZ009,Amazon_List_Price,B001HWGJAK,"Ridgid 62990 T-201 5"" Straight Auger",2272.54,INR,True,2026-08-19T00:05:02.600134
+AMZ010,Amazon,B07PGY6STR,Core 10 Women's All Day Comfort High-Waist Side-Pocket Yoga Legging,1985.36,INR,True,2026-08-19T00:05:02.600134
+AMZ010,Amazon_List_Price,B07PGY6STR,Core 10 Women's All Day Comfort High-Waist Side-Pocket Yoga Legging,2357.2,INR,True,2026-08-19T00:05:02.600134
+AMZ012,Amazon,B0BK8QY1JB,"Trucker Bluetooth Headsets, Wireless Headset with AI Environmental Noise Cancelling & Mute Microphon",7054.17,INR,True,2026-08-19T00:05:02.600134
+AMZ012,Amazon_List_Price,B0BK8QY1JB,"Trucker Bluetooth Headsets, Wireless Headset with AI Environmental Noise Cancelling & Mute Microphon",7469.17,INR,True,2026-08-19T00:05:02.600134
+AMZ013,Amazon,B00LMTKUU8,LOOGU Desert Netting Scarf Tactical Miliary Camo Mesh Scarves for Men and Women Wraps ideal for Warg,928.77,INR,True,2026-08-19T00:05:02.600134
+AMZ013,Amazon_List_Price,B00LMTKUU8,LOOGU Desert Netting Scarf Tactical Miliary Camo Mesh Scarves for Men and Women Wraps ideal for Warg,1161.17,INR,True,2026-08-19T00:05:02.600134
+AMZ014,Amazon,B0CN8RQYDG,PULOTE 100PCS Pink Plastic Plates - Heavy Duty Pink Disposable Plates - Pink and Gold Plastic Plates,3734.17,INR,True,2026-08-19T00:05:02.600134
+AMZ015,Amazon,B001D2X9WU,"Stahlwille 96410704 Double Ended Ring Wrench Set Corona, 6mm x 7mm to 20mm x 22mm, Shallow Offset, C",11711.3,INR,True,2026-08-19T00:05:02.600134
+AMZ015,Amazon_List_Price,B001D2X9WU,"Stahlwille 96410704 Double Ended Ring Wrench Set Corona, 6mm x 7mm to 20mm x 22mm, Shallow Offset, C",12445.85,INR,True,2026-08-19T00:05:02.600134
+AMZ016,Amazon,B083S6S7VG,"2Packs 18V Battery and Charger Combo for 18-Volt Cordless Tools Battery and P118B Charger, Cell9102 ",5809.17,INR,True,2026-08-19T00:05:02.601135
+AMZ017,Amazon,B09YFS3TR9,"General Tools 3-Pack Retractable Utility Knife WS-1201, Snap-Off Blade, Lightweight Box Cutter, 9mm,",513.77,INR,True,2026-08-19T00:05:02.601135
+AMZ017,Amazon_List_Price,B09YFS3TR9,"General Tools 3-Pack Retractable Utility Knife WS-1201, Snap-Off Blade, Lightweight Box Cutter, 9mm,",579.34,INR,True,2026-08-19T00:05:02.601135
+AMZ018,Amazon,B001PT6X8S,"DANIEL SMITH Extra Fine Watercolor Paint, 15ml Tube, Iridescent Antique Copper, 284640009",1122.16,INR,True,2026-08-19T00:05:02.601135
+AMZ018,Amazon_List_Price,B001PT6X8S,"DANIEL SMITH Extra Fine Watercolor Paint, 15ml Tube, Iridescent Antique Copper, 284640009",1547.12,INR,True,2026-08-19T00:05:02.601135
+AMZ019,Amazon,B09M99SBQ3,NZND Case for At&t Motivate 3 (3rd Version)/ Motivate 2 (2nd)/ Cricket Icon 3/ Cricket Splendor with,1160.34,INR,True,2026-08-19T00:05:02.601135
+AMZ020,Amazon,B07PX6QSH2,"Braun SE5-895 Epilator, Hair Removal Device, Epilator for Women, Includes Shaver and Facial Cleansin",7880.02,INR,True,2026-08-19T00:05:02.601135
+AMZ020,Amazon_List_Price,B07PX6QSH2,"Braun SE5-895 Epilator, Hair Removal Device, Epilator for Women, Includes Shaver and Facial Cleansin",8299.17,INR,True,2026-08-19T00:05:02.601135
+AMZ021,Amazon,B0C1HSC43Y,Aqua Select Resin Step in a Box White | Ultra Sturdy Steps,33199.17,INR,True,2026-08-19T00:05:02.601135
+AMZ022,Amazon,B003HLZ3IS,Swanson Raw Multi-Glandular for Men 60 Capsules,1062.4,INR,True,2026-08-19T00:05:02.602139
+AMZ022,Amazon_List_Price,B003HLZ3IS,Swanson Raw Multi-Glandular for Men 60 Capsules,1161.17,INR,True,2026-08-19T00:05:02.602139
+AMZ023,Amazon,B0040AHYGY,Dingo Mens Dean Harness Pull On Casual Boots Mid Calf - Black,12030.85,INR,True,2026-08-19T00:05:02.602139
+AMZ023,Amazon_List_Price,B0040AHYGY,Dingo Mens Dean Harness Pull On Casual Boots Mid Calf - Black,13275.85,INR,True,2026-08-19T00:05:02.602139
+AMZ024,Amazon,B00O85SSK2,Nature's Answer Echinacea Alcohol Free Extract 1 Fluid Ounce | Promotes Overall Wellness | Natural I,1057.42,INR,True,2026-08-19T00:05:02.602139
+AMZ024,Amazon_List_Price,B00O85SSK2,Nature's Answer Echinacea Alcohol Free Extract 1 Fluid Ounce | Promotes Overall Wellness | Natural I,1327.17,INR,True,2026-08-19T00:05:02.602139
+AMZ025,Amazon,B0BBFYRJCD,FTL GU10 Led Bulb 5000K Daylight White Dimmable Spot Light 6W 600LM 50W Halogen Replacement Bulbs fo,1078.17,INR,True,2026-08-19T00:05:02.602139
+AMZ025,Amazon_List_Price,B0BBFYRJCD,FTL GU10 Led Bulb 5000K Daylight White Dimmable Spot Light 6W 600LM 50W Halogen Replacement Bulbs fo,1327.17,INR,True,2026-08-19T00:05:02.602139
+AMZ026,Amazon,B0BTNL5FZK,"Car Underglow Lights,4PCs,180 LED RGB 8 Million Colors Music Mode,Car Under Glow Neon Accent Strip L",1735.53,INR,True,2026-08-19T00:05:02.602139
+AMZ026,Amazon_List_Price,B0BTNL5FZK,"Car Underglow Lights,4PCs,180 LED RGB 8 Million Colors Music Mode,Car Under Glow Neon Accent Strip L",3152.34,INR,True,2026-08-19T00:05:02.602139
+AMZ027,Amazon,B076LRJ528,"Koolertron One Handed Programmable Mechanical Keyboard with OEM Gateron Red Switch,All 48 Programmab",7137.17,INR,True,2026-08-19T00:05:02.602139
+AMZ028,Amazon,B0CBLGHG1F,"Signature Fitness Rubber Coated Hex Dumbbell Weight Set and Storage Rack, Multiple Packages",8299.17,INR,True,2026-08-19T00:05:02.603137
+AMZ029,Amazon,B0BWN2DTJD,"Art3d 4-Piece Wood Slat Acoustic Panels for Stylish Decor and Noise Reduction, 3D Textured Panel for",13403.67,INR,True,2026-08-19T00:05:02.603137
+AMZ029,Amazon_List_Price,B0BWN2DTJD,"Art3d 4-Piece Wood Slat Acoustic Panels for Stylish Decor and Noise Reduction, 3D Textured Panel for",16599.17,INR,True,2026-08-19T00:05:02.603137
+AMZ030,Amazon,B0CY242B8P,4th of July Door Sign Independence Day Wreath Patriotic Door Decoration Flower US Wooden Sign for Me,663.17,INR,True,2026-08-19T00:05:02.603137
+AMZ030,Amazon_List_Price,B0CY242B8P,4th of July Door Sign Independence Day Wreath Patriotic Door Decoration Flower US Wooden Sign for Me,994.34,INR,True,2026-08-19T00:05:02.603137
+AMZ031,Amazon,B084ZSPND4,"P&G Professional Deep Clean Restroom Cleaner by Comet Professional, Dilute2Go, 4.5 Liter Bottle, Dee",3443.67,INR,True,2026-08-19T00:05:02.603137
+AMZ032,Amazon,B089N74ZRN,"OLIGHT Perun Mini LED Headlamp 1000 Lumens Rechargeable, Right Angle Flashlight with Headband, EDC H",5390.85,INR,True,2026-08-19T00:05:02.603137
+AMZ033,Amazon,B099H8N6MN,"Posh Creations Bean Bag Chair for Kids, Teens, and Adults Includes Removable and Machine Washable Co",4294.42,INR,True,2026-08-19T00:05:02.603137
+AMZ034,Amazon,B002WKK86M,In The Swim Chlorine Neutralizer for Swimming Pools - Quickly Reduces Chlorine Sanitizer Levels - 90,1623.48,INR,True,2026-08-19T00:05:02.604138
+AMZ034,Amazon_List_Price,B002WKK86M,In The Swim Chlorine Neutralizer for Swimming Pools - Quickly Reduces Chlorine Sanitizer Levels - 90,1872.48,INR,True,2026-08-19T00:05:02.604138
+AMZ035,Amazon,B00EP7OGI6,Fruit of the Loom Women's 5 Pack Microfiber Low Rise Hipster Panties,829.17,INR,True,2026-08-19T00:05:02.604138
+AMZ035,Amazon_List_Price,B00EP7OGI6,Fruit of the Loom Women's 5 Pack Microfiber Low Rise Hipster Panties,1244.17,INR,True,2026-08-19T00:05:02.604138
+AMZ036,Amazon,B0BTH8F4CV,"Idzo 100% Metal Obelisk Trellis for Climbing Plants Outdoor 6ft - 72in, Heavy Duty Black Garden Trel",3435.37,INR,True,2026-08-19T00:05:02.604138
+AMZ036,Amazon_List_Price,B0BTH8F4CV,"Idzo 100% Metal Obelisk Trellis for Climbing Plants Outdoor 6ft - 72in, Heavy Duty Black Garden Trel",3817.17,INR,True,2026-08-19T00:05:02.604138
+AMZ037,Amazon,B0816LQ1DL,guleek for iPhone 6 Screen Replacement White Touch Display LCD Digitizer Assembly with Front Facing ,1659.17,INR,True,2026-08-19T00:05:02.604138
+AMZ037,Amazon_List_Price,B0816LQ1DL,guleek for iPhone 6 Screen Replacement White Touch Display LCD Digitizer Assembly with Front Facing ,1991.17,INR,True,2026-08-19T00:05:02.604138
+AMZ038,Amazon,B07X3SXVFG,ICTIVE Long Sleeve Workout Shirts for Women Loose fit Workout Tops for Women Running Shirts Women wi,1824.34,INR,True,2026-08-19T00:05:02.604138
+AMZ038,Amazon_List_Price,B07X3SXVFG,ICTIVE Long Sleeve Workout Shirts for Women Loose fit Workout Tops for Women Running Shirts Women wi,2488.34,INR,True,2026-08-19T00:05:02.604138
+AMZ039,Amazon,B00NI4VHL6,CleanEspresso 2 Gram Espresso Machine Cleaning Tablets Model BR-040 - For Breville Espresso Machines,1410.17,INR,True,2026-08-19T00:05:02.604138
+AMZ039,Amazon_List_Price,B00NI4VHL6,CleanEspresso 2 Gram Espresso Machine Cleaning Tablets Model BR-040 - For Breville Espresso Machines,1659.17,INR,True,2026-08-19T00:05:02.604138
+AMZ040,Amazon,B0009IY8U6,Minnetonka Women's Back-Zipper Bootie,5805.85,INR,True,2026-08-19T00:05:02.605137
+AMZ041,Amazon,B0CF1N2HKN,"DJDAJIA 24"" x10Pack Bungee Cords with Hooks, 9mm Heavy Duty Bungee Cords,Multi-Purpose Elastic Bunge",786.01,INR,True,2026-08-19T00:05:02.605137
+AMZ041,Amazon_List_Price,B0CF1N2HKN,"DJDAJIA 24"" x10Pack Bungee Cords with Hooks, 9mm Heavy Duty Bungee Cords,Multi-Purpose Elastic Bunge",1572.85,INR,True,2026-08-19T00:05:02.605137
+AMZ042,Amazon,B087YHZPSZ,Pirelli Night Dragon Cruiser Motorcycle Tires Set (100/90-19 M/CTL Front),11693.04,INR,True,2026-08-19T00:05:02.605137
+AMZ042,Amazon_List_Price,B087YHZPSZ,Pirelli Night Dragon Cruiser Motorcycle Tires Set (100/90-19 M/CTL Front),15408.12,INR,True,2026-08-19T00:05:02.605137
+AMZ043,Amazon,B01EBLY81U,Roof and Gutter Deicing Cable - 80' Black Electric Heating Cord with 3 Prong Plug & 120 Volt Operati,5683.84,INR,True,2026-08-19T00:05:02.605137
+AMZ043,Amazon_List_Price,B01EBLY81U,Roof and Gutter Deicing Cable - 80' Black Electric Heating Cord with 3 Prong Plug & 120 Volt Operati,5982.64,INR,True,2026-08-19T00:05:02.605137
+AMZ044,Amazon,B07QNR7LTH,"JETech Case for iPad Pro 10.5-Inch and iPad Air 3 (10.5-Inch 2019, 3rd Generation), Smart Cover Auto",1077.34,INR,True,2026-08-19T00:05:02.605137
+AMZ044,Amazon_List_Price,B07QNR7LTH,"JETech Case for iPad Pro 10.5-Inch and iPad Air 3 (10.5-Inch 2019, 3rd Generation), Smart Cover Auto",1244.17,INR,True,2026-08-19T00:05:02.605137
+AMZ045,Amazon,B00WMMMHNM,Seresto Large Dog Vet-Recommended Flea & Tick Treatment & Prevention Collar for Dogs Over 18 lbs. | ,8549.0,INR,True,2026-08-19T00:05:02.605137
+AMZ045,Amazon_List_Price,B00WMMMHNM,Seresto Large Dog Vet-Recommended Flea & Tick Treatment & Prevention Collar for Dogs Over 18 lbs. | ,12149.54,INR,True,2026-08-19T00:05:02.605137
+AMZ046,Amazon,B006BNBPYU,"SAFAVIEH Lyndhurst Collection Runner Rug - 2'3"" x 16', Red & Ivory, Traditional Oriental Design, Non",7477.47,INR,True,2026-08-19T00:05:02.605137
+AMZ046,Amazon_List_Price,B006BNBPYU,"SAFAVIEH Lyndhurst Collection Runner Rug - 2'3"" x 16', Red & Ivory, Traditional Oriental Design, Non",29880.0,INR,True,2026-08-19T00:05:02.605137
+AMZ047,Amazon,B00I28F9UI,"Swingline Stapler, 747 Classic Desktop Stapler, 20 Sheet Capacity, Metal, Steel Gray (74769)",1448.35,INR,True,2026-08-19T00:05:02.606134
+AMZ047,Amazon_List_Price,B00I28F9UI,"Swingline Stapler, 747 Classic Desktop Stapler, 20 Sheet Capacity, Metal, Steel Gray (74769)",1609.37,INR,True,2026-08-19T00:05:02.606134
+AMZ048,Amazon,B00O3BLNGM,"Scott® High-Capacity Jumbo Roll Toilet Paper (07805), 2-Ply, White, Non-perforated, (1,000'/Roll, 12",4565.0,INR,True,2026-08-19T00:05:02.606134
+AMZ048,Amazon_List_Price,B00O3BLNGM,"Scott® High-Capacity Jumbo Roll Toilet Paper (07805), 2-Ply, White, Non-perforated, (1,000'/Roll, 12",5205.76,INR,True,2026-08-19T00:05:02.606134
+AMZ049,Amazon,B0BXTD29M5,"Kids Swim Fins,Comfortable Silicone Flippers for Swimming and Diving,Size Suitable Beginners Kids Gi",1285.67,INR,True,2026-08-19T00:05:02.606134
+AMZ049,Amazon_List_Price,B0BXTD29M5,"Kids Swim Fins,Comfortable Silicone Flippers for Swimming and Diving,Size Suitable Beginners Kids Gi",2572.17,INR,True,2026-08-19T00:05:02.606134
+AMZ050,Amazon,B0C28SPGJM,"CIYAGPOOU 3 Pcs Gold Necklace Extenders,925 Sterling Silver Necklace Extender for Women, 1"",2"",3"" Go",414.17,INR,True,2026-08-19T00:05:02.606134
+AMZ050,Amazon_List_Price,B0C28SPGJM,"CIYAGPOOU 3 Pcs Gold Necklace Extenders,925 Sterling Silver Necklace Extender for Women, 1"",2"",3"" Go",829.17,INR,True,2026-08-19T00:05:02.606134
+AMZ051,Amazon,B07MQ3C8G3,Morigins Welcome Flower Truck House Flag Spring Old Truck Blue Daisy House Yard Flag 28 x 40 Inch,663.17,INR,True,2026-08-19T00:05:02.606134
+AMZ051,Amazon_List_Price,B07MQ3C8G3,Morigins Welcome Flower Truck House Flag Spring Old Truck Blue Daisy House Yard Flag 28 x 40 Inch,1327.17,INR,True,2026-08-19T00:05:02.606134
+AMZ052,Amazon,B0977KXGNH,Krylon K07020007 10.25-Ounce Easy Tack Repositionable Adhesive Spray,1202.67,INR,True,2026-08-19T00:05:02.606134
+AMZ052,Amazon_List_Price,B0977KXGNH,Krylon K07020007 10.25-Ounce Easy Tack Repositionable Adhesive Spray,1389.42,INR,True,2026-08-19T00:05:02.606134
+AMZ053,Amazon,B0BGX4L65B,"HOMY CASA Dining Chairs Set of 4, Classical Mid-Century Style Kitchen Dining Chairs Black Gold Metal",13777.17,INR,True,2026-08-19T00:05:02.606134
+AMZ054,Amazon,B0B3X64DV2,"STAMIO Orange Peel Powder 100 gm for Face Pack, Skin Care, Mask, DIY | Pure Citrus Aurantium | Natur",189.0,INR,True,2026-08-19T00:05:02.606134
+AMZ054,Amazon_List_Price,B0B3X64DV2,"STAMIO Orange Peel Powder 100 gm for Face Pack, Skin Care, Mask, DIY | Pure Citrus Aurantium | Natur",267.0,INR,True,2026-08-19T00:05:02.606134
+AMZ055,Amazon,B0C3GRM19Y,"Kaxiida Solar Color Changing Lights Outdoor, Waterproof IP68 Solar Lights Outdoor with 7 Lighting Mo",4149.17,INR,True,2026-08-19T00:05:02.606134
+AMZ055,Amazon_List_Price,B0C3GRM19Y,"Kaxiida Solar Color Changing Lights Outdoor, Waterproof IP68 Solar Lights Outdoor with 7 Lighting Mo",5975.17,INR,True,2026-08-19T00:05:02.606134
+AMZ056,Amazon,B01D1S4KD0,"Neoflam 1qt Saucepan Butter Warmer Milk Boiling|Melting Pot, Ecolon Healthy Ceramic Nonstick Coating",2916.62,INR,True,2026-08-19T00:05:02.606134
+AMZ056,Amazon_List_Price,B01D1S4KD0,"Neoflam 1qt Saucepan Butter Warmer Milk Boiling|Melting Pot, Ecolon Healthy Ceramic Nonstick Coating",3070.17,INR,True,2026-08-19T00:05:02.606134
+AMZ057,Amazon,B09TCZ414H,"Reinforced Cat Screen Door, 32X82” Heavy Duty Pets Proof Screen Door with Bilateral Zipper, Prevent ",1825.17,INR,True,2026-08-19T00:05:02.606134
+AMZ058,Amazon,B07SS5Z6TN,"IBENZER Compatible with New MacBook Air 13 inch Case 2022 2021 2020 M1 A2337 A2179 A1932, Plastic Ha",1327.17,INR,True,2026-08-19T00:05:02.607170
+AMZ059,Amazon,B00PZ9QV0O,"SofPull Large High-Capacity Centerpull Paper Towel Dispenser by GP PRO (Georgia-Pacific), Translucen",1690.71,INR,True,2026-08-19T00:05:02.607170
+AMZ060,Amazon,B008KJKA9O,"2-2440-02 Flocculant for Pool, 1-Quart, 2-Pack",3153.17,INR,True,2026-08-19T00:05:02.607170
+AMZ061,Amazon,B002NOYX1S,The Definitive Vince Guaraldi,1302.27,INR,True,2026-08-19T00:05:02.607170
+AMZ061,Amazon_List_Price,B002NOYX1S,The Definitive Vince Guaraldi,1575.34,INR,True,2026-08-19T00:05:02.607170
+AMZ062,Amazon,B081WRHSJM,"FantasyDay Non-stick Cream Horn Molds Stainless Steel, 4.92 inch Large Size Cannoli Tubes Kit Pack o",995.17,INR,True,2026-08-19T00:05:02.607170
+AMZ062,Amazon_List_Price,B081WRHSJM,"FantasyDay Non-stick Cream Horn Molds Stainless Steel, 4.92 inch Large Size Cannoli Tubes Kit Pack o",1052.44,INR,True,2026-08-19T00:05:02.607170
+AMZ063,Amazon,B009B9H8ME,"Covercraft UVS100 Custom Sunscreen | UV11244BL | Compatible with Select BMW 3 Series Models, Blue Me",6021.65,INR,True,2026-08-19T00:05:02.607170
+AMZ063,Amazon_List_Price,B009B9H8ME,"Covercraft UVS100 Custom Sunscreen | UV11244BL | Compatible with Select BMW 3 Series Models, Blue Me",6617.59,INR,True,2026-08-19T00:05:02.607170
+AMZ064,Amazon,B079RJS67F,Skechers Men's Crossbar Oxford,4476.19,INR,True,2026-08-19T00:05:02.607170
+AMZ064,Amazon_List_Price,B079RJS67F,Skechers Men's Crossbar Oxford,5395.0,INR,True,2026-08-19T00:05:02.607170
+AMZ065,Amazon,B0B2S8LQ8J,"Ecko Joggers for Men – Mens Sweatpants with Pockets, Mens Joggers Lounge Pants",1659.17,INR,True,2026-08-19T00:05:02.607170
+AMZ065,Amazon_List_Price,B0B2S8LQ8J,"Ecko Joggers for Men – Mens Sweatpants with Pockets, Mens Joggers Lounge Pants",2489.17,INR,True,2026-08-19T00:05:02.607170
+AMZ066,Amazon,B015CAPNNQ,"E-Z LOK 400-5 Threaded Inserts for Wood, Installation Kit, Brass, Includes 5/16-18 Knife Thread Inse",2447.67,INR,True,2026-08-19T00:05:02.607170
+AMZ067,Amazon,B00CRDV77S,"Smead Colored Hanging File Folder with Tab, 1/5-Cut Adjustable Tab, Letter Size, Maroon, 25 per Box ",1854.22,INR,True,2026-08-19T00:05:02.607170
+AMZ067,Amazon_List_Price,B00CRDV77S,"Smead Colored Hanging File Folder with Tab, 1/5-Cut Adjustable Tab, Letter Size, Maroon, 25 per Box ",3303.4,INR,True,2026-08-19T00:05:02.607170
+AMZ068,Amazon,B091Y7B6N2,"Rotring 600 Ballpoint Pen, Medium Point, Blue Ink, Green Barrel, Refillable",2489.17,INR,True,2026-08-19T00:05:02.608134
+AMZ068,Amazon_List_Price,B091Y7B6N2,"Rotring 600 Ballpoint Pen, Medium Point, Blue Ink, Green Barrel, Refillable",2628.61,INR,True,2026-08-19T00:05:02.608134
+AMZ069,Amazon,B0C67PSPXW,Skechers Women's Performance Go Walk Arch Fit-Glee Sneaker,4860.48,INR,True,2026-08-19T00:05:02.608134
+AMZ069,Amazon_List_Price,B0C67PSPXW,Skechers Women's Performance Go Walk Arch Fit-Glee Sneaker,7055.0,INR,True,2026-08-19T00:05:02.608134
+AMZ070,Amazon,B077J6HPCB,Bluemoon Homes Sheet Sets for King Size Bed Egyptian Cotton 800 Thread Count Cotton Sheets King Size,6307.17,INR,True,2026-08-19T00:05:02.608134
+AMZ070,Amazon_List_Price,B077J6HPCB,Bluemoon Homes Sheet Sets for King Size Bed Egyptian Cotton 800 Thread Count Cotton Sheets King Size,7967.17,INR,True,2026-08-19T00:05:02.608134
+AMZ071,Amazon,B08P4MQJC7,"Amazon Essentials Women's 5"" Inseam Drawstring Linen Blend Short (Available in Plus Size)",1240.02,INR,True,2026-08-19T00:05:02.608134
+AMZ071,Amazon_List_Price,B08P4MQJC7,"Amazon Essentials Women's 5"" Inseam Drawstring Linen Blend Short (Available in Plus Size)",2066.7,INR,True,2026-08-19T00:05:02.608134
+AMZ072,Amazon,B0BN3WQB92,"Bare Peel 15% Vitamin C Face Serum for Glowing Skin Contains Gotu Kola, Ferulic Acid and Aloe Vera f",389.0,INR,True,2026-08-19T00:05:02.608134
+AMZ072,Amazon_List_Price,B0BN3WQB92,"Bare Peel 15% Vitamin C Face Serum for Glowing Skin Contains Gotu Kola, Ferulic Acid and Aloe Vera f",599.0,INR,True,2026-08-19T00:05:02.608134
+AMZ073,Amazon,B09QM2BMPG,"Dunwell Binder with Plastic Sleeves 12-Pocket (2 Pack, Black) - Presentation Book, 8.5 x 11 Portfoli",825.85,INR,True,2026-08-19T00:05:02.608134
+AMZ073,Amazon_List_Price,B09QM2BMPG,"Dunwell Binder with Plastic Sleeves 12-Pocket (2 Pack, Black) - Presentation Book, 8.5 x 11 Portfoli",908.85,INR,True,2026-08-19T00:05:02.608134
+AMZ074,Amazon,B08KZLR9CZ,"Universal Rear Camera Mounting Bracket,Dash Cam Mirror Cam Backup Camera Mount,Only Rearview Camera ",829.17,INR,True,2026-08-19T00:05:02.608134
+AMZ074,Amazon_List_Price,B08KZLR9CZ,"Universal Rear Camera Mounting Bracket,Dash Cam Mirror Cam Backup Camera Mount,Only Rearview Camera ",912.17,INR,True,2026-08-19T00:05:02.608134
+AMZ075,Amazon,B084111VK1,BOSCH GDS18V-221N 18V EC Brushless 1/2 In. Impact Wrench with Friction Ring and Thru-Hole (Bare Tool,9295.17,INR,True,2026-08-19T00:05:02.608134
+AMZ075,Amazon_List_Price,B084111VK1,BOSCH GDS18V-221N 18V EC Brushless 1/2 In. Impact Wrench with Friction Ring and Thru-Hole (Bare Tool,15687.0,INR,True,2026-08-19T00:05:02.608134
+AMZ076,Amazon,B00USP3Q4Y,Landau Scrub Zone Unisex Relaxed Fit 2-Pocket Drawstring Cargo Scrub Pants 85221,1193.54,INR,True,2026-08-19T00:05:02.608134
+AMZ076,Amazon_List_Price,B00USP3Q4Y,Landau Scrub Zone Unisex Relaxed Fit 2-Pocket Drawstring Cargo Scrub Pants 85221,1491.51,INR,True,2026-08-19T00:05:02.608134
+AMZ077,Amazon,B01KBT2BPQ,Tayo Gani Lani Rogi Cito - The Little Bus Tayo Special Wind-Up Set,2409.49,INR,True,2026-08-19T00:05:02.608134
+AMZ077,Amazon_List_Price,B01KBT2BPQ,Tayo Gani Lani Rogi Cito - The Little Bus Tayo Special Wind-Up Set,2824.49,INR,True,2026-08-19T00:05:02.608134
+AMZ078,Amazon,B07KTWPYVW,adidas Women's Sooraj Sneaker,3734.17,INR,True,2026-08-19T00:05:02.609133
+AMZ078,Amazon_List_Price,B07KTWPYVW,adidas Women's Sooraj Sneaker,5395.0,INR,True,2026-08-19T00:05:02.609133
+AMZ079,Amazon,B09JC1XWXB,Blowfish Malibu Women's Play Canvas Sneaker,2343.92,INR,True,2026-08-19T00:05:02.609133
+AMZ080,Amazon,B07BF1WFCS,New Balance Men's All Coast 574 V1 Sneaker,5002.41,INR,True,2026-08-19T00:05:02.609133
+AMZ080,Amazon_List_Price,B07BF1WFCS,New Balance Men's All Coast 574 V1 Sneaker,7054.17,INR,True,2026-08-19T00:05:02.609133
+LZD001,Lazada,6872778045_ID-13022944107,DIODA DAMPER DMV 1500 TV POLYTRON NEW ORIGINAL SUPER,52.0,INR,True,2026-08-19T00:05:02.665025
+LZD002,Lazada,8208846537_ID-14616530834,Victus Laptop Gaming HP AMD Ryzen 5 NVIDIA GeForce 8GB / 16GB RAM 512GB SSD Silver / Blue Windows 11,85794.8,INR,True,2026-08-19T00:05:02.665025
+LZD002,Lazada_List_Price,8208846537_ID-14616530834,Victus Laptop Gaming HP AMD Ryzen 5 NVIDIA GeForce 8GB / 16GB RAM 512GB SSD Silver / Blue Windows 11,91286.0,INR,True,2026-08-19T00:05:02.665025
+LZD003,Lazada,7113060757_ID-14155800952,Laptop HP 15s-fq5148TU Core i3 UHD 4GB & 8GB RAM 512GB SSD W11 15.6 Inch Intel Garansi 2 Tahun / 14s,31714.8,INR,True,2026-08-19T00:05:02.666026
+LZD003,Lazada_List_Price,7113060757_ID-14155800952,Laptop HP 15s-fq5148TU Core i3 UHD 4GB & 8GB RAM 512GB SSD W11 15.6 Inch Intel Garansi 2 Tahun / 14s,33794.8,INR,True,2026-08-19T00:05:02.666026
+LZD004,Lazada,5183778347_ID-9702626285,Printer HP DeskJet 2336 All in One ( Print Scan Copy ) USB / 2377 / 2335 / 1216 / Garansi 1 Tahun Fo,4576.0,INR,True,2026-08-19T00:05:02.666026
+LZD004,Lazada_List_Price,5183778347_ID-9702626285,Printer HP DeskJet 2336 All in One ( Print Scan Copy ) USB / 2377 / 2335 / 1216 / Garansi 1 Tahun Fo,5148.0,INR,True,2026-08-19T00:05:02.666026
+LZD005,Lazada,7766536110_ID-14251418035,"RODA KOPER, RODA PENGGANTI, RODA DOUBLE WHEEL, RODA PUTAR 360",338.0,INR,True,2026-08-19T00:05:02.666026
+LZD006,Lazada,125726947_ID-6724258028,TAS KOPER TROLI Lucu ANAK PEREMPUAN GARSEL HARGA GROSIR,858.0,INR,True,2026-08-19T00:05:02.666026
+LZD007,Lazada,6592868993_ID-12533564353,"Roda Koper Double Wheel Kanan Kiri Cocok Uk. Koper 18, 20, 22, 24",546.0,INR,True,2026-08-19T00:05:02.666026
+LZD007,Lazada_List_Price,6592868993_ID-12533564353,"Roda Koper Double Wheel Kanan Kiri Cocok Uk. Koper 18, 20, 22, 24",780.0,INR,True,2026-08-19T00:05:02.666026
+LZD008,Lazada,6265564394_ID-11897638315,(400gr) TAS BELANJA - TAS TROLI - TAS LIPAT - TAS TROLI BELANJA - TAS RODA - TAS WANITA - TAS MURAH ,140.4,INR,True,2026-08-19T00:05:02.666026
+LZD009,Lazada,7578640280_ID-13990362196,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",223.6,INR,True,2026-08-19T00:05:02.666026
+LZD010,Lazada,738740213_ID-1025756100,WIWA Tas Travel Bag Koper Selempang Anak Spiderman Ukuran Besar,520.0,INR,True,2026-08-19T00:05:02.666026
+LZD011,Lazada,7578640280_ID-14288476736,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",223.6,INR,True,2026-08-19T00:05:02.666026
+LZD012,Lazada,7578640280_ID-14521834361,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",223.6,INR,True,2026-08-19T00:05:02.666026
+LZD013,Lazada,6870220823_ID-13019496532,TRANSISTOR MD1803DFX BODI BESAR SUPER ORIGINAL  BARU,78.0,INR,True,2026-08-19T00:05:02.666026
+LZD014,Lazada,6872610872_ID-13613652704,TRANSISTOR TR TT2140 NEW ORIGINAL,65.0,INR,True,2026-08-19T00:05:02.666026
+LZD015,Lazada,6872618914_ID-13568330854,TRANSISTOR TR D5024 ORIGINAL NEW ( BODI KECIL),52.0,INR,True,2026-08-19T00:05:02.667025
+LZD016,Lazada,6870226939_ID-13613624499,TRANSISTOR TR D2499 NEW ORIGINAL SUPER,62.4,INR,True,2026-08-19T00:05:02.667025
+LZD017,Lazada,7128214936_ID-13433212293,"GACUN 4 KABEL LCD/LED MK4 130WAT (50"") ORIGINAL GACUN",260.0,INR,True,2026-08-19T00:05:02.667025
+LZD018,Lazada,2984200288_ID-13976190075,Tinta Printer HP Original 682 Hitam Black / Twin Pack / Cartridge Asli Official,1596.4,INR,True,2026-08-19T00:05:02.667025
+LZD019,Lazada,7578640280_ID-13990362202,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",223.6,INR,True,2026-08-19T00:05:02.667025
+LZD020,Lazada,8112404633_ID-14504162571,"AS RODA, BAUT RODA KOPER,RIVET TAS, BESI RODA KOPER",13.0,INR,True,2026-08-19T00:05:02.667025
+LZD021,Lazada,406786698_ID-449414575,Tas Travel Anak - Travel Bag Koper Selempang Winnie the Pooh Ukuran Besar - WIWA,358.8,INR,True,2026-08-19T00:05:02.667025
+LZD021,Lazada_List_Price,406786698_ID-449414575,Tas Travel Anak - Travel Bag Koper Selempang Winnie the Pooh Ukuran Besar - WIWA,520.0,INR,True,2026-08-19T00:05:02.667025
+LZD022,Lazada,7950320981_ID-14363222334,Trunki Ride on Luggage - Tas Koper Duduk Anak,5194.8,INR,True,2026-08-19T00:05:02.667025
+LZD023,Lazada,7578640280_ID-13990362198,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",223.6,INR,True,2026-08-19T00:05:02.667025
+LZD024,Lazada,8169340043_ID-14572608696,TROLI RODA 3 SEKOLAH SD SMP TROLI LIPAT BAHAN PVC IMPORT SERBAGUNA,1143.48,INR,True,2026-08-19T00:05:02.667025
+LZD024,Lazada_List_Price,8169340043_ID-14572608696,TROLI RODA 3 SEKOLAH SD SMP TROLI LIPAT BAHAN PVC IMPORT SERBAGUNA,2236.0,INR,True,2026-08-19T00:05:02.667025
+LZD025,Lazada,516720033_ID-707610891,Bontoy Strap Leather Cream,520.0,INR,True,2026-08-19T00:05:02.667025
+LZD026,Lazada,339797458_ID-351457229,Onlan Set Tas Koper Anak Motif Karakter LAKI LAKI  Gambar JAGOAN SUPER Dan MOBIL Bus Bahan Sponge An,930.8,INR,True,2026-08-19T00:05:02.667025
+LZD026,Lazada_List_Price,339797458_ID-351457229,Onlan Set Tas Koper Anak Motif Karakter LAKI LAKI  Gambar JAGOAN SUPER Dan MOBIL Bus Bahan Sponge An,2080.0,INR,True,2026-08-19T00:05:02.667025
+LZD027,Lazada,TR356TBAA4XCOBANID-9814470,Trunki Ride on Kids Suitcase Terrance Pink,4674.8,INR,True,2026-08-19T00:05:02.667025
+LZD028,Lazada,738740213_ID-11149090339,WIWA Tas Travel Bag Koper Selempang Anak Spiderman Ukuran Besar,520.0,INR,True,2026-08-19T00:05:02.667025
+LZD029,Lazada,7696384938_ID-14148478217,Transparant Airbag Laser Case for X XS XR MAX 11 12 13 14 Plus Pro Max,49.19,INR,True,2026-08-19T00:05:02.668024
+LZD029,Lazada_List_Price,7696384938_ID-14148478217,Transparant Airbag Laser Case for X XS XR MAX 11 12 13 14 Plus Pro Max,130.0,INR,True,2026-08-19T00:05:02.668024
+LZD030,Lazada,6870240239_ID-13568364161,TRANSISTOR NEW ORIGINAL MD1803DFH KECIL ( 1 BUAH ),65.0,INR,True,2026-08-19T00:05:02.668024
+LZD031,Lazada,6872624560_ID-13613608473,TRANSISTOR TR C6090 NEW ORIGINAL,83.2,INR,True,2026-08-19T00:05:02.668024
+LZD032,Lazada,6870236727_ID-13613660390,TRANSISTOR TR C5296 NEW SUPER ORIGINAL,83.2,INR,True,2026-08-19T00:05:02.668024
+LZD033,Lazada,2984178433_ID-13976126588,Tinta Printer HP Original 682 Warna Tri Color / Twin Pack / Combo 2 Pack / Cartridge Asli Colour Off,1596.4,INR,True,2026-08-19T00:05:02.668024
+LZD034,Lazada,8208846537_ID-14616530837,Victus Laptop Gaming HP AMD Ryzen 5 NVIDIA GeForce 8GB / 16GB RAM 512GB SSD Silver / Blue Windows 11,75394.8,INR,True,2026-08-19T00:05:02.668024
+LZD034,Lazada_List_Price,8208846537_ID-14616530837,Victus Laptop Gaming HP AMD Ryzen 5 NVIDIA GeForce 8GB / 16GB RAM 512GB SSD Silver / Blue Windows 11,83194.8,INR,True,2026-08-19T00:05:02.668024
+LZD035,Lazada,8210810323_ID-14618762295,Victus Laptop Gaming HP AMD Ryzen 5 NVIDIA GeForce 16GB RAM 1TB SSD Silver / White / Blue Windows 11,105554.8,INR,True,2026-08-19T00:05:02.668024
+LZD035,Lazada_List_Price,8210810323_ID-14618762295,Victus Laptop Gaming HP AMD Ryzen 5 NVIDIA GeForce 16GB RAM 1TB SSD Silver / White / Blue Windows 11,110234.8,INR,True,2026-08-19T00:05:02.668024
+LZD036,Lazada,6738892677_ID-12794972319,Little X eight Lucy Waist Bag,1403.48,INR,True,2026-08-19T00:05:02.668024
+LZD037,Lazada,GA123OTAAMAY7IANID-48149950,TAS KOPER TROLI Lucu ANAK PEREMPUAN GARSEL HARGA GROSIR,858.0,INR,True,2026-08-19T00:05:02.668024
+LZD038,Lazada,7950320981_ID-14363222329,Trunki Ride on Luggage - Tas Koper Duduk Anak,6234.8,INR,True,2026-08-19T00:05:02.668024
+LZD039,Lazada,339797458_ID-869992415,Onlan Set Tas Koper Anak Motif Karakter LAKI LAKI  Gambar JAGOAN SUPER Dan MOBIL Bus Bahan Sponge An,930.8,INR,True,2026-08-19T00:05:02.668024
+LZD039,Lazada_List_Price,339797458_ID-869992415,Onlan Set Tas Koper Anak Motif Karakter LAKI LAKI  Gambar JAGOAN SUPER Dan MOBIL Bus Bahan Sponge An,2080.0,INR,True,2026-08-19T00:05:02.668024
+LZD040,Lazada,7578640280_ID-13990362195,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",223.6,INR,True,2026-08-19T00:05:02.668024
+LZD041,Lazada,6738978146_ID-12795052910,Little X eight Ghadi Waist Bag,1403.48,INR,True,2026-08-19T00:05:02.668024
+LZD042,Lazada,8112404633_ID-14504162572,"AS RODA, BAUT RODA KOPER,RIVET TAS, BESI RODA KOPER",13.0,INR,True,2026-08-19T00:05:02.668024
+LZD043,Lazada,5429864321_ID-10802674467,Justice Girls Mermaid Rolling Luggage - Tas Anak Perempuan,2959.06,INR,True,2026-08-19T00:05:02.668024
+LZD043,Lazada_List_Price,5429864321_ID-10802674467,Justice Girls Mermaid Rolling Luggage - Tas Anak Perempuan,3114.8,INR,True,2026-08-19T00:05:02.668024
+LZD044,Lazada,7766068810_ID-14251098672,"RODA KOPER VIBER, RODA KOPER , RODA DOBLE WHEEL, RODA PUTAR 360",338.0,INR,True,2026-08-19T00:05:02.668024
+LZD045,Lazada,6870266088_ID-13613596617,TRANSISTOR TR D2498 NEW ORIGINAL,62.4,INR,True,2026-08-19T00:05:02.668024
+LZD046,Lazada,8119770619_ID-14513486307,"GACUN 4 KABEL LCD/LED MK4 130 WAT (50"") GACUN ORIGINAL",262.6,INR,True,2026-08-19T00:05:02.668024
+LZD047,Lazada,6592884195_ID-12533542373,Beauty Case Hello Kitty Type 202 Size 10 Inch Koper Mini Good Quality Polo Fans,785.2,INR,True,2026-08-19T00:05:02.668024
+LZD047,Lazada_List_Price,6592884195_ID-12533542373,Beauty Case Hello Kitty Type 202 Size 10 Inch Koper Mini Good Quality Polo Fans,1019.2,INR,True,2026-08-19T00:05:02.668024
+LZD048,Lazada,7578640280_ID-13988308173,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",223.6,INR,True,2026-08-19T00:05:02.668024
+LZD049,Lazada,125726947_ID-6724258029,TAS KOPER TROLI Lucu ANAK PEREMPUAN GARSEL HARGA GROSIR,1560.0,INR,True,2026-08-19T00:05:02.668024
+LZD050,Lazada,ON105OTAASTFO1ANID-64933236,Onlan Set Koper dan Lunch Bag Anak Bahan Sponge Tahan Air Motif Anak Perempuan - Purple,930.8,INR,True,2026-08-19T00:05:02.669529
+LZD050,Lazada_List_Price,ON105OTAASTFO1ANID-64933236,Onlan Set Koper dan Lunch Bag Anak Bahan Sponge Tahan Air Motif Anak Perempuan - Purple,1820.0,INR,True,2026-08-19T00:05:02.669529
+LZD051,Lazada,8112404633_ID-14504162569,"AS RODA, BAUT RODA KOPER,RIVET TAS, BESI RODA KOPER",13.0,INR,True,2026-08-19T00:05:02.669529
+LZD052,Lazada,339797458_ID-11188960152,Onlan Set Tas Koper Anak Motif Karakter LAKI LAKI  Gambar JAGOAN SUPER Dan MOBIL Bus Bahan Sponge An,930.8,INR,True,2026-08-19T00:05:02.669529
+LZD052,Lazada_List_Price,339797458_ID-11188960152,Onlan Set Tas Koper Anak Motif Karakter LAKI LAKI  Gambar JAGOAN SUPER Dan MOBIL Bus Bahan Sponge An,2080.0,INR,True,2026-08-19T00:05:02.669529
+LZD053,Lazada,346803796_ID-873202399,Onlan Set Tas Koper Anak Laki Laki dan Lunch Bag Bahan Kain Sponge Tahan Air,910.0,INR,True,2026-08-19T00:05:02.669529
+LZD053,Lazada_List_Price,346803796_ID-873202399,Onlan Set Tas Koper Anak Laki Laki dan Lunch Bag Bahan Kain Sponge Tahan Air,2080.0,INR,True,2026-08-19T00:05:02.669529
+LZD054,Lazada,7428268461_ID-13838220179,Micro Luggage Eazy Violet - Tas Koper Ride On Anak (ungu),19234.8,INR,True,2026-08-19T00:05:02.669529
+LZD055,Lazada,1297292854_TH-3195224281,เครื่องกรองน้ำดื่ม 6 ขั้นตอน รุ่น น้ำแร่ (Mineral) พร้อมอุปกรณ์ครบชุด (พร้อมคู่มือการติดตั้ง),34777.0,INR,True,2026-08-19T00:05:02.669529
+LZD055,Lazada_List_Price,1297292854_TH-3195224281,เครื่องกรองน้ำดื่ม 6 ขั้นตอน รุ่น น้ำแร่ (Mineral) พร้อมอุปกรณ์ครบชุด (พร้อมคู่มือการติดตั้ง),73787.0,INR,True,2026-08-19T00:05:02.669529
+LZD056,Lazada,6931882728_ID-13568282159,REGULATOR TV GACUN 21 INCH ORIGINAL GACUN,130.0,INR,True,2026-08-19T00:05:02.669529
+LZD057,Lazada,7128210943_ID-13433192909,"GACUN 4 KABEL LCD/LED MK 4 65WAT (35"") ORIGINAL GACUN",221.0,INR,True,2026-08-19T00:05:02.669529
+LZD058,Lazada,2875608666_ID-13976070083,Printer HP Smart Ink Tank 585 / 750 ADF / 720 / 615 Fax / 670 / 580 / 210 / All in One (Print Scan C,18590.0,INR,True,2026-08-19T00:05:02.669529
+LZD058,Lazada_List_Price,2875608666_ID-13976070083,Printer HP Smart Ink Tank 585 / 750 ADF / 720 / 615 Fax / 670 / 580 / 210 / All in One (Print Scan C,20540.0,INR,True,2026-08-19T00:05:02.669529
+LZD059,Lazada,2984178433_ID-5304568227,Tinta Printer HP Original 682 Warna Tri Color / Twin Pack / Combo 2 Pack / Cartridge Asli Colour Off,806.0,INR,True,2026-08-19T00:05:02.669529
+LZD060,Lazada,8208812343_ID-14616540176,Victus Laptop Gaming HP AMD Ryzen 5 NVIDIA GeForce 8GB / 16GB RAM 512GB SSD White / Silver / Blue Wi,59794.8,INR,True,2026-08-19T00:05:02.669529
+LZD060,Lazada_List_Price,8208812343_ID-14616540176,Victus Laptop Gaming HP AMD Ryzen 5 NVIDIA GeForce 8GB / 16GB RAM 512GB SSD White / Silver / Blue Wi,64994.8,INR,True,2026-08-19T00:05:02.669529
+SHN001,SHEIN,40460214,"Tall Narrow Bathroom Storage Cabinet With 3 Drawers And 2 Shelves, Free Standing Kitchen Pantry Orga",10042.17,INR,True,2026-08-19T00:05:02.723987
+SHN002,SHEIN,40351123,"1PC Natural Yellow Rainbow Halo Raw Crystal, Aromatherapist Stone, Home Decoration, Office Decoratio",174.3,INR,True,2026-08-19T00:05:02.723987
+SHN003,SHEIN,40433938,1PC Sexy Lingerie Body StockingOpen Crotch Hollow Out See Through Bodystocking Without Underwear,177.62,INR,True,2026-08-19T00:05:02.723987
+SHN003,SHEIN_List_Price,40433938,1PC Sexy Lingerie Body StockingOpen Crotch Hollow Out See Through Bodystocking Without Underwear,281.37,INR,True,2026-08-19T00:05:02.723987
+SHN004,SHEIN,39962322,"Italian Genuine Leather Thick Belt For Men, Retro Solid Brass Buckle",1767.9,INR,True,2026-08-19T00:05:02.723987
+SHN004,SHEIN_List_Price,39962322,"Italian Genuine Leather Thick Belt For Men, Retro Solid Brass Buckle",1892.4,INR,True,2026-08-19T00:05:02.723987
+SHN005,SHEIN,39788871,Unbeatablesale Hylomar 61701 13.53 Oz Hylomar Cleaner Spray Can,2367.99,INR,True,2026-08-19T00:05:02.723987
+SHN006,SHEIN,39744348,"1 Set Cup & Saucer, Cute Cat Pattern, High-End Coffee Cup & Saucer Set, Latte Art",1012.6,INR,True,2026-08-19T00:05:02.723987
+SHN006,SHEIN_List_Price,39744348,"1 Set Cup & Saucer, Cute Cat Pattern, High-End Coffee Cup & Saucer Set, Latte Art",1054.1,INR,True,2026-08-19T00:05:02.723987
+SHN007,SHEIN,40505782,"Unbeatablesale PIX North America MXV4-410 0.5 X 41 In. Heavy-Duty Lawn & Garden Equipment Belt,; Bla",1409.34,INR,True,2026-08-19T00:05:02.723987
+SHN008,SHEIN,41434093,"30pcs,40in Rocket Balloons 6 Assorted Colors Flying Magic Long Balloons With Whistling Noise Premium",174.3,INR,True,2026-08-19T00:05:02.723987
+SHN008,SHEIN_List_Price,41434093,"30pcs,40in Rocket Balloons 6 Assorted Colors Flying Magic Long Balloons With Whistling Noise Premium",182.6,INR,True,2026-08-19T00:05:02.723987
+SHN009,SHEIN,14063170,"20pcs Artificial Green Plant Leaves Valentine'S Day Gift DIY Cake Decoration, Candy Box, Birthday Pa",68.89,INR,True,2026-08-19T00:05:02.723987
+SHN009,SHEIN_List_Price,14063170,"20pcs Artificial Green Plant Leaves Valentine'S Day Gift DIY Cake Decoration, Candy Box, Birthday Pa",124.5,INR,True,2026-08-19T00:05:02.723987
+SHN010,SHEIN,40438113,"10pcs Transparent Baking Boxes With Window, Dessert Box, Pastry Box,  Gift Box, Easy And Convenient,",550.29,INR,True,2026-08-19T00:05:02.724991
+SHN010,SHEIN_List_Price,40438113,"10pcs Transparent Baking Boxes With Window, Dessert Box, Pastry Box,  Gift Box, Easy And Convenient,",647.4,INR,True,2026-08-19T00:05:02.724991
+SHN011,SHEIN,40871127,1PC Retro Resin Telephone Figurine Piggy Bank Vintage Coin Bank Phone Birthday Gift Coffee Shop Deco,1701.5,INR,True,2026-08-19T00:05:02.724991
+SHN011,SHEIN_List_Price,40871127,1PC Retro Resin Telephone Figurine Piggy Bank Vintage Coin Bank Phone Birthday Gift Coffee Shop Deco,1767.9,INR,True,2026-08-19T00:05:02.724991
+SHN012,SHEIN,40470348,30pcs Nail Art Decorations DIY Art Punk Style Mixed Pumpkin/Spider/Bat/Witch/Vampire 3D Three-Dimens,141.1,INR,True,2026-08-19T00:05:02.724991
+SHN012,SHEIN_List_Price,40470348,30pcs Nail Art Decorations DIY Art Punk Style Mixed Pumpkin/Spider/Bat/Witch/Vampire 3D Three-Dimens,166.0,INR,True,2026-08-19T00:05:02.724991
+SHN013,SHEIN,29874249,"Juvale Wooden Drawer Organizer With 12 Compartments, Divided Tray For Arts And Crafts Supplies, Stat",1493.17,INR,True,2026-08-19T00:05:02.724991
+SHN013,SHEIN_List_Price,29874249,"Juvale Wooden Drawer Organizer With 12 Compartments, Divided Tray For Arts And Crafts Supplies, Stat",2133.1,INR,True,2026-08-19T00:05:02.724991
+SHN014,SHEIN,40598697,Unbeatablesale K Tool International KTI22521 3/8 Inch Drive Flex Spark Plug Socket 5/8 Inch,1120.5,INR,True,2026-08-19T00:05:02.724991
+SHN015,SHEIN,40828986,1PC Large Waterproof Makeup Bag With Handle - Travel Toiletry Organizer For Women And Girls - Spacio,929.6,INR,True,2026-08-19T00:05:02.724991
+SHN015,SHEIN_List_Price,40828986,1PC Large Waterproof Makeup Bag With Handle - Travel Toiletry Organizer For Women And Girls - Spacio,996.0,INR,True,2026-08-19T00:05:02.724991
+SHN016,SHEIN,40624265,"35pcs Mixed Acrylic Body Piercing Pearl Effect, Transparent Dual Color, Matte Tongue Rings For Women",377.65,INR,True,2026-08-19T00:05:02.724991
+SHN016,SHEIN_List_Price,40624265,"35pcs Mixed Acrylic Body Piercing Pearl Effect, Transparent Dual Color, Matte Tongue Rings For Women",506.3,INR,True,2026-08-19T00:05:02.724991
+SHN017,SHEIN,26290211,Dolce & Gabbana 1.6oz The Only One For Women -  EDP Spray,5539.42,INR,True,2026-08-19T00:05:02.725989
+SHN017,SHEIN_List_Price,26290211,Dolce & Gabbana 1.6oz The Only One For Women -  EDP Spray,8134.0,INR,True,2026-08-19T00:05:02.725989
+SHN018,SHEIN,36997693,Unbeatablesale 1467 Performer Series Accelerator Pump Assembly,2932.39,INR,True,2026-08-19T00:05:02.725989
+SHN019,SHEIN,40374435,Unbeatablesale Jumbo Insulated Travel Bag,1839.28,INR,True,2026-08-19T00:05:02.725989
+SHN020,SHEIN,40906414,"Jepeak Jepeak Decorative Linen Throw Pillow Covers Cushion Cases, Pack Of 4 Rustic Woven Textured Pi",2008.6,INR,True,2026-08-19T00:05:02.725989
+SHN020,SHEIN_List_Price,40906414,"Jepeak Jepeak Decorative Linen Throw Pillow Covers Cushion Cases, Pack Of 4 Rustic Woven Textured Pi",2788.8,INR,True,2026-08-19T00:05:02.725989
+SHN021,SHEIN,40248039,1-Piece Rustic Style Hard  Notebook With Simple Rose Print Design,398.4,INR,True,2026-08-19T00:05:02.725989
+SHN022,SHEIN,38366050,300 Color Professional Oil Colored Pencils Artist Pencils Set Soft Series Lead For Coloring Book Ske,6573.6,INR,True,2026-08-19T00:05:02.725989
+SHN023,SHEIN,40291247,"PHNIBIRD Four-Leaf Clover Zirconia Necklace, Women's Necklace, Women's Pendant Necklace, Hypoallerge",846.6,INR,True,2026-08-19T00:05:02.725989
+SHN024,SHEIN,41439224,360Pcs Hypoallergenic DIY Earring Hooks For Jewelry Earring Making Supplies Kit Gold And Silver Fish,1327.17,INR,True,2026-08-19T00:05:02.725989
+SHN024,SHEIN_List_Price,41439224,360Pcs Hypoallergenic DIY Earring Hooks For Jewelry Earring Making Supplies Kit Gold And Silver Fish,1576.17,INR,True,2026-08-19T00:05:02.725989
+SHN025,SHEIN,39285056,"1pc Tree Pattern Decorative Throw Pillow Cover (Pillow Insert Not Included), Soft & Comfortable Sing",166.0,INR,True,2026-08-19T00:05:02.725989
+SHN025,SHEIN_List_Price,39285056,"1pc Tree Pattern Decorative Throw Pillow Cover (Pillow Insert Not Included), Soft & Comfortable Sing",207.5,INR,True,2026-08-19T00:05:02.725989
+SHN026,SHEIN,39803911,"Unbeatablesale Keeper 8874430 16 Ft. Multicolored Tie Down Strap, 3333 Lbs",2807.89,INR,True,2026-08-19T00:05:02.725989
+SHN027,SHEIN,40178377,"1pc Unisex Brown PU Leather Cuff Bracelet With Circular Decor, Vintage Medieval Viking Warrior Cospl",275.56,INR,True,2026-08-19T00:05:02.725989
+SHN027,SHEIN_List_Price,40178377,"1pc Unisex Brown PU Leather Cuff Bracelet With Circular Decor, Vintage Medieval Viking Warrior Cospl",323.7,INR,True,2026-08-19T00:05:02.725989
+SHN028,SHEIN,40148416,"1PC Magic Small Hand With Magnet, Prank Props Dark Magic Toy, Simple Coin Magic,Horror Magic Funny G",138.61,INR,True,2026-08-19T00:05:02.725989
+SHN028,SHEIN_List_Price,40148416,"1PC Magic Small Hand With Magnet, Prank Props Dark Magic Toy, Simple Coin Magic,Horror Magic Funny G",141.1,INR,True,2026-08-19T00:05:02.725989
+SHN029,SHEIN,41299478,"Unbeatablesale Jiallo 15120 Clock,; Thermometer & Hygrometer",7388.66,INR,True,2026-08-19T00:05:02.725989
+SHN030,SHEIN,40213716,Unbeatablesale Jiallo 33016 Mirrored Jewelry Organizer 3 Compartments,3419.6,INR,True,2026-08-19T00:05:02.725989
+SHN031,SHEIN,40120946,Unbeatablesale 32.25 In. W X 8.87 In. H X 1.62 In. P Architectural Accent - Legacy Center Onlay,3884.4,INR,True,2026-08-19T00:05:02.727026
+SHN032,SHEIN,32226639,1PC Silk Roses Vine Artificial Flowers Fake Green Leaf Plants Valentine's Day Bride Bouquet For Autu,146.91,INR,True,2026-08-19T00:05:02.727026
+SHN032,SHEIN_List_Price,32226639,1PC Silk Roses Vine Artificial Flowers Fake Green Leaf Plants Valentine's Day Bride Bouquet For Autu,190.9,INR,True,2026-08-19T00:05:02.727026
+SHN033,SHEIN,40525257,Unbeatablesale Suntime Boston College Eagles-Football Helmet Wall Clock,4034.63,INR,True,2026-08-19T00:05:02.727026
+SHN034,SHEIN,39806760,Unbeatablesale KB CR1439 70 X 17 X 17 In. Coat Rack With Storage - Cherry,14539.94,INR,True,2026-08-19T00:05:02.727026
+SHN035,SHEIN,40563258,Unbeatablesale Syracuse Orange Spirit Series Sportula Grill Spatula,2468.42,INR,True,2026-08-19T00:05:02.727026
+SHN036,SHEIN,41321140,1PC Natural Crystal XiuYu Jade Pagoda Hand Carved Figurine Engrgy Stone Quartz Freeform Phantom Tree,1651.7,INR,True,2026-08-19T00:05:02.727026
+SHN036,SHEIN_List_Price,41321140,1PC Natural Crystal XiuYu Jade Pagoda Hand Carved Figurine Engrgy Stone Quartz Freeform Phantom Tree,1709.8,INR,True,2026-08-19T00:05:02.727026
+SHN037,SHEIN,33000938,"Sun Protective Anti UV  1pc Summer Sunscreen Breathable Ice Silk Mask, Women Skin Friendly Comfortab",113.71,INR,True,2026-08-19T00:05:02.727026
+SHN037,SHEIN_List_Price,33000938,"Sun Protective Anti UV  1pc Summer Sunscreen Breathable Ice Silk Mask, Women Skin Friendly Comfortab",149.4,INR,True,2026-08-19T00:05:02.727026
+SHN038,SHEIN,26383071,"144 Pieces Pizza Party Supplies Pack Decorations, Dinnerware Set With Plates, Napkins, Cups, And Cut",1949.67,INR,True,2026-08-19T00:05:02.727026
+SHN038,SHEIN_List_Price,26383071,"144 Pieces Pizza Party Supplies Pack Decorations, Dinnerware Set With Plates, Napkins, Cups, And Cut",3236.17,INR,True,2026-08-19T00:05:02.727026
+SHN039,SHEIN,39838054,Unbeatablesale Jacks 10239 Forged 14 In. Nail Clincher,3211.27,INR,True,2026-08-19T00:05:02.727026
+SHN040,SHEIN,37229759,10 Pcs Bohemian European And American Sports Headbands For Women Wide Yoga Elastic Headbands Running,622.5,INR,True,2026-08-19T00:05:02.727026
+SHN040,SHEIN_List_Price,37229759,10 Pcs Bohemian European And American Sports Headbands For Women Wide Yoga Elastic Headbands Running,647.4,INR,True,2026-08-19T00:05:02.727026
+SHN041,SHEIN,41165721,Synthetic African Fluffy Drawstring Ponytail Hair Extensions For Women Short African Curling Clip Cu,913.83,INR,True,2026-08-19T00:05:02.727026
+SHN041,SHEIN_List_Price,41165721,Synthetic African Fluffy Drawstring Ponytail Hair Extensions For Women Short African Curling Clip Cu,1178.6,INR,True,2026-08-19T00:05:02.727026
+SHN042,SHEIN,39650485,10pcs Transparent Chocolate Bouquet DIY Packaging Materials Finished Flower Shop Materials Valentine,232.4,INR,True,2026-08-19T00:05:02.727026
+SHN043,SHEIN,40314366,"1 Set,Automatic Watering System Indoor Drip Irrigation System With 10 Heads Plant Watering Unit,Yard",402.55,INR,True,2026-08-19T00:05:02.727026
+SHN043,SHEIN_List_Price,40314366,"1 Set,Automatic Watering System Indoor Drip Irrigation System With 10 Heads Plant Watering Unit,Yard",473.1,INR,True,2026-08-19T00:05:02.727026
+SHN044,SHEIN,30166283,"1 Set Of 2 Pieces Mop And Bucket Set With New Separation Of Clean And Dirty Water Design, Household ",6191.8,INR,True,2026-08-19T00:05:02.727026
+SHN045,SHEIN,40540088,"1PC Selenite Crystal Pumpkin Ghost Head Carving - Natural Rock Crystal Halloween Decor, Home & Offic",286.35,INR,True,2026-08-19T00:05:02.728019
+SHN045,SHEIN_List_Price,40540088,"1PC Selenite Crystal Pumpkin Ghost Head Carving - Natural Rock Crystal Halloween Decor, Home & Offic",572.7,INR,True,2026-08-19T00:05:02.728019
+SHN046,SHEIN,39132284,"1set-Halloween Party Hanging Swirl Decorations, Bat  Ghost Pumpkin Black Cat Cards Hanging Swirl Par",268.09,INR,True,2026-08-19T00:05:02.728019
+SHN046,SHEIN_List_Price,39132284,"1set-Halloween Party Hanging Swirl Decorations, Bat  Ghost Pumpkin Black Cat Cards Hanging Swirl Par",315.4,INR,True,2026-08-19T00:05:02.728019
+SHN047,SHEIN,41061836,"20pcs Purple Disposable Napkins,Flower Shape Table Napkins For Weding Supplies, Party Favors, Hen Pa",207.5,INR,True,2026-08-19T00:05:02.728019
+SHN047,SHEIN_List_Price,41061836,"20pcs Purple Disposable Napkins,Flower Shape Table Napkins For Weding Supplies, Party Favors, Hen Pa",215.8,INR,True,2026-08-19T00:05:02.728019
+SHN048,SHEIN,30317540,"14pcs WHite Hair Beads Accessories For Braids,Star Pearl Small Bear Design Hair Rings Decorations,Wo",116.2,INR,True,2026-08-19T00:05:02.728019
+SHN049,SHEIN,40598628,30pcs/Set Minimal Solid Color French Almond Flower Style Full Cover Short False Nails With 1pc Jelly,132.8,INR,True,2026-08-19T00:05:02.728019
+SHN049,SHEIN_List_Price,40598628,30pcs/Set Minimal Solid Color French Almond Flower Style Full Cover Short False Nails With 1pc Jelly,149.4,INR,True,2026-08-19T00:05:02.728019
+SHN050,SHEIN,40470942,1 Set Halloween Scarecrow Pumpkin Home Bedroom Living Room Decor,225.76,INR,True,2026-08-19T00:05:02.728019
+SHN050,SHEIN_List_Price,40470942,1 Set Halloween Scarecrow Pumpkin Home Bedroom Living Room Decor,282.2,INR,True,2026-08-19T00:05:02.728019
+SHN051,SHEIN,37937822,Unbeatablesale Hydro Air HA104320 Gunite Venturi Tee,2018.56,INR,True,2026-08-19T00:05:02.728019
+SHN052,SHEIN,40915151,"Jepeak Jepeak Pack Of 4 Rhombus Textured Throw Pillow Covers Cushion Cases, Burlap Linen Decorative ",2174.6,INR,True,2026-08-19T00:05:02.728019
+SHN052,SHEIN_List_Price,40915151,"Jepeak Jepeak Pack Of 4 Rhombus Textured Throw Pillow Covers Cushion Cases, Burlap Linen Decorative ",3021.2,INR,True,2026-08-19T00:05:02.728019
+SHN053,SHEIN,41122801,"New Casual Solid Color One Shoulder Bag, Street Style Simple Tote Hand Carry Crossbody Square Bag",805.1,INR,True,2026-08-19T00:05:02.728019
+SHN053,SHEIN_List_Price,41122801,"New Casual Solid Color One Shoulder Bag, Street Style Simple Tote Hand Carry Crossbody Square Bag",854.9,INR,True,2026-08-19T00:05:02.728019
+SHN054,SHEIN,33453209,"Unbeatablesale 1.75 In. Clear Gel Floating Candles, Aqua - 12 Piece Per Box",1394.4,INR,True,2026-08-19T00:05:02.728019
+SHN055,SHEIN,41249806,"22LB Life Size Sex Doll Torso, Lifelike Female Sex Doll For Men With Soft Big Boobs Big Butt Pussy A",7943.1,INR,True,2026-08-19T00:05:02.728019
+SHN055,SHEIN_List_Price,41249806,"22LB Life Size Sex Doll Torso, Lifelike Female Sex Doll For Men With Soft Big Boobs Big Butt Pussy A",12699.0,INR,True,2026-08-19T00:05:02.728019
+SHN056,SHEIN,39628675,Casual Solid Color Shoulder Bag New Style Handbag Fashion Simple Crossbody Square Bag,879.8,INR,True,2026-08-19T00:05:02.728019
+SHN056,SHEIN_List_Price,39628675,Casual Solid Color Shoulder Bag New Style Handbag Fashion Simple Crossbody Square Bag,937.9,INR,True,2026-08-19T00:05:02.728019
+SHN057,SHEIN,40525812,"Unbeatablesale Jgoodin P50180R-V01 Myra Necklace 10 CT Rhodium Necklace, Multi Color",1947.18,INR,True,2026-08-19T00:05:02.728019
+SHN058,SHEIN,40746514,New Casual Solid Color Shoulder Bag Street Fashion Simple Trendy Crossbody Square Handbag,631.63,INR,True,2026-08-19T00:05:02.728019
+SHN058,SHEIN_List_Price,40746514,New Casual Solid Color Shoulder Bag Street Fashion Simple Trendy Crossbody Square Handbag,971.1,INR,True,2026-08-19T00:05:02.728019
+SHN059,SHEIN,41121849,30pcs  Ear Plasters Waterproof Correction Ear Surface Ear Flash Ear Face Small Invisible Breathable ,174.3,INR,True,2026-08-19T00:05:02.728019
+SHN059,SHEIN_List_Price,41121849,30pcs  Ear Plasters Waterproof Correction Ear Surface Ear Flash Ear Face Small Invisible Breathable ,199.2,INR,True,2026-08-19T00:05:02.728019
+SHN060,SHEIN,40437049,10pcs Red Satin Chair Sashes Bows Silk Chair Ribbon Ties For Wedding Banquet Party Hotel Event Decor,907.19,INR,True,2026-08-19T00:05:02.728019
+SHN060,SHEIN_List_Price,40437049,10pcs Red Satin Chair Sashes Bows Silk Chair Ribbon Ties For Wedding Banquet Party Hotel Event Decor,987.7,INR,True,2026-08-19T00:05:02.728019
