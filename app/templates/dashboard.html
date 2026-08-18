@@ -293,44 +293,46 @@
             </div>
         </div>
 
-        <form method="get" class="controls">
+        <div class="controls">
             <div class="search-box">
-                <input type="text" name="search" placeholder="Search products..." value="{{ search_query or '' }}">
+                <input type="text" id="searchInput" placeholder="Search products..." value="{{ search_query or '' }}">
             </div>
             
-            <div class="filter-group">
-                <select name="category" class="filter-select">
-                    <option value="">All Categories</option>
-                    {% for cat in all_categories %}
-                    <option value="{{ cat }}" {% if cat == selected_category %}selected{% endif %}>{{ cat }}</option>
-                    {% endfor %}
-                </select>
+            <form method="get" class="filter-form" id="filterForm">
+                <div class="filter-group">
+                    <select name="category" class="filter-select" onchange="this.form.submit()">
+                        <option value="">All Categories</option>
+                        {% for cat in all_categories %}
+                        <option value="{{ cat }}" {% if cat == selected_category %}selected{% endif %}>{{ cat }}</option>
+                        {% endfor %}
+                    </select>
+                    
+                    <select name="brand" class="filter-select" onchange="this.form.submit()">
+                        <option value="">All Brands</option>
+                        {% for brand in all_brands %}
+                        <option value="{{ brand }}" {% if brand == selected_brand %}selected{% endif %}>{{ brand }}</option>
+                        {% endfor %}
+                    </select>
+                    
+                    <select name="status" class="filter-select" onchange="this.form.submit()">
+                        <option value="">All Status</option>
+                        <option value="safe" {% if selected_status == 'safe' %}selected{% endif %}>Safe to Apply</option>
+                        <option value="unsafe" {% if selected_status == 'unsafe' %}selected{% endif %}>Unsafe</option>
+                        <option value="no_data" {% if selected_status == 'no_data' %}selected{% endif %}>No Competitor Data</option>
+                    </select>
+                    
+                    <input type="number" name="min_price" class="filter-input" placeholder="Min Price" value="{{ min_price or '' }}" step="1" onchange="this.form.submit()">
+                    <input type="number" name="max_price" class="filter-input" placeholder="Max Price" value="{{ max_price or '' }}" step="1" onchange="this.form.submit()">
+                </div>
                 
-                <select name="brand" class="filter-select">
-                    <option value="">All Brands</option>
-                    {% for brand in all_brands %}
-                    <option value="{{ brand }}" {% if brand == selected_brand %}selected{% endif %}>{{ brand }}</option>
-                    {% endfor %}
-                </select>
-                
-                <select name="status" class="filter-select">
-                    <option value="">All Status</option>
-                    <option value="safe" {% if selected_status == 'safe' %}selected{% endif %}>Safe to Apply</option>
-                    <option value="unsafe" {% if selected_status == 'unsafe' %}selected{% endif %}>Unsafe</option>
-                    <option value="no_data" {% if selected_status == 'no_data' %}selected{% endif %}>No Competitor Data</option>
-                </select>
-                
-                <input type="number" name="min_price" class="filter-input" placeholder="Min Price" value="{{ min_price or '' }}" step="1">
-                <input type="number" name="max_price" class="filter-input" placeholder="Max Price" value="{{ max_price or '' }}" step="1">
-            </div>
-            
-            <button type="submit" class="btn btn-primary">Apply Filters</button>
-            <button type="button" class="btn btn-secondary" onclick="recalculateAll()">Recalculate</button>
-            <button type="button" class="btn btn-secondary" onclick="exportCSV()">Export CSV</button>
-            {% if search_query or selected_category or selected_brand or selected_status or min_price or max_price %}
-            <a href="/" class="clear-filters">Clear Filters</a>
-            {% endif %}
-        </form>
+                <button type="submit" class="btn btn-primary">Apply Filters</button>
+                <button type="button" class="btn btn-secondary" onclick="recalculateAll()">Recalculate</button>
+                <button type="button" class="btn btn-secondary" onclick="exportCSV()">Export CSV</button>
+                {% if selected_category or selected_brand or selected_status or min_price or max_price %}
+                <a href="/?search={{ search_query or '' }}" class="clear-filters">Clear Filters</a>
+                {% endif %}
+            </form>
+        </div>
 
         <div class="table-container">
             {% if recommendations %}
@@ -394,7 +396,7 @@
         </div>
     </div>
 
-    <script>
+<script>
         function recalculateAll() {
             fetch('/api/recalculate', { method: 'POST' })
                 .then(response => response.json())
@@ -416,8 +418,8 @@
                 });
         }
 
-        // Table search (client-side fallback)
-        document.querySelector('input[name="search"]').addEventListener('input', function(e) {
+        // Search input - client-side filtering only (no form submit)
+        document.getElementById('searchInput').addEventListener('input', function(e) {
             const query = e.target.value.toLowerCase();
             const rows = document.querySelectorAll('#recommendationsTable tbody tr');
             rows.forEach(row => {
