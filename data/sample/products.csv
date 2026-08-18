@@ -4,3 +4,18 @@ P002,SKU002,Running Shoes,Nike,Shoes,1800,2499,INR,20,15,true
 P003,SKU003,Laptop Backpack,BagCo,Bags,900,1499,INR,15,20,true
 P004,SKU004,USB C Charging Cable,TechCo,Accessories,200,399,INR,20,10,true
 P005,SKU005,Smart Watch,TechTime,Electronics,2500,3999,INR,15,20,true
+P006,SKU006,Mechanical Keyboard,KeyMaster,Electronics,1200,1899,INR,15,20,true
+P007,SKU007,Gaming Mouse,ProGamer,Electronics,800,1299,INR,20,15,true
+P008,SKU008,Bluetooth Speaker,SoundMax,Electronics,600,999,INR,15,20,true
+P009,SKU009,Yoga Mat,FitLife,Fitness,300,599,INR,20,10,true
+P010,SKU010,Resistance Bands Set,FitLife,Fitness,250,499,INR,20,10,true
+P011,SKU011,Stainless Steel Water Bottle,HydroFlask,Accessories,400,799,INR,15,20,true
+P012,SKU012,Portable Power Bank 20000mAh,TechCo,Electronics,900,1499,INR,20,15,true
+P013,SKU013,Wireless Earbuds Pro,SoundMax,Electronics,1100,1799,INR,15,20,true
+P014,SKU014,LED Desk Lamp,LumiHome,Home,500,899,INR,20,10,true
+P015,SKU015,Ergonomic Office Chair,ComfortPro,Furniture,4500,7999,INR,15,20,true
+P016,SKU016,Standing Desk Converter,ErgoWork,Furniture,1800,2999,INR,15,20,true
+P017,SKU017,Air Fryer 5L,CookMaster,Home,1500,2499,INR,20,15,true
+P018,SKU018,Robot Vacuum Cleaner,CleanBot,Home,3500,5999,INR,15,20,true
+P019,SKU019,Instant Pot 7-in-1,CookMaster,Home,2200,3499,INR,15,20,true
+P020,SKU020,Smart Home Hub,HomeAuto,Electronics,1800,2799,INR,15,20,true

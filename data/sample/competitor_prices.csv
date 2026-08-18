@@ -11,3 +11,43 @@ P004,CompetitorA,CA004,USB C Charging Cable,349,INR,true,2026-08-18T09:00:00
 P004,CompetitorB,CB004,USB C Charging Cable,379,INR,true,2026-08-18T09:00:00
 P005,CompetitorA,CA005,Smart Watch,3799,INR,true,2026-08-18T09:00:00
 P005,CompetitorB,CB005,Smart Watch,3899,INR,true,2026-08-18T09:00:00
+P006,CompetitorA,CA006,Mechanical Keyboard RGB,1799,INR,true,2026-08-18T09:00:00
+P006,CompetitorB,CB006,Mechanical Keyboard Pro,1849,INR,true,2026-08-18T09:00:00
+P006,CompetitorC,CC006,Mechanical Keyboard,1999,INR,true,2026-08-18T09:00:00
+P007,CompetitorA,CA007,Gaming Mouse Wireless,1199,INR,true,2026-08-18T09:00:00
+P007,CompetitorB,CB007,Pro Gaming Mouse,1249,INR,true,2026-08-18T09:00:00
+P007,CompetitorC,CC007,Gaming Mouse,1399,INR,true,2026-08-18T09:00:00
+P008,CompetitorA,CA008,Bluetooth Speaker Portable,899,INR,true,2026-08-18T09:00:00
+P008,CompetitorB,CB008,Wireless Bluetooth Speaker,949,INR,true,2026-08-18T09:00:00
+P008,CompetitorC,CC008,Bluetooth Speaker,1099,INR,true,2026-08-18T09:00:00
+P009,CompetitorA,CA009,Yoga Mat Premium,549,INR,true,2026-08-18T09:00:00
+P009,CompetitorB,CB009,Exercise Yoga Mat,579,INR,true,2026-08-18T09:00:00
+P010,CompetitorA,CA010,Resistance Bands 5pc,449,INR,true,2026-08-18T09:00:00
+P010,CompetitorB,CB010,Fitness Resistance Bands,479,INR,true,2026-08-18T09:00:00
+P010,CompetitorC,CC010,Resistance Band Set,529,INR,true,2026-08-18T09:00:00
+P011,CompetitorA,CA011,Insulated Water Bottle,749,INR,true,2026-08-18T09:00:00
+P011,CompetitorB,CB011,Stainless Steel Bottle,779,INR,true,2026-08-18T09:00:00
+P012,CompetitorA,CA012,Power Bank 20000mAh Fast,1399,INR,true,2026-08-18T09:00:00
+P012,CompetitorB,CB012,Portable Charger 20000,1449,INR,true,2026-08-18T09:00:00
+P012,CompetitorC,CC012,Power Bank 20000,1599,INR,true,2026-08-18T09:00:00
+P013,CompetitorA,CA013,Wireless Earbuds ANC,1699,INR,true,2026-08-18T09:00:00
+P013,CompetitorB,CB013,Pro Wireless Earbuds,1749,INR,true,2026-08-18T09:00:00
+P013,CompetitorC,CC013,Bluetooth Earbuds,1899,INR,true,2026-08-18T09:00:00
+P014,CompetitorA,CA014,LED Desk Lamp Dimmable,849,INR,true,2026-08-18T09:00:00
+P014,CompetitorB,CB014,Table Lamp LED,879,INR,true,2026-08-18T09:00:00
+P015,CompetitorA,CA015,Ergonomic Chair Mesh,7499,INR,true,2026-08-18T09:00:00
+P015,CompetitorB,CB015,Office Chair Ergonomic,7799,INR,true,2026-08-18T09:00:00
+P015,CompetitorC,CC015,Mesh Office Chair,8299,INR,true,2026-08-18T09:00:00
+P016,CompetitorA,CA016,Standing Desk Riser,2799,INR,true,2026-08-18T09:00:00
+P016,CompetitorB,CB016,Desk Converter Standing,2899,INR,true,2026-08-18T09:00:00
+P017,CompetitorA,CA017,Air Fryer 5.5L Digital,2399,INR,true,2026-08-18T09:00:00
+P017,CompetitorB,CB017,Digital Air Fryer 5L,2449,INR,true,2026-08-18T09:00:00
+P017,CompetitorC,CC017,Air Fryer 5 Litres,2599,INR,true,2026-08-18T09:00:00
+P018,CompetitorA,CA018,Robot Vacuum Smart,5799,INR,true,2026-08-18T09:00:00
+P018,CompetitorB,CB018,Smart Robot Vacuum,5899,INR,true,2026-08-18T09:00:00
+P018,CompetitorC,CC018,Robot Vacuum Cleaner,6299,INR,true,2026-08-18T09:00:00
+P019,CompetitorA,CA019,Instant Pot Multi Cooker,3399,INR,true,2026-08-18T09:00:00
+P019,CompetitorB,CB019,7-in-1 Pressure Cooker,3449,INR,true,2026-08-18T09:00:00
+P020,CompetitorA,CA020,Smart Home Controller,2699,INR,true,2026-08-18T09:00:00
+P020,CompetitorB,CB020,Home Automation Hub,2749,INR,true,2026-08-18T09:00:00
+P020,CompetitorC,CC020,Smart Hub Controller,2899,INR,true,2026-08-18T09:00:00
