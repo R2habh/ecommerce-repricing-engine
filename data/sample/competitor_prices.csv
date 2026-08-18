@@ -1,53 +1,222 @@
 product_id,competitor_name,competitor_product_id,product_title,price,currency,available,collected_at
-P001,CompetitorA,CA001,Wireless Bluetooth Headphones,949,INR,true,2026-08-18T09:00:00
-P001,CompetitorB,CB001,Wireless Bluetooth Headphones,979,INR,true,2026-08-18T09:00:00
-P001,CompetitorC,CC001,Wireless Bluetooth Headphones,1049,INR,true,2026-08-18T09:00:00
-P002,CompetitorA,CA002,Nike Running Shoes,2399,INR,true,2026-08-18T09:00:00
-P002,CompetitorB,CB002,Nike Running Shoes,2449,INR,true,2026-08-18T09:00:00
-P002,CompetitorC,CC002,Nike Running Shoes,2599,INR,true,2026-08-18T09:00:00
-P003,CompetitorA,CA003,Laptop Backpack,1399,INR,true,2026-08-18T09:00:00
-P003,CompetitorB,CB003,Laptop Backpack,1499,INR,true,2026-08-18T09:00:00
-P004,CompetitorA,CA004,USB C Charging Cable,349,INR,true,2026-08-18T09:00:00
-P004,CompetitorB,CB004,USB C Charging Cable,379,INR,true,2026-08-18T09:00:00
-P005,CompetitorA,CA005,Smart Watch,3799,INR,true,2026-08-18T09:00:00
-P005,CompetitorB,CB005,Smart Watch,3899,INR,true,2026-08-18T09:00:00
-P006,CompetitorA,CA006,Mechanical Keyboard RGB,1799,INR,true,2026-08-18T09:00:00
-P006,CompetitorB,CB006,Mechanical Keyboard Pro,1849,INR,true,2026-08-18T09:00:00
-P006,CompetitorC,CC006,Mechanical Keyboard,1999,INR,true,2026-08-18T09:00:00
-P007,CompetitorA,CA007,Gaming Mouse Wireless,1199,INR,true,2026-08-18T09:00:00
-P007,CompetitorB,CB007,Pro Gaming Mouse,1249,INR,true,2026-08-18T09:00:00
-P007,CompetitorC,CC007,Gaming Mouse,1399,INR,true,2026-08-18T09:00:00
-P008,CompetitorA,CA008,Bluetooth Speaker Portable,899,INR,true,2026-08-18T09:00:00
-P008,CompetitorB,CB008,Wireless Bluetooth Speaker,949,INR,true,2026-08-18T09:00:00
-P008,CompetitorC,CC008,Bluetooth Speaker,1099,INR,true,2026-08-18T09:00:00
-P009,CompetitorA,CA009,Yoga Mat Premium,549,INR,true,2026-08-18T09:00:00
-P009,CompetitorB,CB009,Exercise Yoga Mat,579,INR,true,2026-08-18T09:00:00
-P010,CompetitorA,CA010,Resistance Bands 5pc,449,INR,true,2026-08-18T09:00:00
-P010,CompetitorB,CB010,Fitness Resistance Bands,479,INR,true,2026-08-18T09:00:00
-P010,CompetitorC,CC010,Resistance Band Set,529,INR,true,2026-08-18T09:00:00
-P011,CompetitorA,CA011,Insulated Water Bottle,749,INR,true,2026-08-18T09:00:00
-P011,CompetitorB,CB011,Stainless Steel Bottle,779,INR,true,2026-08-18T09:00:00
-P012,CompetitorA,CA012,Power Bank 20000mAh Fast,1399,INR,true,2026-08-18T09:00:00
-P012,CompetitorB,CB012,Portable Charger 20000,1449,INR,true,2026-08-18T09:00:00
-P012,CompetitorC,CC012,Power Bank 20000,1599,INR,true,2026-08-18T09:00:00
-P013,CompetitorA,CA013,Wireless Earbuds ANC,1699,INR,true,2026-08-18T09:00:00
-P013,CompetitorB,CB013,Pro Wireless Earbuds,1749,INR,true,2026-08-18T09:00:00
-P013,CompetitorC,CC013,Bluetooth Earbuds,1899,INR,true,2026-08-18T09:00:00
-P014,CompetitorA,CA014,LED Desk Lamp Dimmable,849,INR,true,2026-08-18T09:00:00
-P014,CompetitorB,CB014,Table Lamp LED,879,INR,true,2026-08-18T09:00:00
-P015,CompetitorA,CA015,Ergonomic Chair Mesh,7499,INR,true,2026-08-18T09:00:00
-P015,CompetitorB,CB015,Office Chair Ergonomic,7799,INR,true,2026-08-18T09:00:00
-P015,CompetitorC,CC015,Mesh Office Chair,8299,INR,true,2026-08-18T09:00:00
-P016,CompetitorA,CA016,Standing Desk Riser,2799,INR,true,2026-08-18T09:00:00
-P016,CompetitorB,CB016,Desk Converter Standing,2899,INR,true,2026-08-18T09:00:00
-P017,CompetitorA,CA017,Air Fryer 5.5L Digital,2399,INR,true,2026-08-18T09:00:00
-P017,CompetitorB,CB017,Digital Air Fryer 5L,2449,INR,true,2026-08-18T09:00:00
-P017,CompetitorC,CC017,Air Fryer 5 Litres,2599,INR,true,2026-08-18T09:00:00
-P018,CompetitorA,CA018,Robot Vacuum Smart,5799,INR,true,2026-08-18T09:00:00
-P018,CompetitorB,CB018,Smart Robot Vacuum,5899,INR,true,2026-08-18T09:00:00
-P018,CompetitorC,CC018,Robot Vacuum Cleaner,6299,INR,true,2026-08-18T09:00:00
-P019,CompetitorA,CA019,Instant Pot Multi Cooker,3399,INR,true,2026-08-18T09:00:00
-P019,CompetitorB,CB019,7-in-1 Pressure Cooker,3449,INR,true,2026-08-18T09:00:00
-P020,CompetitorA,CA020,Smart Home Controller,2699,INR,true,2026-08-18T09:00:00
-P020,CompetitorB,CB020,Home Automation Hub,2749,INR,true,2026-08-18T09:00:00
-P020,CompetitorC,CC020,Smart Hub Controller,2899,INR,true,2026-08-18T09:00:00
+P001,CompetitorA,CA001,Wireless Bluetooth Headphones,949.0,INR,True,2026-08-18T09:00:00
+P001,CompetitorB,CB001,Wireless Bluetooth Headphones,979.0,INR,True,2026-08-18T09:00:00
+P001,CompetitorC,CC001,Wireless Bluetooth Headphones,1049.0,INR,True,2026-08-18T09:00:00
+P002,CompetitorA,CA002,Nike Running Shoes,2399.0,INR,True,2026-08-18T09:00:00
+P002,CompetitorB,CB002,Nike Running Shoes,2449.0,INR,True,2026-08-18T09:00:00
+P002,CompetitorC,CC002,Nike Running Shoes,2599.0,INR,True,2026-08-18T09:00:00
+P003,CompetitorA,CA003,Laptop Backpack,1399.0,INR,True,2026-08-18T09:00:00
+P003,CompetitorB,CB003,Laptop Backpack,1499.0,INR,True,2026-08-18T09:00:00
+P004,CompetitorA,CA004,USB C Charging Cable,349.0,INR,True,2026-08-18T09:00:00
+P004,CompetitorB,CB004,USB C Charging Cable,379.0,INR,True,2026-08-18T09:00:00
+P005,CompetitorA,CA005,Smart Watch,3799.0,INR,True,2026-08-18T09:00:00
+P005,CompetitorB,CB005,Smart Watch,3899.0,INR,True,2026-08-18T09:00:00
+P006,CompetitorA,CA006,Mechanical Keyboard RGB,1799.0,INR,True,2026-08-18T09:00:00
+P006,CompetitorB,CB006,Mechanical Keyboard Pro,1849.0,INR,True,2026-08-18T09:00:00
+P006,CompetitorC,CC006,Mechanical Keyboard,1999.0,INR,True,2026-08-18T09:00:00
+P007,CompetitorA,CA007,Gaming Mouse Wireless,1199.0,INR,True,2026-08-18T09:00:00
+P007,CompetitorB,CB007,Pro Gaming Mouse,1249.0,INR,True,2026-08-18T09:00:00
+P007,CompetitorC,CC007,Gaming Mouse,1399.0,INR,True,2026-08-18T09:00:00
+P008,CompetitorA,CA008,Bluetooth Speaker Portable,899.0,INR,True,2026-08-18T09:00:00
+P008,CompetitorB,CB008,Wireless Bluetooth Speaker,949.0,INR,True,2026-08-18T09:00:00
+P008,CompetitorC,CC008,Bluetooth Speaker,1099.0,INR,True,2026-08-18T09:00:00
+P009,CompetitorA,CA009,Yoga Mat Premium,549.0,INR,True,2026-08-18T09:00:00
+P009,CompetitorB,CB009,Exercise Yoga Mat,579.0,INR,True,2026-08-18T09:00:00
+P010,CompetitorA,CA010,Resistance Bands 5pc,449.0,INR,True,2026-08-18T09:00:00
+P010,CompetitorB,CB010,Fitness Resistance Bands,479.0,INR,True,2026-08-18T09:00:00
+P010,CompetitorC,CC010,Resistance Band Set,529.0,INR,True,2026-08-18T09:00:00
+P011,CompetitorA,CA011,Insulated Water Bottle,749.0,INR,True,2026-08-18T09:00:00
+P011,CompetitorB,CB011,Stainless Steel Bottle,779.0,INR,True,2026-08-18T09:00:00
+P012,CompetitorA,CA012,Power Bank 20000mAh Fast,1399.0,INR,True,2026-08-18T09:00:00
+P012,CompetitorB,CB012,Portable Charger 20000,1449.0,INR,True,2026-08-18T09:00:00
+P012,CompetitorC,CC012,Power Bank 20000,1599.0,INR,True,2026-08-18T09:00:00
+P013,CompetitorA,CA013,Wireless Earbuds ANC,1699.0,INR,True,2026-08-18T09:00:00
+P013,CompetitorB,CB013,Pro Wireless Earbuds,1749.0,INR,True,2026-08-18T09:00:00
+P013,CompetitorC,CC013,Bluetooth Earbuds,1899.0,INR,True,2026-08-18T09:00:00
+P014,CompetitorA,CA014,LED Desk Lamp Dimmable,849.0,INR,True,2026-08-18T09:00:00
+P014,CompetitorB,CB014,Table Lamp LED,879.0,INR,True,2026-08-18T09:00:00
+P015,CompetitorA,CA015,Ergonomic Chair Mesh,7499.0,INR,True,2026-08-18T09:00:00
+P015,CompetitorB,CB015,Office Chair Ergonomic,7799.0,INR,True,2026-08-18T09:00:00
+P015,CompetitorC,CC015,Mesh Office Chair,8299.0,INR,True,2026-08-18T09:00:00
+P016,CompetitorA,CA016,Standing Desk Riser,2799.0,INR,True,2026-08-18T09:00:00
+P016,CompetitorB,CB016,Desk Converter Standing,2899.0,INR,True,2026-08-18T09:00:00
+P017,CompetitorA,CA017,Air Fryer 5.5L Digital,2399.0,INR,True,2026-08-18T09:00:00
+P017,CompetitorB,CB017,Digital Air Fryer 5L,2449.0,INR,True,2026-08-18T09:00:00
+P017,CompetitorC,CC017,Air Fryer 5 Litres,2599.0,INR,True,2026-08-18T09:00:00
+P018,CompetitorA,CA018,Robot Vacuum Smart,5799.0,INR,True,2026-08-18T09:00:00
+P018,CompetitorB,CB018,Smart Robot Vacuum,5899.0,INR,True,2026-08-18T09:00:00
+P018,CompetitorC,CC018,Robot Vacuum Cleaner,6299.0,INR,True,2026-08-18T09:00:00
+P019,CompetitorA,CA019,Instant Pot Multi Cooker,3399.0,INR,True,2026-08-18T09:00:00
+P019,CompetitorB,CB019,7-in-1 Pressure Cooker,3449.0,INR,True,2026-08-18T09:00:00
+P020,CompetitorA,CA020,Smart Home Controller,2699.0,INR,True,2026-08-18T09:00:00
+P020,CompetitorB,CB020,Home Automation Hub,2749.0,INR,True,2026-08-18T09:00:00
+P020,CompetitorC,CC020,Smart Hub Controller,2899.0,INR,True,2026-08-18T09:00:00
+AMZ001,Amazon,B09NQJFRW6,Saucony Men's Kinvara 13 Running Shoe,57.79,USD,True,2026-08-18T23:47:24.977013
+AMZ002,Amazon,B0074TRKFI,"Kishigo Premium Black Series Heavy Duty Unisex Reflective Safety Vest 1514, ANSI Type R / Class 2 Co",28.5,USD,True,2026-08-18T23:47:24.978059
+AMZ003,Amazon,B07V5LK5J3,TWINSLUXES Solar Post Cap Lights Outdoor - Waterproof LED Fence Post Solar Lights for 3.5x3.5/4x4/5x,33.99,USD,True,2026-08-18T23:47:24.978059
+AMZ003,Amazon_List_Price,B07V5LK5J3,TWINSLUXES Solar Post Cap Lights Outdoor - Waterproof LED Fence Post Solar Lights for 3.5x3.5/4x4/5x,49.99,USD,True,2026-08-18T23:47:24.978059
+AMZ004,Amazon,B00080QHMM,"Accutire MS-4021B Digital Tire Pressure Gauge with 4 Valve Caps, 5-150psi (psi, bar, kPa, kg/cm2)",17.95,USD,True,2026-08-18T23:47:24.978059
+AMZ005,Amazon,B0CNZ6ZV14,SAURA LIFE SCIENCE Adivasi Ayurvedic Neelgiri Hair growth Hair Oil-250ML (2),799.0,INR,True,2026-08-18T23:47:24.978059
+AMZ005,Amazon_List_Price,B0CNZ6ZV14,SAURA LIFE SCIENCE Adivasi Ayurvedic Neelgiri Hair growth Hair Oil-250ML (2),1299.0,INR,True,2026-08-18T23:47:24.978059
+AMZ006,Amazon,B0BGSF52LR,"KASOTT Replacement Airpod Pro Ear Tip Premium Memory Foam Earbud Tips, Perfect Noise Reduction, Ultr",17.88,USD,True,2026-08-18T23:47:24.978059
+AMZ007,Amazon,B08XMPKJ1L,"Bio-Oil Skincare Body Oil (Natural) Serum for Scars and Stretchmarks, Face and Body Moisturizer Hydr",24.95,USD,True,2026-08-18T23:47:24.978059
+AMZ007,Amazon_List_Price,B08XMPKJ1L,"Bio-Oil Skincare Body Oil (Natural) Serum for Scars and Stretchmarks, Face and Body Moisturizer Hydr",39.24,USD,True,2026-08-18T23:47:24.978059
+AMZ008,Amazon,B0B8CP57MN,"crysting 13 Inch Sewing Box Three Layers, Plastic Craft Organizers and Storage, Multifunction Craft ",20.99,USD,True,2026-08-18T23:47:24.978059
+AMZ008,Amazon_List_Price,B0B8CP57MN,"crysting 13 Inch Sewing Box Three Layers, Plastic Craft Organizers and Storage, Multifunction Craft ",22.99,USD,True,2026-08-18T23:47:24.978059
+AMZ009,Amazon,B001HWGJAK,"Ridgid 62990 T-201 5"" Straight Auger",25.38,USD,True,2026-08-18T23:47:24.979025
+AMZ009,Amazon_List_Price,B001HWGJAK,"Ridgid 62990 T-201 5"" Straight Auger",27.38,USD,True,2026-08-18T23:47:24.979025
+AMZ010,Amazon,B07PGY6STR,Core 10 Women's All Day Comfort High-Waist Side-Pocket Yoga Legging,23.92,USD,True,2026-08-18T23:47:24.979025
+AMZ010,Amazon_List_Price,B07PGY6STR,Core 10 Women's All Day Comfort High-Waist Side-Pocket Yoga Legging,28.4,USD,True,2026-08-18T23:47:24.979025
+AMZ012,Amazon,B0BK8QY1JB,"Trucker Bluetooth Headsets, Wireless Headset with AI Environmental Noise Cancelling & Mute Microphon",84.99,USD,True,2026-08-18T23:47:24.979025
+AMZ012,Amazon_List_Price,B0BK8QY1JB,"Trucker Bluetooth Headsets, Wireless Headset with AI Environmental Noise Cancelling & Mute Microphon",89.99,USD,True,2026-08-18T23:47:24.979025
+AMZ013,Amazon,B00LMTKUU8,LOOGU Desert Netting Scarf Tactical Miliary Camo Mesh Scarves for Men and Women Wraps ideal for Warg,11.19,GBP,True,2026-08-18T23:47:24.979025
+AMZ013,Amazon_List_Price,B00LMTKUU8,LOOGU Desert Netting Scarf Tactical Miliary Camo Mesh Scarves for Men and Women Wraps ideal for Warg,13.99,GBP,True,2026-08-18T23:47:24.979025
+AMZ014,Amazon,B0CN8RQYDG,PULOTE 100PCS Pink Plastic Plates - Heavy Duty Pink Disposable Plates - Pink and Gold Plastic Plates,44.99,USD,True,2026-08-18T23:47:24.979025
+AMZ015,Amazon,B001D2X9WU,"Stahlwille 96410704 Double Ended Ring Wrench Set Corona, 6mm x 7mm to 20mm x 22mm, Shallow Offset, C",141.1,USD,True,2026-08-18T23:47:24.979025
+AMZ015,Amazon_List_Price,B001D2X9WU,"Stahlwille 96410704 Double Ended Ring Wrench Set Corona, 6mm x 7mm to 20mm x 22mm, Shallow Offset, C",149.95,USD,True,2026-08-18T23:47:24.979025
+AMZ016,Amazon,B083S6S7VG,"2Packs 18V Battery and Charger Combo for 18-Volt Cordless Tools Battery and P118B Charger, Cell9102 ",69.99,USD,True,2026-08-18T23:47:24.979025
+AMZ017,Amazon,B09YFS3TR9,"General Tools 3-Pack Retractable Utility Knife WS-1201, Snap-Off Blade, Lightweight Box Cutter, 9mm,",6.19,USD,True,2026-08-18T23:47:24.979025
+AMZ017,Amazon_List_Price,B09YFS3TR9,"General Tools 3-Pack Retractable Utility Knife WS-1201, Snap-Off Blade, Lightweight Box Cutter, 9mm,",6.98,USD,True,2026-08-18T23:47:24.979025
+AMZ018,Amazon,B001PT6X8S,"DANIEL SMITH Extra Fine Watercolor Paint, 15ml Tube, Iridescent Antique Copper, 284640009",13.52,USD,True,2026-08-18T23:47:24.979025
+AMZ018,Amazon_List_Price,B001PT6X8S,"DANIEL SMITH Extra Fine Watercolor Paint, 15ml Tube, Iridescent Antique Copper, 284640009",18.64,USD,True,2026-08-18T23:47:24.979025
+AMZ019,Amazon,B09M99SBQ3,NZND Case for At&t Motivate 3 (3rd Version)/ Motivate 2 (2nd)/ Cricket Icon 3/ Cricket Splendor with,13.98,USD,True,2026-08-18T23:47:24.980059
+AMZ020,Amazon,B07PX6QSH2,"Braun SE5-895 Epilator, Hair Removal Device, Epilator for Women, Includes Shaver and Facial Cleansin",94.94,USD,True,2026-08-18T23:47:24.980059
+AMZ020,Amazon_List_Price,B07PX6QSH2,"Braun SE5-895 Epilator, Hair Removal Device, Epilator for Women, Includes Shaver and Facial Cleansin",99.99,USD,True,2026-08-18T23:47:24.980059
+AMZ021,Amazon,B0C1HSC43Y,Aqua Select Resin Step in a Box White | Ultra Sturdy Steps,399.99,USD,True,2026-08-18T23:47:24.980059
+AMZ022,Amazon,B003HLZ3IS,Swanson Raw Multi-Glandular for Men 60 Capsules,12.8,USD,True,2026-08-18T23:47:24.980059
+AMZ022,Amazon_List_Price,B003HLZ3IS,Swanson Raw Multi-Glandular for Men 60 Capsules,13.99,USD,True,2026-08-18T23:47:24.980059
+AMZ023,Amazon,B0040AHYGY,Dingo Mens Dean Harness Pull On Casual Boots Mid Calf - Black,144.95,USD,True,2026-08-18T23:47:24.980059
+AMZ023,Amazon_List_Price,B0040AHYGY,Dingo Mens Dean Harness Pull On Casual Boots Mid Calf - Black,159.95,USD,True,2026-08-18T23:47:24.980059
+AMZ024,Amazon,B00O85SSK2,Nature's Answer Echinacea Alcohol Free Extract 1 Fluid Ounce | Promotes Overall Wellness | Natural I,12.74,USD,True,2026-08-18T23:47:24.980059
+AMZ024,Amazon_List_Price,B00O85SSK2,Nature's Answer Echinacea Alcohol Free Extract 1 Fluid Ounce | Promotes Overall Wellness | Natural I,15.99,USD,True,2026-08-18T23:47:24.980059
+AMZ025,Amazon,B0BBFYRJCD,FTL GU10 Led Bulb 5000K Daylight White Dimmable Spot Light 6W 600LM 50W Halogen Replacement Bulbs fo,12.99,USD,True,2026-08-18T23:47:24.980059
+AMZ025,Amazon_List_Price,B0BBFYRJCD,FTL GU10 Led Bulb 5000K Daylight White Dimmable Spot Light 6W 600LM 50W Halogen Replacement Bulbs fo,15.99,USD,True,2026-08-18T23:47:24.980059
+AMZ026,Amazon,B0BTNL5FZK,"Car Underglow Lights,4PCs,180 LED RGB 8 Million Colors Music Mode,Car Under Glow Neon Accent Strip L",20.91,USD,True,2026-08-18T23:47:24.980059
+AMZ026,Amazon_List_Price,B0BTNL5FZK,"Car Underglow Lights,4PCs,180 LED RGB 8 Million Colors Music Mode,Car Under Glow Neon Accent Strip L",37.98,USD,True,2026-08-18T23:47:24.980059
+AMZ027,Amazon,B076LRJ528,"Koolertron One Handed Programmable Mechanical Keyboard with OEM Gateron Red Switch,All 48 Programmab",85.99,USD,True,2026-08-18T23:47:24.980059
+AMZ028,Amazon,B0CBLGHG1F,"Signature Fitness Rubber Coated Hex Dumbbell Weight Set and Storage Rack, Multiple Packages",99.99,USD,True,2026-08-18T23:47:24.981057
+AMZ029,Amazon,B0BWN2DTJD,"Art3d 4-Piece Wood Slat Acoustic Panels for Stylish Decor and Noise Reduction, 3D Textured Panel for",161.49,USD,True,2026-08-18T23:47:24.981057
+AMZ029,Amazon_List_Price,B0BWN2DTJD,"Art3d 4-Piece Wood Slat Acoustic Panels for Stylish Decor and Noise Reduction, 3D Textured Panel for",199.99,USD,True,2026-08-18T23:47:24.981057
+AMZ030,Amazon,B0CY242B8P,4th of July Door Sign Independence Day Wreath Patriotic Door Decoration Flower US Wooden Sign for Me,7.99,USD,True,2026-08-18T23:47:24.981057
+AMZ030,Amazon_List_Price,B0CY242B8P,4th of July Door Sign Independence Day Wreath Patriotic Door Decoration Flower US Wooden Sign for Me,11.98,USD,True,2026-08-18T23:47:24.981057
+AMZ031,Amazon,B084ZSPND4,"P&G Professional Deep Clean Restroom Cleaner by Comet Professional, Dilute2Go, 4.5 Liter Bottle, Dee",41.49,USD,True,2026-08-18T23:47:24.981057
+AMZ032,Amazon,B089N74ZRN,"OLIGHT Perun Mini LED Headlamp 1000 Lumens Rechargeable, Right Angle Flashlight with Headband, EDC H",64.95,USD,True,2026-08-18T23:47:24.981057
+AMZ033,Amazon,B099H8N6MN,"Posh Creations Bean Bag Chair for Kids, Teens, and Adults Includes Removable and Machine Washable Co",51.74,USD,True,2026-08-18T23:47:24.981057
+AMZ034,Amazon,B002WKK86M,In The Swim Chlorine Neutralizer for Swimming Pools - Quickly Reduces Chlorine Sanitizer Levels - 90,19.56,USD,True,2026-08-18T23:47:24.981057
+AMZ034,Amazon_List_Price,B002WKK86M,In The Swim Chlorine Neutralizer for Swimming Pools - Quickly Reduces Chlorine Sanitizer Levels - 90,22.56,USD,True,2026-08-18T23:47:24.981057
+AMZ035,Amazon,B00EP7OGI6,Fruit of the Loom Women's 5 Pack Microfiber Low Rise Hipster Panties,9.99,USD,True,2026-08-18T23:47:24.981057
+AMZ035,Amazon_List_Price,B00EP7OGI6,Fruit of the Loom Women's 5 Pack Microfiber Low Rise Hipster Panties,14.99,USD,True,2026-08-18T23:47:24.981057
+AMZ036,Amazon,B0BTH8F4CV,"Idzo 100% Metal Obelisk Trellis for Climbing Plants Outdoor 6ft - 72in, Heavy Duty Black Garden Trel",41.39,USD,True,2026-08-18T23:47:24.981057
+AMZ036,Amazon_List_Price,B0BTH8F4CV,"Idzo 100% Metal Obelisk Trellis for Climbing Plants Outdoor 6ft - 72in, Heavy Duty Black Garden Trel",45.99,USD,True,2026-08-18T23:47:24.981057
+AMZ037,Amazon,B0816LQ1DL,guleek for iPhone 6 Screen Replacement White Touch Display LCD Digitizer Assembly with Front Facing ,19.99,USD,True,2026-08-18T23:47:24.982060
+AMZ037,Amazon_List_Price,B0816LQ1DL,guleek for iPhone 6 Screen Replacement White Touch Display LCD Digitizer Assembly with Front Facing ,23.99,USD,True,2026-08-18T23:47:24.982060
+AMZ038,Amazon,B07X3SXVFG,ICTIVE Long Sleeve Workout Shirts for Women Loose fit Workout Tops for Women Running Shirts Women wi,21.98,USD,True,2026-08-18T23:47:24.982060
+AMZ038,Amazon_List_Price,B07X3SXVFG,ICTIVE Long Sleeve Workout Shirts for Women Loose fit Workout Tops for Women Running Shirts Women wi,29.98,USD,True,2026-08-18T23:47:24.982060
+AMZ039,Amazon,B00NI4VHL6,CleanEspresso 2 Gram Espresso Machine Cleaning Tablets Model BR-040 - For Breville Espresso Machines,16.99,USD,True,2026-08-18T23:47:24.982060
+AMZ039,Amazon_List_Price,B00NI4VHL6,CleanEspresso 2 Gram Espresso Machine Cleaning Tablets Model BR-040 - For Breville Espresso Machines,19.99,USD,True,2026-08-18T23:47:24.982060
+AMZ040,Amazon,B0009IY8U6,Minnetonka Women's Back-Zipper Bootie,69.95,USD,True,2026-08-18T23:47:24.982060
+AMZ041,Amazon,B0CF1N2HKN,"DJDAJIA 24"" x10Pack Bungee Cords with Hooks, 9mm Heavy Duty Bungee Cords,Multi-Purpose Elastic Bunge",9.47,USD,True,2026-08-18T23:47:24.982060
+AMZ041,Amazon_List_Price,B0CF1N2HKN,"DJDAJIA 24"" x10Pack Bungee Cords with Hooks, 9mm Heavy Duty Bungee Cords,Multi-Purpose Elastic Bunge",18.95,USD,True,2026-08-18T23:47:24.982060
+AMZ042,Amazon,B087YHZPSZ,Pirelli Night Dragon Cruiser Motorcycle Tires Set (100/90-19 M/CTL Front),140.88,USD,True,2026-08-18T23:47:24.982060
+AMZ042,Amazon_List_Price,B087YHZPSZ,Pirelli Night Dragon Cruiser Motorcycle Tires Set (100/90-19 M/CTL Front),185.64,USD,True,2026-08-18T23:47:24.982060
+AMZ043,Amazon,B01EBLY81U,Roof and Gutter Deicing Cable - 80' Black Electric Heating Cord with 3 Prong Plug & 120 Volt Operati,68.48,USD,True,2026-08-18T23:47:24.982060
+AMZ043,Amazon_List_Price,B01EBLY81U,Roof and Gutter Deicing Cable - 80' Black Electric Heating Cord with 3 Prong Plug & 120 Volt Operati,72.08,USD,True,2026-08-18T23:47:24.982060
+AMZ044,Amazon,B07QNR7LTH,"JETech Case for iPad Pro 10.5-Inch and iPad Air 3 (10.5-Inch 2019, 3rd Generation), Smart Cover Auto",12.98,USD,True,2026-08-18T23:47:24.982060
+AMZ044,Amazon_List_Price,B07QNR7LTH,"JETech Case for iPad Pro 10.5-Inch and iPad Air 3 (10.5-Inch 2019, 3rd Generation), Smart Cover Auto",14.99,USD,True,2026-08-18T23:47:24.982060
+AMZ045,Amazon,B00WMMMHNM,Seresto Large Dog Vet-Recommended Flea & Tick Treatment & Prevention Collar for Dogs Over 18 lbs. | ,103.0,USD,True,2026-08-18T23:47:24.982060
+AMZ045,Amazon_List_Price,B00WMMMHNM,Seresto Large Dog Vet-Recommended Flea & Tick Treatment & Prevention Collar for Dogs Over 18 lbs. | ,146.38,USD,True,2026-08-18T23:47:24.982060
+AMZ046,Amazon,B006BNBPYU,"SAFAVIEH Lyndhurst Collection Runner Rug - 2'3"" x 16', Red & Ivory, Traditional Oriental Design, Non",90.09,USD,True,2026-08-18T23:47:24.982060
+AMZ046,Amazon_List_Price,B006BNBPYU,"SAFAVIEH Lyndhurst Collection Runner Rug - 2'3"" x 16', Red & Ivory, Traditional Oriental Design, Non",360.0,USD,True,2026-08-18T23:47:24.982060
+AMZ047,Amazon,B00I28F9UI,"Swingline Stapler, 747 Classic Desktop Stapler, 20 Sheet Capacity, Metal, Steel Gray (74769)",17.45,USD,True,2026-08-18T23:47:24.982060
+AMZ047,Amazon_List_Price,B00I28F9UI,"Swingline Stapler, 747 Classic Desktop Stapler, 20 Sheet Capacity, Metal, Steel Gray (74769)",19.39,USD,True,2026-08-18T23:47:24.982060
+AMZ048,Amazon,B00O3BLNGM,"Scott® High-Capacity Jumbo Roll Toilet Paper (07805), 2-Ply, White, Non-perforated, (1,000'/Roll, 12",55.0,USD,True,2026-08-18T23:47:24.982060
+AMZ048,Amazon_List_Price,B00O3BLNGM,"Scott® High-Capacity Jumbo Roll Toilet Paper (07805), 2-Ply, White, Non-perforated, (1,000'/Roll, 12",62.72,USD,True,2026-08-18T23:47:24.982060
+AMZ049,Amazon,B0BXTD29M5,"Kids Swim Fins,Comfortable Silicone Flippers for Swimming and Diving,Size Suitable Beginners Kids Gi",15.49,USD,True,2026-08-18T23:47:24.982060
+AMZ049,Amazon_List_Price,B0BXTD29M5,"Kids Swim Fins,Comfortable Silicone Flippers for Swimming and Diving,Size Suitable Beginners Kids Gi",30.99,USD,True,2026-08-18T23:47:24.982060
+AMZ050,Amazon,B0C28SPGJM,"CIYAGPOOU 3 Pcs Gold Necklace Extenders,925 Sterling Silver Necklace Extender for Women, 1"",2"",3"" Go",4.99,USD,True,2026-08-18T23:47:24.982060
+AMZ050,Amazon_List_Price,B0C28SPGJM,"CIYAGPOOU 3 Pcs Gold Necklace Extenders,925 Sterling Silver Necklace Extender for Women, 1"",2"",3"" Go",9.99,USD,True,2026-08-18T23:47:24.982060
+LZD001,Lazada,6872778045_ID-13022944107,DIODA DAMPER DMV 1500 TV POLYTRON NEW ORIGINAL SUPER,10000.0,IDR,True,2026-08-18T23:47:25.047353
+LZD002,Lazada,8208846537_ID-14616530834,Victus Laptop Gaming HP AMD Ryzen 5 NVIDIA GeForce 8GB / 16GB RAM 512GB SSD Silver / Blue Windows 11,16499000.0,IDR,True,2026-08-18T23:47:25.047353
+LZD002,Lazada_List_Price,8208846537_ID-14616530834,Victus Laptop Gaming HP AMD Ryzen 5 NVIDIA GeForce 8GB / 16GB RAM 512GB SSD Silver / Blue Windows 11,17555000.0,IDR,True,2026-08-18T23:47:25.047353
+LZD003,Lazada,7113060757_ID-14155800952,Laptop HP 15s-fq5148TU Core i3 UHD 4GB & 8GB RAM 512GB SSD W11 15.6 Inch Intel Garansi 2 Tahun / 14s,6099000.0,IDR,True,2026-08-18T23:47:25.048354
+LZD003,Lazada_List_Price,7113060757_ID-14155800952,Laptop HP 15s-fq5148TU Core i3 UHD 4GB & 8GB RAM 512GB SSD W11 15.6 Inch Intel Garansi 2 Tahun / 14s,6499000.0,IDR,True,2026-08-18T23:47:25.048354
+LZD004,Lazada,5183778347_ID-9702626285,Printer HP DeskJet 2336 All in One ( Print Scan Copy ) USB / 2377 / 2335 / 1216 / Garansi 1 Tahun Fo,880000.0,IDR,True,2026-08-18T23:47:25.048354
+LZD004,Lazada_List_Price,5183778347_ID-9702626285,Printer HP DeskJet 2336 All in One ( Print Scan Copy ) USB / 2377 / 2335 / 1216 / Garansi 1 Tahun Fo,990000.0,IDR,True,2026-08-18T23:47:25.048354
+LZD005,Lazada,7766536110_ID-14251418035,"RODA KOPER, RODA PENGGANTI, RODA DOUBLE WHEEL, RODA PUTAR 360",65000.0,IDR,True,2026-08-18T23:47:25.048861
+LZD006,Lazada,125726947_ID-6724258028,TAS KOPER TROLI Lucu ANAK PEREMPUAN GARSEL HARGA GROSIR,165000.0,IDR,True,2026-08-18T23:47:25.048861
+LZD007,Lazada,6592868993_ID-12533564353,"Roda Koper Double Wheel Kanan Kiri Cocok Uk. Koper 18, 20, 22, 24",105000.0,IDR,True,2026-08-18T23:47:25.048861
+LZD007,Lazada_List_Price,6592868993_ID-12533564353,"Roda Koper Double Wheel Kanan Kiri Cocok Uk. Koper 18, 20, 22, 24",150000.0,IDR,True,2026-08-18T23:47:25.048861
+LZD008,Lazada,6265564394_ID-11897638315,(400gr) TAS BELANJA - TAS TROLI - TAS LIPAT - TAS TROLI BELANJA - TAS RODA - TAS WANITA - TAS MURAH ,27000.0,IDR,True,2026-08-18T23:47:25.048861
+LZD009,Lazada,7578640280_ID-13990362196,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",43000.0,IDR,True,2026-08-18T23:47:25.048861
+LZD010,Lazada,738740213_ID-1025756100,WIWA Tas Travel Bag Koper Selempang Anak Spiderman Ukuran Besar,100000.0,IDR,True,2026-08-18T23:47:25.049868
+LZD011,Lazada,7578640280_ID-14288476736,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",43000.0,IDR,True,2026-08-18T23:47:25.049868
+LZD012,Lazada,7578640280_ID-14521834361,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",43000.0,IDR,True,2026-08-18T23:47:25.049868
+LZD013,Lazada,6870220823_ID-13019496532,TRANSISTOR MD1803DFX BODI BESAR SUPER ORIGINAL  BARU,15000.0,IDR,True,2026-08-18T23:47:25.049868
+LZD014,Lazada,6872610872_ID-13613652704,TRANSISTOR TR TT2140 NEW ORIGINAL,12500.0,IDR,True,2026-08-18T23:47:25.049868
+LZD015,Lazada,6872618914_ID-13568330854,TRANSISTOR TR D5024 ORIGINAL NEW ( BODI KECIL),10000.0,IDR,True,2026-08-18T23:47:25.049868
+LZD016,Lazada,6870226939_ID-13613624499,TRANSISTOR TR D2499 NEW ORIGINAL SUPER,12000.0,IDR,True,2026-08-18T23:47:25.049868
+LZD017,Lazada,7128214936_ID-13433212293,"GACUN 4 KABEL LCD/LED MK4 130WAT (50"") ORIGINAL GACUN",50000.0,IDR,True,2026-08-18T23:47:25.049868
+LZD018,Lazada,2984200288_ID-13976190075,Tinta Printer HP Original 682 Hitam Black / Twin Pack / Cartridge Asli Official,307000.0,IDR,True,2026-08-18T23:47:25.050900
+LZD019,Lazada,7578640280_ID-13990362202,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",43000.0,IDR,True,2026-08-18T23:47:25.050900
+LZD020,Lazada,8112404633_ID-14504162571,"AS RODA, BAUT RODA KOPER,RIVET TAS, BESI RODA KOPER",2500.0,IDR,True,2026-08-18T23:47:25.050900
+LZD021,Lazada,406786698_ID-449414575,Tas Travel Anak - Travel Bag Koper Selempang Winnie the Pooh Ukuran Besar - WIWA,69000.0,IDR,True,2026-08-18T23:47:25.050900
+LZD021,Lazada_List_Price,406786698_ID-449414575,Tas Travel Anak - Travel Bag Koper Selempang Winnie the Pooh Ukuran Besar - WIWA,100000.0,IDR,True,2026-08-18T23:47:25.050900
+LZD022,Lazada,7950320981_ID-14363222334,Trunki Ride on Luggage - Tas Koper Duduk Anak,999000.0,IDR,True,2026-08-18T23:47:25.050900
+LZD023,Lazada,7578640280_ID-13990362198,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",43000.0,IDR,True,2026-08-18T23:47:25.050900
+LZD024,Lazada,8169340043_ID-14572608696,TROLI RODA 3 SEKOLAH SD SMP TROLI LIPAT BAHAN PVC IMPORT SERBAGUNA,219900.0,IDR,True,2026-08-18T23:47:25.050900
+LZD024,Lazada_List_Price,8169340043_ID-14572608696,TROLI RODA 3 SEKOLAH SD SMP TROLI LIPAT BAHAN PVC IMPORT SERBAGUNA,430000.0,IDR,True,2026-08-18T23:47:25.050900
+LZD025,Lazada,516720033_ID-707610891,Bontoy Strap Leather Cream,100000.0,IDR,True,2026-08-18T23:47:25.050900
+LZD026,Lazada,339797458_ID-351457229,Onlan Set Tas Koper Anak Motif Karakter LAKI LAKI  Gambar JAGOAN SUPER Dan MOBIL Bus Bahan Sponge An,179000.0,IDR,True,2026-08-18T23:47:25.050900
+LZD026,Lazada_List_Price,339797458_ID-351457229,Onlan Set Tas Koper Anak Motif Karakter LAKI LAKI  Gambar JAGOAN SUPER Dan MOBIL Bus Bahan Sponge An,400000.0,IDR,True,2026-08-18T23:47:25.050900
+LZD027,Lazada,TR356TBAA4XCOBANID-9814470,Trunki Ride on Kids Suitcase Terrance Pink,899000.0,IDR,True,2026-08-18T23:47:25.050900
+LZD028,Lazada,738740213_ID-11149090339,WIWA Tas Travel Bag Koper Selempang Anak Spiderman Ukuran Besar,100000.0,IDR,True,2026-08-18T23:47:25.050900
+LZD029,Lazada,7696384938_ID-14148478217,Transparant Airbag Laser Case for X XS XR MAX 11 12 13 14 Plus Pro Max,9459.0,IDR,True,2026-08-18T23:47:25.050900
+LZD029,Lazada_List_Price,7696384938_ID-14148478217,Transparant Airbag Laser Case for X XS XR MAX 11 12 13 14 Plus Pro Max,25000.0,IDR,True,2026-08-18T23:47:25.050900
+LZD030,Lazada,6870240239_ID-13568364161,TRANSISTOR NEW ORIGINAL MD1803DFH KECIL ( 1 BUAH ),12500.0,IDR,True,2026-08-18T23:47:25.051904
+SHN001,SHEIN,40460214,"Tall Narrow Bathroom Storage Cabinet With 3 Drawers And 2 Shelves, Free Standing Kitchen Pantry Orga",120.99,USD,True,2026-08-18T23:47:25.094711
+SHN002,SHEIN,40351123,"1PC Natural Yellow Rainbow Halo Raw Crystal, Aromatherapist Stone, Home Decoration, Office Decoratio",2.1,USD,True,2026-08-18T23:47:25.094711
+SHN003,SHEIN,40433938,1PC Sexy Lingerie Body StockingOpen Crotch Hollow Out See Through Bodystocking Without Underwear,2.14,USD,True,2026-08-18T23:47:25.094711
+SHN003,SHEIN_List_Price,40433938,1PC Sexy Lingerie Body StockingOpen Crotch Hollow Out See Through Bodystocking Without Underwear,3.39,USD,True,2026-08-18T23:47:25.094711
+SHN004,SHEIN,39962322,"Italian Genuine Leather Thick Belt For Men, Retro Solid Brass Buckle",21.3,USD,True,2026-08-18T23:47:25.094711
+SHN004,SHEIN_List_Price,39962322,"Italian Genuine Leather Thick Belt For Men, Retro Solid Brass Buckle",22.8,USD,True,2026-08-18T23:47:25.094711
+SHN005,SHEIN,39788871,Unbeatablesale Hylomar 61701 13.53 Oz Hylomar Cleaner Spray Can,28.53,USD,True,2026-08-18T23:47:25.095711
+SHN006,SHEIN,39744348,"1 Set Cup & Saucer, Cute Cat Pattern, High-End Coffee Cup & Saucer Set, Latte Art",12.2,USD,True,2026-08-18T23:47:25.095711
+SHN006,SHEIN_List_Price,39744348,"1 Set Cup & Saucer, Cute Cat Pattern, High-End Coffee Cup & Saucer Set, Latte Art",12.7,USD,True,2026-08-18T23:47:25.095711
+SHN007,SHEIN,40505782,"Unbeatablesale PIX North America MXV4-410 0.5 X 41 In. Heavy-Duty Lawn & Garden Equipment Belt,; Bla",16.98,USD,True,2026-08-18T23:47:25.095711
+SHN008,SHEIN,41434093,"30pcs,40in Rocket Balloons 6 Assorted Colors Flying Magic Long Balloons With Whistling Noise Premium",2.1,USD,True,2026-08-18T23:47:25.095711
+SHN008,SHEIN_List_Price,41434093,"30pcs,40in Rocket Balloons 6 Assorted Colors Flying Magic Long Balloons With Whistling Noise Premium",2.2,USD,True,2026-08-18T23:47:25.095711
+SHN009,SHEIN,14063170,"20pcs Artificial Green Plant Leaves Valentine'S Day Gift DIY Cake Decoration, Candy Box, Birthday Pa",0.83,USD,True,2026-08-18T23:47:25.095711
+SHN009,SHEIN_List_Price,14063170,"20pcs Artificial Green Plant Leaves Valentine'S Day Gift DIY Cake Decoration, Candy Box, Birthday Pa",1.5,USD,True,2026-08-18T23:47:25.095711
+SHN010,SHEIN,40438113,"10pcs Transparent Baking Boxes With Window, Dessert Box, Pastry Box,  Gift Box, Easy And Convenient,",6.63,USD,True,2026-08-18T23:47:25.095711
+SHN010,SHEIN_List_Price,40438113,"10pcs Transparent Baking Boxes With Window, Dessert Box, Pastry Box,  Gift Box, Easy And Convenient,",7.8,USD,True,2026-08-18T23:47:25.095711
+SHN011,SHEIN,40871127,1PC Retro Resin Telephone Figurine Piggy Bank Vintage Coin Bank Phone Birthday Gift Coffee Shop Deco,20.5,USD,True,2026-08-18T23:47:25.095711
+SHN011,SHEIN_List_Price,40871127,1PC Retro Resin Telephone Figurine Piggy Bank Vintage Coin Bank Phone Birthday Gift Coffee Shop Deco,21.3,USD,True,2026-08-18T23:47:25.095711
+SHN012,SHEIN,40470348,30pcs Nail Art Decorations DIY Art Punk Style Mixed Pumpkin/Spider/Bat/Witch/Vampire 3D Three-Dimens,1.7,USD,True,2026-08-18T23:47:25.095711
+SHN012,SHEIN_List_Price,40470348,30pcs Nail Art Decorations DIY Art Punk Style Mixed Pumpkin/Spider/Bat/Witch/Vampire 3D Three-Dimens,2.0,USD,True,2026-08-18T23:47:25.095711
+SHN013,SHEIN,29874249,"Juvale Wooden Drawer Organizer With 12 Compartments, Divided Tray For Arts And Crafts Supplies, Stat",17.99,USD,True,2026-08-18T23:47:25.095711
+SHN013,SHEIN_List_Price,29874249,"Juvale Wooden Drawer Organizer With 12 Compartments, Divided Tray For Arts And Crafts Supplies, Stat",25.7,USD,True,2026-08-18T23:47:25.095711
+SHN014,SHEIN,40598697,Unbeatablesale K Tool International KTI22521 3/8 Inch Drive Flex Spark Plug Socket 5/8 Inch,13.5,USD,True,2026-08-18T23:47:25.096712
+SHN015,SHEIN,40828986,1PC Large Waterproof Makeup Bag With Handle - Travel Toiletry Organizer For Women And Girls - Spacio,11.2,USD,True,2026-08-18T23:47:25.096712
+SHN015,SHEIN_List_Price,40828986,1PC Large Waterproof Makeup Bag With Handle - Travel Toiletry Organizer For Women And Girls - Spacio,12.0,USD,True,2026-08-18T23:47:25.096712
+SHN016,SHEIN,40624265,"35pcs Mixed Acrylic Body Piercing Pearl Effect, Transparent Dual Color, Matte Tongue Rings For Women",4.55,USD,True,2026-08-18T23:47:25.096712
+SHN016,SHEIN_List_Price,40624265,"35pcs Mixed Acrylic Body Piercing Pearl Effect, Transparent Dual Color, Matte Tongue Rings For Women",6.1,USD,True,2026-08-18T23:47:25.096712
+SHN017,SHEIN,26290211,Dolce & Gabbana 1.6oz The Only One For Women -  EDP Spray,66.74,USD,True,2026-08-18T23:47:25.096712
+SHN017,SHEIN_List_Price,26290211,Dolce & Gabbana 1.6oz The Only One For Women -  EDP Spray,98.0,USD,True,2026-08-18T23:47:25.096712
+SHN018,SHEIN,36997693,Unbeatablesale 1467 Performer Series Accelerator Pump Assembly,35.33,USD,True,2026-08-18T23:47:25.096712
+SHN019,SHEIN,40374435,Unbeatablesale Jumbo Insulated Travel Bag,22.16,USD,True,2026-08-18T23:47:25.096712
+SHN020,SHEIN,40906414,"Jepeak Jepeak Decorative Linen Throw Pillow Covers Cushion Cases, Pack Of 4 Rustic Woven Textured Pi",24.2,USD,True,2026-08-18T23:47:25.096712
+SHN020,SHEIN_List_Price,40906414,"Jepeak Jepeak Decorative Linen Throw Pillow Covers Cushion Cases, Pack Of 4 Rustic Woven Textured Pi",33.6,USD,True,2026-08-18T23:47:25.096712
+SHN021,SHEIN,40248039,1-Piece Rustic Style Hard  Notebook With Simple Rose Print Design,4.8,USD,True,2026-08-18T23:47:25.096712
+SHN022,SHEIN,38366050,300 Color Professional Oil Colored Pencils Artist Pencils Set Soft Series Lead For Coloring Book Ske,79.2,USD,True,2026-08-18T23:47:25.097707
+SHN023,SHEIN,40291247,"PHNIBIRD Four-Leaf Clover Zirconia Necklace, Women's Necklace, Women's Pendant Necklace, Hypoallerge",10.2,USD,True,2026-08-18T23:47:25.097707
+SHN024,SHEIN,41439224,360Pcs Hypoallergenic DIY Earring Hooks For Jewelry Earring Making Supplies Kit Gold And Silver Fish,15.99,USD,True,2026-08-18T23:47:25.097707
+SHN024,SHEIN_List_Price,41439224,360Pcs Hypoallergenic DIY Earring Hooks For Jewelry Earring Making Supplies Kit Gold And Silver Fish,18.99,USD,True,2026-08-18T23:47:25.097707
+SHN025,SHEIN,39285056,"1pc Tree Pattern Decorative Throw Pillow Cover (Pillow Insert Not Included), Soft & Comfortable Sing",2.0,USD,True,2026-08-18T23:47:25.097707
+SHN025,SHEIN_List_Price,39285056,"1pc Tree Pattern Decorative Throw Pillow Cover (Pillow Insert Not Included), Soft & Comfortable Sing",2.5,USD,True,2026-08-18T23:47:25.097707
+SHN026,SHEIN,39803911,"Unbeatablesale Keeper 8874430 16 Ft. Multicolored Tie Down Strap, 3333 Lbs",33.83,USD,True,2026-08-18T23:47:25.097707
+SHN027,SHEIN,40178377,"1pc Unisex Brown PU Leather Cuff Bracelet With Circular Decor, Vintage Medieval Viking Warrior Cospl",3.32,USD,True,2026-08-18T23:47:25.097707
+SHN027,SHEIN_List_Price,40178377,"1pc Unisex Brown PU Leather Cuff Bracelet With Circular Decor, Vintage Medieval Viking Warrior Cospl",3.9,USD,True,2026-08-18T23:47:25.097707
+SHN028,SHEIN,40148416,"1PC Magic Small Hand With Magnet, Prank Props Dark Magic Toy, Simple Coin Magic,Horror Magic Funny G",1.67,USD,True,2026-08-18T23:47:25.097707
+SHN028,SHEIN_List_Price,40148416,"1PC Magic Small Hand With Magnet, Prank Props Dark Magic Toy, Simple Coin Magic,Horror Magic Funny G",1.7,USD,True,2026-08-18T23:47:25.097707
+SHN029,SHEIN,41299478,"Unbeatablesale Jiallo 15120 Clock,; Thermometer & Hygrometer",89.02,USD,True,2026-08-18T23:47:25.097707
+SHN030,SHEIN,40213716,Unbeatablesale Jiallo 33016 Mirrored Jewelry Organizer 3 Compartments,41.2,USD,True,2026-08-18T23:47:25.097707

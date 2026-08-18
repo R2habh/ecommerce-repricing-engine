@@ -28,6 +28,29 @@
             font-size: 1.5rem;
             font-weight: 600;
         }
+        .nav-tabs {
+            display: flex;
+            gap: 0.5rem;
+        }
+        .nav-tab {
+            padding: 0.5rem 1rem;
+            background: transparent;
+            border: none;
+            color: #95a5a6;
+            font-size: 0.875rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+        .nav-tab:hover {
+            background: rgba(255,255,255,0.1);
+            color: white;
+        }
+        .nav-tab.active {
+            background: #3498db;
+            color: white;
+        }
         .header .stats {
             display: flex;
             gap: 1.5rem;
@@ -195,6 +218,10 @@
 <body>
     <header class="header">
         <h1>Repricing Engine Dashboard</h1>
+        <nav class="nav-tabs">
+            <button class="nav-tab active" onclick="location.href='/'">Dashboard</button>
+            <button class="nav-tab" onclick="location.href='/analysis'">Analysis</button>
+        </nav>
         <div class="stats">
             <div class="stat">
                 <div class="stat-value" id="totalProducts">{{ products|length }}</div>

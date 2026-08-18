@@ -7,7 +7,9 @@ from typing import Optional
 import pandas as pd
 import io
 import csv
+import json
 from datetime import datetime
+from collections import Counter
 
 from app.models.product import Product
 from app.models.competitor import CompetitorPrice
@@ -100,6 +102,148 @@ def calculate_recommendations(products: list[Product], competitors: list[Competi
             "safe_to_apply": result["safe_to_apply"],
         })
     return results
+
+
+def get_analysis_data(products: list[Product], competitors: list[CompetitorPrice], recommendations: list[dict]) -> dict:
+    df_products = pd.DataFrame([p.model_dump() for p in products])
+    df_comp = pd.DataFrame([{
+        'product_id': c.product_id,
+        'competitor_name': c.competitor_name,
+        'price': c.price,
+        'currency': c.currency
+    } for c in competitors])
+    df_rec = pd.DataFrame(recommendations)
+    
+    category_stats = []
+    for cat in df_products['category'].unique():
+        if pd.isna(cat):
+            continue
+        cat_products = df_products[df_products['category'] == cat]
+        cat_recs = df_rec[df_rec['category'] == cat]
+        cat_comp = df_comp[df_comp['product_id'].isin(cat_products['id'])]
+        
+        safe_count = int(cat_recs['safe_to_apply'].sum()) if len(cat_recs) > 0 else 0
+        avg_change = float(cat_recs['price_change_percent'].mean()) if len(cat_recs) > 0 else 0
+        avg_margin = float(cat_recs['margin_percent'].mean()) if len(cat_recs) > 0 else 0
+        competitor_count = len(cat_comp['competitor_name'].unique()) if len(cat_comp) > 0 else 0
+        
+        category_stats.append({
+            "category": cat,
+            "product_count": int(len(cat_products)),
+            "avg_current_price": round(float(cat_products['current_price'].mean()), 2),
+            "avg_recommended_price": round(float(cat_recs['recommended_price'].mean()), 2) if len(cat_recs) > 0 else 0,
+            "avg_change_percent": round(avg_change, 1),
+            "avg_margin_percent": round(avg_margin, 1),
+            "safe_count": safe_count,
+            "competitor_count": competitor_count
+        })
+    
+    competitor_stats = []
+    for comp in df_comp['competitor_name'].unique():
+        if pd.isna(comp):
+            continue
+        comp_data = df_comp[df_comp['competitor_name'] == comp]
+        comp_products = df_products[df_products['id'].isin(comp_data['product_id'])]
+        comp_recs = df_rec[df_rec['product_id'].isin(comp_data['product_id'])]
+        
+        avg_price = float(comp_data['price'].mean())
+        price_vs_our = 0
+        if len(comp_recs) > 0:
+            comp_prices = comp_data.set_index('product_id')['price']
+            merged = comp_recs.copy()
+            merged['comp_price'] = merged['product_id'].map(comp_prices)
+            merged = merged.dropna(subset=['comp_price'])
+            if len(merged) > 0:
+                price_vs_our = float((((merged['recommended_price'] - merged['comp_price']) / merged['comp_price']) * 100).mean())
+        
+        competitor_stats.append({
+            "competitor": comp,
+            "product_count": int(len(comp_data['product_id'].unique())),
+            "avg_price": round(avg_price, 2),
+            "avg_price_vs_our_percent": round(price_vs_our, 1),
+            "currencies": list(comp_data['currency'].unique())
+        })
+    
+    brand_stats = []
+    for brand in df_products['brand'].unique():
+        if pd.isna(brand) or brand == 'Unknown' or brand == '':
+            continue
+        brand_products = df_products[df_products['brand'] == brand]
+        brand_recs = df_rec[df_rec['brand'] == brand]
+        brand_comp = df_comp[df_comp['product_id'].isin(brand_products['id'])]
+        
+        safe_count = int(brand_recs['safe_to_apply'].sum()) if len(brand_recs) > 0 else 0
+        avg_change = float(brand_recs['price_change_percent'].mean()) if len(brand_recs) > 0 else 0
+        avg_margin = float(brand_recs['margin_percent'].mean()) if len(brand_recs) > 0 else 0
+        
+        brand_stats.append({
+            "brand": brand,
+            "product_count": int(len(brand_products)),
+            "avg_current_price": round(float(brand_products['current_price'].mean()), 2),
+            "avg_change_percent": round(avg_change, 1),
+            "avg_margin_percent": round(avg_margin, 1),
+            "safe_count": safe_count,
+            "competitor_count": len(brand_comp['competitor_name'].unique()) if len(brand_comp) > 0 else 0
+        })
+    
+    brand_stats.sort(key=lambda x: x['product_count'], reverse=True)
+    brand_stats = brand_stats[:20]
+    
+    price_distribution = []
+    bins = [0, 500, 1000, 2000, 5000, 10000, 50000, float('inf')]
+    labels = ['0-500', '500-1K', '1K-2K', '2K-5K', '5K-10K', '10K-50K', '50K+']
+    for i in range(len(bins)-1):
+        count = len(df_products[(df_products['current_price'] >= bins[i]) & (df_products['current_price'] < bins[i+1])])
+        price_distribution.append({"range": labels[i], "count": int(count)})
+    
+    change_distribution = []
+    bins_change = [-float('inf'), -20, -10, -5, 0, 5, 10, 20, float('inf')]
+    labels_change = ['<-20%', '-20% to -10%', '-10% to -5%', '-5% to 0%', '0% to 5%', '5% to 10%', '10% to 20%', '>20%']
+    for i in range(len(bins_change)-1):
+        count = len(df_rec[(df_rec['price_change_percent'] >= bins_change[i]) & (df_rec['price_change_percent'] < bins_change[i+1])])
+        change_distribution.append({"range": labels_change[i], "count": int(count)})
+    
+    currency_stats = df_products['currency'].value_counts().to_dict()
+    currency_stats = {k: int(v) for k, v in currency_stats.items()}
+    
+    return {
+        "category_stats": category_stats,
+        "competitor_stats": competitor_stats,
+        "brand_stats": brand_stats,
+        "price_distribution": price_distribution,
+        "change_distribution": change_distribution,
+        "currency_stats": currency_stats,
+        "total_products": len(df_products),
+        "total_competitors": len(df_comp),
+        "total_recommendations": len(df_rec),
+        "safe_recommendations": int(df_rec['safe_to_apply'].sum()),
+        "avg_price_change": round(float(df_rec['price_change_percent'].mean()), 1) if len(df_rec) > 0 else 0,
+        "avg_margin": round(float(df_rec['margin_percent'].mean()), 1) if len(df_rec) > 0 else 0,
+    }
+
+
+@app.get("/analysis", response_class=HTMLResponse)
+async def analysis_page(request: Request):
+    products = load_products()
+    competitors = load_competitors()
+    recommendations = calculate_recommendations(products, competitors)
+    analysis = get_analysis_data(products, competitors, recommendations)
+    
+    template = env.get_template("analysis.html")
+    html = template.render(
+        request={},
+        analysis=analysis,
+    )
+    return HTMLResponse(content=html)
+
+
+@app.get("/api/analysis")
+async def get_analysis():
+    products = load_products()
+    competitors = load_competitors()
+    recommendations = calculate_recommendations(products, competitors)
+    analysis = get_analysis_data(products, competitors, recommendations)
+    return analysis
 
 
 @app.get("/", response_class=HTMLResponse)

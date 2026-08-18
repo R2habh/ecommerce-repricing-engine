@@ -1,21 +1,130 @@
 id,sku,title,brand,category,cost,current_price,currency,minimum_margin_percent,maximum_price_change_percent,active
-P001,SKU001,Wireless Bluetooth Headphones,SoundMax,Electronics,700,999,INR,15,20,true
-P002,SKU002,Running Shoes,Nike,Shoes,1800,2499,INR,20,15,true
-P003,SKU003,Laptop Backpack,BagCo,Bags,900,1499,INR,15,20,true
-P004,SKU004,USB C Charging Cable,TechCo,Accessories,200,399,INR,20,10,true
-P005,SKU005,Smart Watch,TechTime,Electronics,2500,3999,INR,15,20,true
-P006,SKU006,Mechanical Keyboard,KeyMaster,Electronics,1200,1899,INR,15,20,true
-P007,SKU007,Gaming Mouse,ProGamer,Electronics,800,1299,INR,20,15,true
-P008,SKU008,Bluetooth Speaker,SoundMax,Electronics,600,999,INR,15,20,true
-P009,SKU009,Yoga Mat,FitLife,Fitness,300,599,INR,20,10,true
-P010,SKU010,Resistance Bands Set,FitLife,Fitness,250,499,INR,20,10,true
-P011,SKU011,Stainless Steel Water Bottle,HydroFlask,Accessories,400,799,INR,15,20,true
-P012,SKU012,Portable Power Bank 20000mAh,TechCo,Electronics,900,1499,INR,20,15,true
-P013,SKU013,Wireless Earbuds Pro,SoundMax,Electronics,1100,1799,INR,15,20,true
-P014,SKU014,LED Desk Lamp,LumiHome,Home,500,899,INR,20,10,true
-P015,SKU015,Ergonomic Office Chair,ComfortPro,Furniture,4500,7999,INR,15,20,true
-P016,SKU016,Standing Desk Converter,ErgoWork,Furniture,1800,2999,INR,15,20,true
-P017,SKU017,Air Fryer 5L,CookMaster,Home,1500,2499,INR,20,15,true
-P018,SKU018,Robot Vacuum Cleaner,CleanBot,Home,3500,5999,INR,15,20,true
-P019,SKU019,Instant Pot 7-in-1,CookMaster,Home,2200,3499,INR,15,20,true
-P020,SKU020,Smart Home Hub,HomeAuto,Electronics,1800,2799,INR,15,20,true
+P001,SKU001,Wireless Bluetooth Headphones,SoundMax,Electronics,700.0,999.0,INR,15,20,True
+P002,SKU002,Running Shoes,Nike,Shoes,1800.0,2499.0,INR,20,15,True
+P003,SKU003,Laptop Backpack,BagCo,Bags,900.0,1499.0,INR,15,20,True
+P004,SKU004,USB C Charging Cable,TechCo,Accessories,200.0,399.0,INR,20,10,True
+P005,SKU005,Smart Watch,TechTime,Electronics,2500.0,3999.0,INR,15,20,True
+P006,SKU006,Mechanical Keyboard,KeyMaster,Electronics,1200.0,1899.0,INR,15,20,True
+P007,SKU007,Gaming Mouse,ProGamer,Electronics,800.0,1299.0,INR,20,15,True
+P008,SKU008,Bluetooth Speaker,SoundMax,Electronics,600.0,999.0,INR,15,20,True
+P009,SKU009,Yoga Mat,FitLife,Fitness,300.0,599.0,INR,20,10,True
+P010,SKU010,Resistance Bands Set,FitLife,Fitness,250.0,499.0,INR,20,10,True
+P011,SKU011,Stainless Steel Water Bottle,HydroFlask,Accessories,400.0,799.0,INR,15,20,True
+P012,SKU012,Portable Power Bank 20000mAh,TechCo,Electronics,900.0,1499.0,INR,20,15,True
+P013,SKU013,Wireless Earbuds Pro,SoundMax,Electronics,1100.0,1799.0,INR,15,20,True
+P014,SKU014,LED Desk Lamp,LumiHome,Home,500.0,899.0,INR,20,10,True
+P015,SKU015,Ergonomic Office Chair,ComfortPro,Furniture,4500.0,7999.0,INR,15,20,True
+P016,SKU016,Standing Desk Converter,ErgoWork,Furniture,1800.0,2999.0,INR,15,20,True
+P017,SKU017,Air Fryer 5L,CookMaster,Home,1500.0,2499.0,INR,20,15,True
+P018,SKU018,Robot Vacuum Cleaner,CleanBot,Home,3500.0,5999.0,INR,15,20,True
+P019,SKU019,Instant Pot 7-in-1,CookMaster,Home,2200.0,3499.0,INR,15,20,True
+P020,SKU020,Smart Home Hub,HomeAuto,Electronics,1800.0,2799.0,INR,15,20,True
+AMZ001,B09NQJFRW6,Saucony Men's Kinvara 13 Running Shoe,Saucony,Fashion,34.67,57.79,USD,15,20,True
+AMZ002,B0074TRKFI,"Kishigo Premium Black Series Heavy Duty Unisex Reflective Safety Vest 1514, ANSI Type R / Class 2 Co",Kishigo,Home,17.1,28.5,USD,15,20,True
+AMZ003,B07V5LK5J3,TWINSLUXES Solar Post Cap Lights Outdoor - Waterproof LED Fence Post Solar Lights for 3.5x3.5/4x4/5x,TWINSLUXES,Home,20.39,33.99,USD,15,20,True
+AMZ004,B00080QHMM,"Accutire MS-4021B Digital Tire Pressure Gauge with 4 Valve Caps, 5-150psi (psi, bar, kPa, kg/cm2)",Accutire,Automotive,10.77,17.95,USD,15,20,True
+AMZ005,B0CNZ6ZV14,SAURA LIFE SCIENCE Adivasi Ayurvedic Neelgiri Hair growth Hair Oil-250ML (2),SAURA LIFE SCIENCE,Electronics,479.4,799.0,INR,15,20,True
+AMZ006,B0BGSF52LR,"KASOTT Replacement Airpod Pro Ear Tip Premium Memory Foam Earbud Tips, Perfect Noise Reduction, Ultr",KASOTT,Electronics,10.73,17.88,USD,15,20,True
+AMZ007,B08XMPKJ1L,"Bio-Oil Skincare Body Oil (Natural) Serum for Scars and Stretchmarks, Face and Body Moisturizer Hydr",Bio-Oil,Electronics,14.97,24.95,USD,15,20,True
+AMZ008,B0B8CP57MN,"crysting 13 Inch Sewing Box Three Layers, Plastic Craft Organizers and Storage, Multifunction Craft ",crysting,Electronics,12.59,20.99,USD,15,20,True
+AMZ009,B001HWGJAK,"Ridgid 62990 T-201 5"" Straight Auger",RIDGID,Home,15.23,25.38,USD,15,20,True
+AMZ010,B07PGY6STR,Core 10 Women's All Day Comfort High-Waist Side-Pocket Yoga Legging,Core 10,Fashion,14.35,23.92,USD,15,20,True
+AMZ012,B0BK8QY1JB,"Trucker Bluetooth Headsets, Wireless Headset with AI Environmental Noise Cancelling & Mute Microphon",EKSA,Electronics,50.99,84.99,USD,15,20,True
+AMZ013,B00LMTKUU8,LOOGU Desert Netting Scarf Tactical Miliary Camo Mesh Scarves for Men and Women Wraps ideal for Warg,LOOGU,Electronics,6.71,11.19,GBP,15,20,True
+AMZ014,B0CN8RQYDG,PULOTE 100PCS Pink Plastic Plates - Heavy Duty Pink Disposable Plates - Pink and Gold Plastic Plates,PULOTE,Electronics,26.99,44.99,USD,15,20,True
+AMZ015,B001D2X9WU,"Stahlwille 96410704 Double Ended Ring Wrench Set Corona, 6mm x 7mm to 20mm x 22mm, Shallow Offset, C",Stahlwille,Home,84.66,141.1,USD,15,20,True
+AMZ016,B083S6S7VG,"2Packs 18V Battery and Charger Combo for 18-Volt Cordless Tools Battery and P118B Charger, Cell9102 ",Cell9102,Home,41.99,69.99,USD,15,20,True
+AMZ017,B09YFS3TR9,"General Tools 3-Pack Retractable Utility Knife WS-1201, Snap-Off Blade, Lightweight Box Cutter, 9mm,",General Tools,Home,3.71,6.19,USD,15,20,True
+AMZ018,B001PT6X8S,"DANIEL SMITH Extra Fine Watercolor Paint, 15ml Tube, Iridescent Antique Copper, 284640009",DANIEL SMITH,Electronics,8.11,13.52,USD,15,20,True
+AMZ019,B09M99SBQ3,NZND Case for At&t Motivate 3 (3rd Version)/ Motivate 2 (2nd)/ Cricket Icon 3/ Cricket Splendor with,NZND,Electronics,8.39,13.98,USD,15,20,True
+AMZ020,B07PX6QSH2,"Braun SE5-895 Epilator, Hair Removal Device, Epilator for Women, Includes Shaver and Facial Cleansin",Braun,Electronics,56.96,94.94,USD,15,20,True
+AMZ021,B0C1HSC43Y,Aqua Select Resin Step in a Box White | Ultra Sturdy Steps,Aqua Select,Electronics,239.99,399.99,USD,15,20,True
+AMZ022,B003HLZ3IS,Swanson Raw Multi-Glandular for Men 60 Capsules,Swanson,Electronics,7.68,12.8,USD,15,20,True
+AMZ023,B0040AHYGY,Dingo Mens Dean Harness Pull On Casual Boots Mid Calf - Black,Dingo,Fashion,86.97,144.95,USD,15,20,True
+AMZ024,B00O85SSK2,Nature's Answer Echinacea Alcohol Free Extract 1 Fluid Ounce | Promotes Overall Wellness | Natural I,Nature's Answer,Electronics,7.64,12.74,USD,15,20,True
+AMZ025,B0BBFYRJCD,FTL GU10 Led Bulb 5000K Daylight White Dimmable Spot Light 6W 600LM 50W Halogen Replacement Bulbs fo,FTL,Home,7.79,12.99,USD,15,20,True
+AMZ026,B0BTNL5FZK,"Car Underglow Lights,4PCs,180 LED RGB 8 Million Colors Music Mode,Car Under Glow Neon Accent Strip L",H HESHECEIN,Automotive,12.55,20.91,USD,15,20,True
+AMZ027,B076LRJ528,"Koolertron One Handed Programmable Mechanical Keyboard with OEM Gateron Red Switch,All 48 Programmab",Koolertron,Electronics,51.59,85.99,USD,15,20,True
+AMZ028,B0CBLGHG1F,"Signature Fitness Rubber Coated Hex Dumbbell Weight Set and Storage Rack, Multiple Packages",Signature Fitness,Electronics,59.99,99.99,USD,15,20,True
+AMZ029,B0BWN2DTJD,"Art3d 4-Piece Wood Slat Acoustic Panels for Stylish Decor and Noise Reduction, 3D Textured Panel for",Art3d,Home,96.89,161.49,USD,15,20,True
+AMZ030,B0CY242B8P,4th of July Door Sign Independence Day Wreath Patriotic Door Decoration Flower US Wooden Sign for Me,FANTPK,Home,4.79,7.99,USD,15,20,True
+AMZ031,B084ZSPND4,"P&G Professional Deep Clean Restroom Cleaner by Comet Professional, Dilute2Go, 4.5 Liter Bottle, Dee",P&G PROFESSIONAL,Electronics,24.89,41.49,USD,15,20,True
+AMZ032,B089N74ZRN,"OLIGHT Perun Mini LED Headlamp 1000 Lumens Rechargeable, Right Angle Flashlight with Headband, EDC H",OLIGHT,Home,38.97,64.95,USD,15,20,True
+AMZ033,B099H8N6MN,"Posh Creations Bean Bag Chair for Kids, Teens, and Adults Includes Removable and Machine Washable Co",Posh Creations,Home,31.04,51.74,USD,15,20,True
+AMZ034,B002WKK86M,In The Swim Chlorine Neutralizer for Swimming Pools - Quickly Reduces Chlorine Sanitizer Levels - 90,In The Swim,Tools,11.74,19.56,USD,15,20,True
+AMZ035,B00EP7OGI6,Fruit of the Loom Women's 5 Pack Microfiber Low Rise Hipster Panties,Fruit of the Loom Women's IA,Fashion,5.99,9.99,USD,15,20,True
+AMZ036,B0BTH8F4CV,"Idzo 100% Metal Obelisk Trellis for Climbing Plants Outdoor 6ft - 72in, Heavy Duty Black Garden Trel",IDZO,Electronics,24.83,41.39,USD,15,20,True
+AMZ037,B0816LQ1DL,guleek for iPhone 6 Screen Replacement White Touch Display LCD Digitizer Assembly with Front Facing ,GULEEK,Electronics,11.99,19.99,USD,15,20,True
+AMZ038,B07X3SXVFG,ICTIVE Long Sleeve Workout Shirts for Women Loose fit Workout Tops for Women Running Shirts Women wi,Fihapyli,Fashion,13.19,21.98,USD,15,20,True
+AMZ039,B00NI4VHL6,CleanEspresso 2 Gram Espresso Machine Cleaning Tablets Model BR-040 - For Breville Espresso Machines,CleanEspresso,Electronics,10.19,16.99,USD,15,20,True
+AMZ040,B0009IY8U6,Minnetonka Women's Back-Zipper Bootie,Minnetonka,Fashion,41.97,69.95,USD,15,20,True
+AMZ041,B0CF1N2HKN,"DJDAJIA 24"" x10Pack Bungee Cords with Hooks, 9mm Heavy Duty Bungee Cords,Multi-Purpose Elastic Bunge",Generic,Home,5.68,9.47,USD,15,20,True
+AMZ042,B087YHZPSZ,Pirelli Night Dragon Cruiser Motorcycle Tires Set (100/90-19 M/CTL Front),Pirelli,Electronics,84.53,140.88,USD,15,20,True
+AMZ043,B01EBLY81U,Roof and Gutter Deicing Cable - 80' Black Electric Heating Cord with 3 Prong Plug & 120 Volt Operati,Wrap-On,Home,41.09,68.48,USD,15,20,True
+AMZ044,B07QNR7LTH,"JETech Case for iPad Pro 10.5-Inch and iPad Air 3 (10.5-Inch 2019, 3rd Generation), Smart Cover Auto",JETech,Electronics,7.79,12.98,USD,15,20,True
+AMZ045,B00WMMMHNM,Seresto Large Dog Vet-Recommended Flea & Tick Treatment & Prevention Collar for Dogs Over 18 lbs. | ,Seresto,Electronics,61.8,103.0,USD,15,20,True
+AMZ046,B006BNBPYU,"SAFAVIEH Lyndhurst Collection Runner Rug - 2'3"" x 16', Red & Ivory, Traditional Oriental Design, Non",Safavieh,Home,54.05,90.09,USD,15,20,True
+AMZ047,B00I28F9UI,"Swingline Stapler, 747 Classic Desktop Stapler, 20 Sheet Capacity, Metal, Steel Gray (74769)",Swingline,Electronics,10.47,17.45,USD,15,20,True
+AMZ048,B00O3BLNGM,"Scott® High-Capacity Jumbo Roll Toilet Paper (07805), 2-Ply, White, Non-perforated, (1,000'/Roll, 12",Scott,Electronics,33.0,55.0,USD,15,20,True
+AMZ049,B0BXTD29M5,"Kids Swim Fins,Comfortable Silicone Flippers for Swimming and Diving,Size Suitable Beginners Kids Gi",Gugmoy,Electronics,9.29,15.49,USD,15,20,True
+AMZ050,B0C28SPGJM,"CIYAGPOOU 3 Pcs Gold Necklace Extenders,925 Sterling Silver Necklace Extender for Women, 1"",2"",3"" Go",CIYAGPOOU,Electronics,2.99,4.99,USD,15,20,True
+LZD001,6872778045_ID-13022944107,DIODA DAMPER DMV 1500 TV POLYTRON NEW ORIGINAL SUPER,TR,Electronics,6500.0,10000.0,IDR,15,20,True
+LZD002,8208846537_ID-14616530834,Victus Laptop Gaming HP AMD Ryzen 5 NVIDIA GeForce 8GB / 16GB RAM 512GB SSD Silver / Blue Windows 11,HP,Electronics,10724350.0,16499000.0,IDR,15,20,True
+LZD003,7113060757_ID-14155800952,Laptop HP 15s-fq5148TU Core i3 UHD 4GB & 8GB RAM 512GB SSD W11 15.6 Inch Intel Garansi 2 Tahun / 14s,HP,Electronics,3964350.0,6099000.0,IDR,15,20,True
+LZD004,5183778347_ID-9702626285,Printer HP DeskJet 2336 All in One ( Print Scan Copy ) USB / 2377 / 2335 / 1216 / Garansi 1 Tahun Fo,HP,Electronics,572000.0,880000.0,IDR,15,20,True
+LZD005,7766536110_ID-14251418035,"RODA KOPER, RODA PENGGANTI, RODA DOUBLE WHEEL, RODA PUTAR 360",Tidak Ada Merk,Electronics,42250.0,65000.0,IDR,15,20,True
+LZD006,125726947_ID-6724258028,TAS KOPER TROLI Lucu ANAK PEREMPUAN GARSEL HARGA GROSIR,Garsel Fashion,Electronics,107250.0,165000.0,IDR,15,20,True
+LZD007,6592868993_ID-12533564353,"Roda Koper Double Wheel Kanan Kiri Cocok Uk. Koper 18, 20, 22, 24",No Brand,Electronics,68250.0,105000.0,IDR,15,20,True
+LZD008,6265564394_ID-11897638315,(400gr) TAS BELANJA - TAS TROLI - TAS LIPAT - TAS TROLI BELANJA - TAS RODA - TAS WANITA - TAS MURAH ,No Brand,Electronics,17550.0,27000.0,IDR,15,20,True
+LZD009,7578640280_ID-13990362196,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",Tidak Ada Merk,Electronics,27950.0,43000.0,IDR,15,20,True
+LZD010,738740213_ID-1025756100,WIWA Tas Travel Bag Koper Selempang Anak Spiderman Ukuran Besar,No Brand,Electronics,65000.0,100000.0,IDR,15,20,True
+LZD011,7578640280_ID-14288476736,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",Tidak Ada Merk,Electronics,27950.0,43000.0,IDR,15,20,True
+LZD012,7578640280_ID-14521834361,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",Tidak Ada Merk,Electronics,27950.0,43000.0,IDR,15,20,True
+LZD013,6870220823_ID-13019496532,TRANSISTOR MD1803DFX BODI BESAR SUPER ORIGINAL  BARU,TR,Electronics,9750.0,15000.0,IDR,15,20,True
+LZD014,6872610872_ID-13613652704,TRANSISTOR TR TT2140 NEW ORIGINAL,TR,Electronics,8125.0,12500.0,IDR,15,20,True
+LZD015,6872618914_ID-13568330854,TRANSISTOR TR D5024 ORIGINAL NEW ( BODI KECIL),TR,Electronics,6500.0,10000.0,IDR,15,20,True
+LZD016,6870226939_ID-13613624499,TRANSISTOR TR D2499 NEW ORIGINAL SUPER,TR,Electronics,7800.0,12000.0,IDR,15,20,True
+LZD017,7128214936_ID-13433212293,"GACUN 4 KABEL LCD/LED MK4 130WAT (50"") ORIGINAL GACUN",TR,Electronics,32500.0,50000.0,IDR,15,20,True
+LZD018,2984200288_ID-13976190075,Tinta Printer HP Original 682 Hitam Black / Twin Pack / Cartridge Asli Official,HP,Electronics,199550.0,307000.0,IDR,15,20,True
+LZD019,7578640280_ID-13990362202,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",Tidak Ada Merk,Electronics,27950.0,43000.0,IDR,15,20,True
+LZD020,8112404633_ID-14504162571,"AS RODA, BAUT RODA KOPER,RIVET TAS, BESI RODA KOPER",Tidak Ada Merk,Electronics,1625.0,2500.0,IDR,15,20,True
+LZD021,406786698_ID-449414575,Tas Travel Anak - Travel Bag Koper Selempang Winnie the Pooh Ukuran Besar - WIWA,No Brand,Electronics,44850.0,69000.0,IDR,15,20,True
+LZD022,7950320981_ID-14363222334,Trunki Ride on Luggage - Tas Koper Duduk Anak,elc,Electronics,649350.0,999000.0,IDR,15,20,True
+LZD023,7578640280_ID-13990362198,"HANDEL LOJEL WARNA,HANDEL KOPER, HANDEL KOPER VIBER, SPAREPART KOPER",Tidak Ada Merk,Electronics,27950.0,43000.0,IDR,15,20,True
+LZD024,8169340043_ID-14572608696,TROLI RODA 3 SEKOLAH SD SMP TROLI LIPAT BAHAN PVC IMPORT SERBAGUNA,No Brand,Electronics,142935.0,219900.0,IDR,15,20,True
+LZD025,516720033_ID-707610891,Bontoy Strap Leather Cream,Bontoy,Electronics,65000.0,100000.0,IDR,15,20,True
+LZD026,339797458_ID-351457229,Onlan Set Tas Koper Anak Motif Karakter LAKI LAKI  Gambar JAGOAN SUPER Dan MOBIL Bus Bahan Sponge An,Onlan,Electronics,116350.0,179000.0,IDR,15,20,True
+LZD027,TR356TBAA4XCOBANID-9814470,Trunki Ride on Kids Suitcase Terrance Pink,Trunki,Electronics,584350.0,899000.0,IDR,15,20,True
+LZD028,738740213_ID-11149090339,WIWA Tas Travel Bag Koper Selempang Anak Spiderman Ukuran Besar,No Brand,Electronics,65000.0,100000.0,IDR,15,20,True
+LZD029,7696384938_ID-14148478217,Transparant Airbag Laser Case for X XS XR MAX 11 12 13 14 Plus Pro Max,No Brand,Electronics,6148.35,9459.0,IDR,15,20,True
+LZD030,6870240239_ID-13568364161,TRANSISTOR NEW ORIGINAL MD1803DFH KECIL ( 1 BUAH ),TR,Electronics,8125.0,12500.0,IDR,15,20,True
+SHN001,40460214,"Tall Narrow Bathroom Storage Cabinet With 3 Drawers And 2 Shelves, Free Standing Kitchen Pantry Orga",SHEIN,Home,60.49,120.99,USD,20,25,True
+SHN002,40351123,"1PC Natural Yellow Rainbow Halo Raw Crystal, Aromatherapist Stone, Home Decoration, Office Decoratio",SHEIN,Jewelry,1.05,2.1,USD,20,25,True
+SHN003,40433938,1PC Sexy Lingerie Body StockingOpen Crotch Hollow Out See Through Bodystocking Without Underwear,SHEIN,Fashion,1.07,2.14,USD,20,25,True
+SHN004,39962322,"Italian Genuine Leather Thick Belt For Men, Retro Solid Brass Buckle",SHEIN,Fashion,10.65,21.3,USD,20,25,True
+SHN005,39788871,Unbeatablesale Hylomar 61701 13.53 Oz Hylomar Cleaner Spray Can,Unbeatablesale,Home,14.27,28.53,USD,20,25,True
+SHN006,39744348,"1 Set Cup & Saucer, Cute Cat Pattern, High-End Coffee Cup & Saucer Set, Latte Art",SHEIN,Home,6.1,12.2,USD,20,25,True
+SHN007,40505782,"Unbeatablesale PIX North America MXV4-410 0.5 X 41 In. Heavy-Duty Lawn & Garden Equipment Belt,; Bla",Unbeatablesale,Home,8.49,16.98,USD,20,25,True
+SHN008,41434093,"30pcs,40in Rocket Balloons 6 Assorted Colors Flying Magic Long Balloons With Whistling Noise Premium",SHEIN,Home,1.05,2.1,USD,20,25,True
+SHN009,14063170,"20pcs Artificial Green Plant Leaves Valentine'S Day Gift DIY Cake Decoration, Candy Box, Birthday Pa",SHEIN,Home,0.41,0.83,USD,20,25,True
+SHN010,40438113,"10pcs Transparent Baking Boxes With Window, Dessert Box, Pastry Box,  Gift Box, Easy And Convenient,",SHEIN,Home,3.31,6.63,USD,20,25,True
+SHN011,40871127,1PC Retro Resin Telephone Figurine Piggy Bank Vintage Coin Bank Phone Birthday Gift Coffee Shop Deco,SHEIN,Home,10.25,20.5,USD,20,25,True
+SHN012,40470348,30pcs Nail Art Decorations DIY Art Punk Style Mixed Pumpkin/Spider/Bat/Witch/Vampire 3D Three-Dimens,SHEIN,Beauty,0.85,1.7,USD,20,25,True
+SHN013,29874249,"Juvale Wooden Drawer Organizer With 12 Compartments, Divided Tray For Arts And Crafts Supplies, Stat",SHEIN,Home,8.99,17.99,USD,20,25,True
+SHN014,40598697,Unbeatablesale K Tool International KTI22521 3/8 Inch Drive Flex Spark Plug Socket 5/8 Inch,Unbeatablesale,Home,6.75,13.5,USD,20,25,True
+SHN015,40828986,1PC Large Waterproof Makeup Bag With Handle - Travel Toiletry Organizer For Women And Girls - Spacio,SHEIN,Fashion,5.6,11.2,USD,20,25,True
+SHN016,40624265,"35pcs Mixed Acrylic Body Piercing Pearl Effect, Transparent Dual Color, Matte Tongue Rings For Women",SHEIN,Jewelry,2.27,4.55,USD,20,25,True
+SHN017,26290211,Dolce & Gabbana 1.6oz The Only One For Women -  EDP Spray,Dolce & Gabbana,Beauty,33.37,66.74,USD,20,25,True
+SHN018,36997693,Unbeatablesale 1467 Performer Series Accelerator Pump Assembly,Unbeatablesale,Fashion,17.66,35.33,USD,20,25,True
+SHN019,40374435,Unbeatablesale Jumbo Insulated Travel Bag,Unbeatablesale,Fashion,11.08,22.16,USD,20,25,True
+SHN020,40906414,"Jepeak Jepeak Decorative Linen Throw Pillow Covers Cushion Cases, Pack Of 4 Rustic Woven Textured Pi",Jepeak,Home,12.1,24.2,USD,20,25,True
+SHN021,40248039,1-Piece Rustic Style Hard  Notebook With Simple Rose Print Design,SHEIN,Fashion,2.4,4.8,USD,20,25,True
+SHN022,38366050,300 Color Professional Oil Colored Pencils Artist Pencils Set Soft Series Lead For Coloring Book Ske,SHEIN,Fashion,39.6,79.2,USD,20,25,True
+SHN023,40291247,"PHNIBIRD Four-Leaf Clover Zirconia Necklace, Women's Necklace, Women's Pendant Necklace, Hypoallerge",SHEIN,Jewelry,5.1,10.2,USD,20,25,True
+SHN024,41439224,360Pcs Hypoallergenic DIY Earring Hooks For Jewelry Earring Making Supplies Kit Gold And Silver Fish,SHEIN,Home,8.0,15.99,USD,20,25,True
+SHN025,39285056,"1pc Tree Pattern Decorative Throw Pillow Cover (Pillow Insert Not Included), Soft & Comfortable Sing",SHEIN,Home,1.0,2.0,USD,20,25,True
+SHN026,39803911,"Unbeatablesale Keeper 8874430 16 Ft. Multicolored Tie Down Strap, 3333 Lbs",Unbeatablesale,Home,16.91,33.83,USD,20,25,True
+SHN027,40178377,"1pc Unisex Brown PU Leather Cuff Bracelet With Circular Decor, Vintage Medieval Viking Warrior Cospl",SHEIN,Fashion,1.66,3.32,USD,20,25,True
+SHN028,40148416,"1PC Magic Small Hand With Magnet, Prank Props Dark Magic Toy, Simple Coin Magic,Horror Magic Funny G",SHEIN,Home,0.83,1.67,USD,20,25,True
+SHN029,41299478,"Unbeatablesale Jiallo 15120 Clock,; Thermometer & Hygrometer",Unbeatablesale,Home,44.51,89.02,USD,20,25,True
+SHN030,40213716,Unbeatablesale Jiallo 33016 Mirrored Jewelry Organizer 3 Compartments,Unbeatablesale,Home,20.6,41.2,USD,20,25,True
